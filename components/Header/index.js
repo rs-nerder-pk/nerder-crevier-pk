@@ -3,29 +3,31 @@ import React from 'react';
 import Logo from '../Logo';
 import MenuToggle from '../Menu/Toggle';
 import LanguageSwitch from '../Menus/LanguageSwitch';
+import MainMenu from '../Menus/MainMenu';
 import TopMenu from '../Menus/TopMenu';
 
 export default function Header() {
   return (
-    <header className="py-[1.85em] px-5">
-      <div className="container mx-auto grid grid-cols-2 md:grid-cols-8 items-center">
+    <header className="py-[1.85em] md:py-8 px-5">
+      <div className="container mx-auto grid  grid-cols-2 md:grid-cols-10 items-center md:items-start  ">
         <div className="md:col-span-3">
           <Link href="/">
-            <a>
+            <a className="">
               <Logo />
             </a>
           </Link>
         </div>
 
-        <div className="justify-self-end md:col-span-5 md:justify-self-stretch ">
+        <div className="justify-self-end md:justify-self-auto md:col-span-7">
           <div className="md:hidden">
             <MenuToggle />
           </div>
-          <div className="hidden md:block w-full">
+          <div className="hidden  w-full md:grid gap-4">
             <div className="w-full flex gap-4 text-xs justify-between items-center">
               <TopMenu />
               <LanguageSwitch />
             </div>
+            <MainMenu />
           </div>
         </div>
       </div>

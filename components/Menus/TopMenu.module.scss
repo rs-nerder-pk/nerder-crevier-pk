@@ -1,8 +1,8 @@
 .Link {
-  @apply px-2 relative leading-4;
+  @apply relative leading-4;
 
   &:after {
-    @apply absolute h-2  border-blue border-r top-1 right-0;
+    @apply absolute h-2  border-blue border-r top-[3px] -right-2;
     content: '';
   }
   &:last-child {

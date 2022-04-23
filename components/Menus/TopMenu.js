@@ -3,7 +3,7 @@ import styles from './TopMenu.module.scss';
 export default function TopMenu() {
   return (
     <nav>
-      <ul className="flex text-blue">
+      <ul className="flex text-blue gap-4">
         <li className={styles.Link}>
           <Link href="/">About Us</Link>
         </li>
