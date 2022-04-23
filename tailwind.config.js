@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'brand-blue': {
+        blue: {
           DEFAULT: '#213871',
           50: '#97ACE1',
           100: '#839CDB',
@@ -19,7 +19,7 @@ module.exports = {
           800: '#101B36',
           900: '#0A1122',
         },
-        'brand-red': {
+        red: {
           DEFAULT: '#EB0028',
           50: '#FFA4B3',
           100: '#FF8FA2',

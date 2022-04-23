@@ -1,0 +1,13 @@
+.Link {
+  @apply px-2 relative leading-4;
+
+  &:after {
+    @apply absolute h-2  border-blue border-r top-1 right-0;
+    content: '';
+  }
+  &:last-child {
+    &:after {
+      @apply hidden;
+    }
+  }
+}
