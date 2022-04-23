@@ -1,5 +1,5 @@
 .Menu {
-  @apply bg-blue relative px-2 py-2 text-white text-sm;
+  @apply bg-blue relative px-2 py-2 text-white text-sm lg:text-base;
   &:after {
     @apply absolute h-full left-full w-[9999px] bg-blue top-0;
     content: '';

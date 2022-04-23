@@ -44,6 +44,11 @@ module.exports = {
     fontFamily: {
       sans: ['Hurme', 'times'],
     },
+    fontWeight: {
+      normal: 400,
+      bold: 700,
+      black: 900,
+    },
   },
   plugins: [],
 };
