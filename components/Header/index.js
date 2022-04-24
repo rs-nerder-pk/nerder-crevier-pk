@@ -9,7 +9,7 @@ import TopMenu from '../Menus/TopMenu';
 export default function Header() {
   return (
     <header className="pt-[1.85em] md:pt-8 px-5">
-      <div className="container mx-auto grid  grid-cols-2 md:grid-cols-10 items-center md:items-start   ">
+      <div className="container mx-auto grid grid-cols-2 md:grid-cols-10 items-center md:items-start">
         <div className="md:col-span-3">
           <Link href="/">
             <a className="">
@@ -22,7 +22,7 @@ export default function Header() {
           <div className="md:hidden">
             <MenuToggle />
           </div>
-          <div className="hidden  w-full md:grid gap-4 lg:gap-10">
+          <div className="hidden  w-full md:grid gap-4 md:gap-8 lg:gap-10 xl:gap-16">
             <div className="w-full flex gap-4 text-xs lg:text-sm justify-between items-center">
               <TopMenu />
               <LanguageSwitch />

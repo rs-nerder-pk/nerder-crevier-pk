@@ -20,7 +20,7 @@ export default function CallOuts(props) {
 
     case 'inset-bg-white':
       return (
-        <div className="px-4">
+        <div className="px-4 relative">
           <div className="container mx-auto bg-white py-8 px-4 md:p-12">
             <div className="grid md:grid-cols-3 text-blue gap-8">
               <CallWithIcon />
