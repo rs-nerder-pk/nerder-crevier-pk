@@ -2,12 +2,12 @@ export default function JobCta() {
   return (
     <div
       style={{ backgroundImage: 'url(/images/home-jobs.jpeg)' }}
-      className="bg-cover pb-24 pt-48 -mt-24"
+      className="bg-no-repeat bg-contain md:bg-cover md:bg-center px-4 pb-24 pt-60 md:pt-48 -mt-12 md:-mt-24"
     >
       <div className="container mx-auto">
         <div className="grid md:grid-cols-10">
-          <div className="col-span-5 md:px-12">
-            <div className="grid gap-4 border-y-50 border-blue py-12 text-white">
+          <div className="col-span-8 lg:col-span-4 py-8 px-4 md:p-8 lg:p-12 bg-white text-blue-900 ">
+            <div className="grid gap-4 border-y-50 border-blue py-12 ">
               <h2 className="text-red text-3xl font-black  uppercase">
                 <a href="/en/careers">
                   Join
@@ -22,9 +22,9 @@ export default function JobCta() {
                 find a stimulating work environment that favours your success.
               </p>
 
-              <div className="btn-arrow btn-arrow-inverted is-l-align">
+              <div className="flex justify-start">
                 <div>
-                  <a href="/en/careers " className="hover:text-red transition">
+                  <a href="/en/careers " className="text-red">
                     <span className="text-lg flex items-center">
                       Join us!{' '}
                       <svg

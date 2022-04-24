@@ -7,7 +7,7 @@ export default function CallOuts(props) {
   switch (type) {
     case 'bg-primary-padding-bottom':
       return (
-        <div className="bg-blue pt-24 pb-48 -mb-24 px-4">
+        <div className="bg-blue px-4 pt-24 lg:pt-32 pb-48 lg:pb-64 -mb-24 lg:-mb-32 ">
           <div className="container mx-auto">
             <div className="grid md:grid-cols-3 text-white gap-8">
               <CallOut />
@@ -21,7 +21,7 @@ export default function CallOuts(props) {
     case 'inset-bg-white':
       return (
         <div className="px-4 relative">
-          <div className="container mx-auto bg-white py-8 px-4 md:p-12">
+          <div className="container mx-auto bg-white py-12 px-4 md:p-12 lg:py-16">
             <div className="grid md:grid-cols-3 text-blue gap-8">
               <CallWithIcon />
               <CallWithIcon />
