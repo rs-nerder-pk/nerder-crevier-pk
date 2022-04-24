@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from '../Footer';
 import Header from '../Header';
 
 export default function Layout({ children }) {
@@ -6,9 +7,7 @@ export default function Layout({ children }) {
     <div className="grid grid-rows-layout min-h-screen overflow-hidden">
       <Header />
       {children}
-      <footer>
-        <div className="container mx-auto">Footer</div>
-      </footer>
+      <Footer />
     </div>
   );
 }
