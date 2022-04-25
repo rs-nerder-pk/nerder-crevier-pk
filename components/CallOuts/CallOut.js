@@ -1,7 +1,7 @@
 export default function CallOut() {
   return (
     <div className="grid gap-4">
-      <h2 className="text-red text-2xl md:text-3xl lg:text-5xl font-black uppercase">
+      <h2 className="text-red text-2xl md:text-3xl lg:text-4xl font-black uppercase">
         Title
       </h2>
       <div className="flex items-end">

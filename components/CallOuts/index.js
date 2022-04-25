@@ -8,7 +8,7 @@ export default function CallOuts(props) {
     case 'bg-primary-padding-bottom':
       return (
         <div className="bg-blue px-4 pt-24 lg:pt-32 pb-48 lg:pb-64 -mb-24 lg:-mb-32 ">
-          <div className="container mx-auto">
+          <div className="container mx-auto  md:px-12 ">
             <div className="grid md:grid-cols-3 text-white gap-8">
               <CallOut />
               <CallOut />
