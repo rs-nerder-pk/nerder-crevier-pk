@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 export default function CallWithIcon() {
   return (
@@ -16,9 +16,7 @@ export default function CallWithIcon() {
         </div>
       </div>
       <div className="text-blue grid gap-4 py-4">
-        <h2 className="text-lg md:text-xl lg:text-3xl uppercase  font-black tracking-wide">
-          Service-Station
-        </h2>
+        <h2>Service-Station</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
           praesentium nihil quas? Voluptate quisquam minima perspiciatis,

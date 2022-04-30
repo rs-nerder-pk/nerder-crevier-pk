@@ -1,5 +1,4 @@
-import Image from 'next/image';
-import CallWithIcon from '../CallOuts/CallOutItem/CallWithIcon';
+import CallWithIcon from "../CallOuts/CallOutItem/CallWithIcon";
 
 export default function Banner() {
   return (
@@ -8,9 +7,9 @@ export default function Banner() {
         <div
           className="relative hidden md:block md:col-start-4 row-start-1 w-screen h-full"
           style={{
-            backgroundImage: 'url(/images/banner-home.jpeg)',
-            backgroundSize: 'cover',
-            backgroundPosition: 'center',
+            backgroundImage: "url(/images/banner-home.jpeg)",
+            backgroundSize: "cover",
+            backgroundPosition: "center",
           }}
         >
           <div className="relative h-full"></div>

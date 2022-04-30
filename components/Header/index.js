@@ -1,10 +1,10 @@
-import Link from 'next/link';
-import React from 'react';
-import Logo from '../Logo';
-import MenuToggle from '../Menu/Toggle';
-import LanguageSwitch from '../Menus/LanguageSwitch';
-import MainMenu from '../Menus/MainMenu';
-import TopMenu from '../Menus/TopMenu';
+import Link from "next/link";
+import React from "react";
+import Logo from "../Logo";
+import MenuToggle from "../Menus/Toggle";
+import LanguageSwitch from "../Menus/LanguageSwitch";
+import MainMenu from "../Menus/MainMenu";
+import TopMenu from "../Menus/TopMenu";
 
 export default function Header() {
   return (
@@ -17,7 +17,6 @@ export default function Header() {
             </a>
           </Link>
         </div>
-
         <div className="justify-self-end md:justify-self-auto md:col-span-7">
           <div className="md:hidden">
             <MenuToggle />

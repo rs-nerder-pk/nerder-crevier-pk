@@ -1,7 +1,7 @@
-export default function JobCta() {
+export default function CtaBgOffsetTop() {
   return (
     <div
-      style={{ backgroundImage: 'url(/images/home-jobs.jpeg)' }}
+      style={{ backgroundImage: "url(/images/home-jobs.jpeg)" }}
       className="bg-no-repeat bg-contain md:bg-cover md:bg-center px-4 pb-24 pt-60 md:pt-48 -mt-12 md:-mt-24"
     >
       <div className="container mx-auto">
@@ -26,7 +26,7 @@ export default function JobCta() {
                 <div>
                   <a href="/en/careers " className="text-red">
                     <span className="text-lg flex items-center">
-                      Join us!{' '}
+                      Join us!{" "}
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         className="h-6 w-6"
