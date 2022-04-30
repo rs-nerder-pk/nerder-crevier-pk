@@ -1,11 +1,12 @@
 import Content from "../../../../demo/content";
+import BoxedContent from "../../../UI/BoxedContent/BoxedContent";
 
 import styles from "./Text.module.scss";
 
 export default function TextBoxedTwoColWithList(props) {
   return (
     <section className="py-8">
-      <div className="container mx-auto border-blue border-20 p-4 sm:px-12 sm:py-14 bg-white">
+      <BoxedContent>
         <div className="grid md:grid-cols-2 gap-4">
           <div>
             <Content />
@@ -31,7 +32,7 @@ export default function TextBoxedTwoColWithList(props) {
             </div>
           </div>
         </div>
-      </div>
+      </BoxedContent>
     </section>
   );
 }
