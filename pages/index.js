@@ -2,7 +2,14 @@ import Sections from "../components/Sections/Sections";
 
 export default function Home(props) {
   const { sections } = props;
-  return <main>{sections && <Sections sections={sections} />}</main>;
+  return (
+    <main
+      className="bg-[length:0%] md:bg-[length:50%] bg-no-repeat bg-left-bottom"
+      style={{ backgroundImage: `url(/images/bg-page.jpeg)` }}
+    >
+      {sections && <Sections sections={sections} />}
+    </main>
+  );
 }
 
 export async function getStaticProps() {
@@ -19,9 +26,15 @@ export async function getStaticProps() {
         id: "adfadfeu9u0",
       },
       contentType: "text",
+      type: "default",
+    },
+    {
+      sys: {
+        id: "adfadfeu9u0",
+      },
+      contentType: "text",
       type: "boxed-two-col",
     },
-
     {
       sys: {
         id: "adfadfeu9u0",
@@ -42,6 +55,35 @@ export async function getStaticProps() {
       },
       contentType: "cta",
       type: "bg-offset-top",
+    },
+
+    {
+      sys: {
+        id: "adfadfeu9u0",
+      },
+      contentType: "text",
+      type: "boxed-two-col-with-list",
+    },
+    {
+      sys: {
+        id: "adfadfeu9u0",
+      },
+      contentType: "text",
+      type: "boxed-two-col",
+    },
+    {
+      sys: {
+        id: "adfadfeu9u0",
+      },
+      contentType: "text",
+      type: "default",
+    },
+    {
+      sys: {
+        id: "adfadfeu9u0",
+      },
+      contentType: "text",
+      type: "with-two-cols",
     },
   ];
   return {

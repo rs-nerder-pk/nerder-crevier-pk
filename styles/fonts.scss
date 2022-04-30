@@ -1,18 +1,18 @@
 @layer base {
   @font-face {
-    font-family: 'Hurme';
-    src: url('./fonts/hurme-regular.woff') format('woff');
+    font-family: "Hurme";
+    src: url("./fonts/hurme-regular.woff") format("woff");
     font-weight: normal;
     font-style: normal;
   }
   @font-face {
-    font-family: 'Hurme';
-    src: url('./fonts/hurme-bold.woff') format('woff');
+    font-family: "Hurme";
+    src: url("./fonts/hurme-bold.woff") format("woff");
     font-weight: 700;
   }
   @font-face {
-    font-family: 'Hurme';
-    src: url('./fonts/hurme-black.woff') format('woff');
+    font-family: "Hurme";
+    src: url("./fonts/hurme-black.woff") format("woff");
     font-weight: 900;
   }
 }

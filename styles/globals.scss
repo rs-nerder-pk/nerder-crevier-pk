@@ -4,6 +4,7 @@
 @tailwind components;
 @tailwind utilities;
 
+// base styles
 @layer base {
   h1,
   h2,
@@ -30,5 +31,15 @@
   }
   h6 {
     @apply text-xs md:text-base lg:text-2xl;
+  }
+  ul {
+    @apply list-square ml-4;
+  }
+  header,
+  footer,
+  nav {
+    ul {
+      @apply list-none ml-0;
+    }
   }
 }
