@@ -1,9 +1,11 @@
+import BoxedContent from "@/components/UI/BoxedContent/BoxedContent";
+import { list } from "postcss";
 import Content from "../../../../demo/content";
-import BoxedContent from "../../../UI/BoxedContent/BoxedContent";
 
 import styles from "./Text.module.scss";
 
 export default function TextBoxedTwoColWithList(props) {
+  const list = [null, null];
   return (
     <section className="py-8">
       <BoxedContent>
@@ -12,24 +14,17 @@ export default function TextBoxedTwoColWithList(props) {
             <Content />
           </div>
           <div className={`grid sm:grid-cols-2 gap-4 ${styles.BoxedList}`}>
-            <div>
-              <ul>
-                <li>item_1</li>
-                <li>item_2</li>
-                <li>item_3</li>
-                <li>item_4</li>
-                <li>item_5</li>
-              </ul>
-            </div>
-            <div>
-              <ul>
-                <li>item_1</li>
-                <li>item_2</li>
-                <li>item_3</li>
-                <li>item_4</li>
-                <li>item_5</li>
-              </ul>
-            </div>
+            {list.map((_, i) => {
+              return (
+                <ul key={i}>
+                  <li>item_1</li>
+                  <li>item_2</li>
+                  <li>item_3</li>
+                  <li>item_4</li>
+                  <li>item_5</li>
+                </ul>
+              );
+            })}
           </div>
         </div>
       </BoxedContent>

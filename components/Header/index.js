@@ -8,7 +8,7 @@ import TopMenu from "../Menus/TopMenu";
 
 export default function Header() {
   return (
-    <header className="pt-[1.85em] md:pt-8 px-5">
+    <header className="pt-[1.85em] md:pt-8 px-4 ">
       <div className="container mx-auto grid grid-cols-2 md:grid-cols-10 items-center md:items-start">
         <div className="md:col-span-3">
           <Link href="/">
