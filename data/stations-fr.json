@@ -1,0 +1,4995 @@
+[
+  {
+    "id": 62,
+    "lat": 49.058365,
+    "lng": -81.095154,
+    "title": "BRUNEAU TRAVE; CEMTRE LTD",
+    "addressLineOne": "65 West Highway 11",
+    "addressLineTwo": "Cochrane, P0L 1C0",
+    "tel": "705-272-4303",
+    "features": [
+      {
+        "id": 1,
+        "value": "Avec service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 10,
+        "value": "Mini Dépanneur"
+      },
+      {
+        "id": 12,
+        "value": "Atelier mécanique"
+      },
+      {
+        "id": 21,
+        "value": "Remorquage"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "lat": 48.4943055,
+    "lng": -81.162214,
+    "title": "EAST END SERVICE CENTER",
+    "addressLineOne": "6161 st King",
+    "addressLineTwo": "Porcupine, P0N 1C0",
+    "tel": "705-235-4324",
+    "features": [
+      {
+        "id": 1,
+        "value": "Avec service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 9,
+        "value": "Remplissage et /ou échange de bouteilles de propane"
+      },
+      {
+        "id": 10,
+        "value": "Mini Dépanneur"
+      },
+      {
+        "id": 23,
+        "value": "Location d'autos"
+      }
+    ]
+  },
+  {
+    "id": 104,
+    "lat": 53.7837131,
+    "lng": -78.8987557,
+    "title": "BEARSKIN, TERRY CHARLES",
+    "addressLineOne": "59 0 Fort Geroge",
+    "addressLineTwo": "Chisassibi, J0M 1E0",
+    "tel": "819-855-2622",
+    "features": [
+      {
+        "id": 2,
+        "value": "Libre-service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 11,
+        "value": "Dépanneur"
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "lat": 53.7850204,
+    "lng": -77.6149074,
+    "title": "DÉPANNEUR DANIELLE",
+    "addressLineOne": "47-B av. des Groseillers",
+    "addressLineTwo": "Baie-James, J0Y 2X0",
+    "tel": "819-638-3600",
+    "features": [
+      {
+        "id": 1,
+        "value": "Avec service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 11,
+        "value": "Dépanneur"
+      }
+    ]
+  },
+  {
+    "id": 211,
+    "lat": 48.100519,
+    "lng": -79.713932,
+    "title": "2679143 ONTARIO INC. - FASRS LARDER SPORTS & MARINA",
+    "addressLineOne": "44 Government Road, Larder Lake",
+    "addressLineTwo": "Larder Lake, P0K 1L0",
+    "tel": "705-643-2312",
+    "features": [
+      {
+        "id": 1,
+        "value": "Avec service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 10,
+        "value": "Mini Dépanneur"
+      },
+      {
+        "id": 20,
+        "value": "Guichet automatique"
+      }
+    ]
+  },
+  {
+    "id": 107,
+    "lat": 48.757706,
+    "lng": -79.007777,
+    "title": "DÉPANNEUR 111 (2011) INC.",
+    "addressLineOne": "95 rue 2e ouest",
+    "addressLineTwo": "Macamic, J0Z 2S0",
+    "tel": "819-782-2028",
+    "features": [
+      {
+        "id": 2,
+        "value": "Libre-service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 9,
+        "value": "Remplissage et /ou échange de bouteilles de propane"
+      },
+      {
+        "id": 11,
+        "value": "Dépanneur"
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "lat": 47.3570096,
+    "lng": -79.3511862,
+    "title": "DÉPANNEUR CHEZ BECO ENR.",
+    "addressLineOne": "51 rue de l'Église nord",
+    "addressLineTwo": "Lorrainville, J0Z 2R0",
+    "tel": "819-625-2020",
+    "features": [
+      {
+        "id": 1,
+        "value": "Avec service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 9,
+        "value": "Remplissage et /ou échange de bouteilles de propane"
+      },
+      {
+        "id": 11,
+        "value": "Dépanneur"
+      },
+      {
+        "id": 16,
+        "value": "Restaurant familial"
+      },
+      {
+        "id": 20,
+        "value": "Guichet automatique"
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "lat": 47.211394,
+    "lng": -79.370931,
+    "title": "2741-5272 QUÉBEC INC.",
+    "addressLineOne": "1506 rte 101",
+    "addressLineTwo": "Saint-Édouard-de-Fabre, J0Z 1Z0",
+    "tel": "819-634-3211",
+    "features": [
+      {
+        "id": 2,
+        "value": "Libre-service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 7,
+        "value": "Service de ravitaillement-camion"
+      },
+      {
+        "id": 11,
+        "value": "Dépanneur"
+      },
+      {
+        "id": 12,
+        "value": "Atelier mécanique"
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "lat": 48.6171566,
+    "lng": -78.2257374,
+    "title": "AU COIN DE L'OURS (2006) INC.",
+    "addressLineOne": "654 rte 111 ouest",
+    "addressLineTwo": "Trécesson, J9T 2Y2",
+    "tel": "819-732-6229",
+    "features": [
+      {
+        "id": 1,
+        "value": "Avec service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 9,
+        "value": "Remplissage et /ou échange de bouteilles de propane"
+      },
+      {
+        "id": 11,
+        "value": "Dépanneur"
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "lat": 48.636098,
+    "lng": -78.113933,
+    "title": "GAZONORD INC.",
+    "addressLineOne": "2301 0 Route 109 Nord",
+    "addressLineTwo": "Pikogan (Amos), J9T 3A3",
+    "tel": "819-732-3385",
+    "features": [
+      {
+        "id": 2,
+        "value": "Libre-service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 11,
+        "value": "Dépanneur"
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "lat": 46.3328567,
+    "lng": -79.4811857,
+    "title": "LRD LUCKY ENTERPRISES LTD",
+    "addressLineOne": "555 av. MC Keown",
+    "addressLineTwo": "North Bay, ON, P1B 9E4",
+    "tel": "705-476-8813",
+    "features": [
+      {
+        "id": 2,
+        "value": "Libre-service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 11,
+        "value": "Dépanneur"
+      },
+      {
+        "id": 20,
+        "value": "Guichet automatique"
+      }
+    ]
+  },
+  {
+    "id": 106,
+    "lat": 46.332755,
+    "lng": -79.481233,
+    "title": "LRD LUCKY 13 ENTREPRISES",
+    "addressLineOne": "368 RD 94",
+    "addressLineTwo": "Corbeil (RD.94), POH IK0",
+    "tel": "705-752-5057",
+    "features": [
+      {
+        "id": 1,
+        "value": "Avec service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 9,
+        "value": "Remplissage et /ou échange de bouteilles de propane"
+      },
+      {
+        "id": 11,
+        "value": "Dépanneur"
+      },
+      {
+        "id": 16,
+        "value": "Restaurant familial"
+      },
+      {
+        "id": 24,
+        "value": "Bornes de recharge rapide pour véhicules électriques"
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "lat": 46.7227159,
+    "lng": -79.0944291,
+    "title": "STATION SERVICE CENTRE-VILLE/9194-2839 QC INC.",
+    "addressLineOne": "557 ch. Kipawa",
+    "addressLineTwo": "Témiscaming, J0Z 3R0",
+    "tel": "819-627-3085",
+    "features": [
+      {
+        "id": 1,
+        "value": "Avec service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 11,
+        "value": "Dépanneur"
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "lat": 46.783861,
+    "lng": -78.984257,
+    "title": "MIGIZY GAS",
+    "addressLineOne": "1 rue Ogima C.P. 163",
+    "addressLineTwo": "Kipawa, J0Z 2H0",
+    "tel": "819-627-3392",
+    "features": [
+      {
+        "id": 2,
+        "value": "Libre-service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 11,
+        "value": "Dépanneur"
+      },
+      {
+        "id": 16,
+        "value": "Restaurant familial"
+      },
+      {
+        "id": 20,
+        "value": "Guichet automatique"
+      },
+      {
+        "id": 22,
+        "value": "Marina"
+      }
+    ]
+  },
+  {
+    "id": 126,
+    "lat": 46.213184,
+    "lng": -77.897069,
+    "title": "2419103 ONTARIO INC.",
+    "addressLineOne": "40742 0 Highway 17",
+    "addressLineTwo": "Stonecliffe, K0J 2K0",
+    "tel": "613-586-2508",
+    "features": [
+      {
+        "id": 1,
+        "value": "Avec service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 11,
+        "value": "Dépanneur"
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "lat": 50.417391,
+    "lng": -73.870331,
+    "title": "CHIIWETIN GAS STATION",
+    "addressLineOne": "200 0 Main St.",
+    "addressLineTwo": "Mistissini, G0W 1C0",
+    "tel": "418-923-3217",
+    "features": [
+      {
+        "id": 1,
+        "value": "Avec service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 10,
+        "value": "Mini Dépanneur"
+      },
+      {
+        "id": 17,
+        "value": "Tim Hortons"
+      }
+    ]
+  },
+  {
+    "id": 116,
+    "lat": 46.35657,
+    "lng": -75.981667,
+    "title": "K Z GAZ",
+    "addressLineOne": "90 ch. Kichi Mikan",
+    "addressLineTwo": "Maniwaki, J9E 3B1",
+    "tel": "819-441-1221",
+    "features": [
+      {
+        "id": 1,
+        "value": "Avec service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 7,
+        "value": "Service de ravitaillement-camion"
+      },
+      {
+        "id": 9,
+        "value": "Remplissage et /ou échange de bouteilles de propane"
+      },
+      {
+        "id": 11,
+        "value": "Dépanneur"
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "lat": 46.305649,
+    "lng": -75.51504,
+    "title": "GARAGE MARTIN LÉONARD INC.",
+    "addressLineOne": "200 rue Principale",
+    "addressLineTwo": "Lac-du-Cerf, J0W 1S0",
+    "tel": "819-597-2003",
+    "features": [
+      {
+        "id": 1,
+        "value": "Avec service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 12,
+        "value": "Atelier mécanique"
+      },
+      {
+        "id": 21,
+        "value": "Remorquage"
+      }
+    ]
+  },
+  {
+    "id": 220,
+    "lat": 46.4950857,
+    "lng": -75.1435197,
+    "title": "CREVIER",
+    "addressLineOne": "279 route 117, Lac Saguay",
+    "addressLineTwo": "Lac Saguay, J0W 1L0",
+    "tel": "819-278-1131",
+    "features": [
+      {
+        "id": 2,
+        "value": "Libre-service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 11,
+        "value": "Dépanneur"
+      }
+    ]
+  },
+  {
+    "id": 102,
+    "lat": 46.390472,
+    "lng": -75.025162,
+    "title": "DÉPANNEUR L'ESSENTIEL PLUS INC.",
+    "addressLineOne": "2105 ch. du Tour du Lac",
+    "addressLineTwo": "Nominingue, J0W 1R0",
+    "tel": "819-278-0177",
+    "features": [
+      {
+        "id": 2,
+        "value": "Libre-service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 11,
+        "value": "Dépanneur"
+      }
+    ]
+  },
+  {
+    "id": 96,
+    "lat": 46.5515824,
+    "lng": -74.8297716,
+    "title": "GARAGE DENIS THIBERT ENR.",
+    "addressLineOne": "51 rue de l'Hôtel de Ville",
+    "addressLineTwo": "L'Ascension, J0T 1W0",
+    "tel": "819-275-5324",
+    "features": [
+      {
+        "id": 1,
+        "value": "Avec service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 12,
+        "value": "Atelier mécanique"
+      }
+    ]
+  },
+  {
+    "id": 185,
+    "lat": 45.5616757,
+    "lng": -75.4275589,
+    "title": "MARTIN MONAST",
+    "addressLineOne": "187 rue Georges",
+    "addressLineTwo": "Gatineau (Masson-Angers), J8M 1T6",
+    "tel": "819-986-8828",
+    "features": [
+      {
+        "id": 2,
+        "value": "Libre-service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 8,
+        "value": "Propane pour automobiles"
+      },
+      {
+        "id": 9,
+        "value": "Remplissage et /ou échange de bouteilles de propane"
+      },
+      {
+        "id": 11,
+        "value": "Dépanneur"
+      },
+      {
+        "id": 20,
+        "value": "Guichet automatique"
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "lat": 46.195028,
+    "lng": -74.628612,
+    "title": "MATTE MONT-TREMBLANT INC.",
+    "addressLineOne": "1950 ch. du Village",
+    "addressLineTwo": "Mont-Tremblant, J8E 1K4",
+    "tel": "819-425-7969",
+    "features": [
+      {
+        "id": 1,
+        "value": "Avec service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 5,
+        "value": "Super 94"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 12,
+        "value": "Atelier mécanique"
+      },
+      {
+        "id": 21,
+        "value": "Remorquage"
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "lat": 45.6500578,
+    "lng": -74.9475961,
+    "title": "PIERRE NGUYEN DEP. & S/S",
+    "addressLineOne": "433 rue Notre-Dame",
+    "addressLineTwo": "Montebello, J0V 1L0",
+    "tel": "819-423-6391",
+    "features": [
+      {
+        "id": 2,
+        "value": "Libre-service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 11,
+        "value": "Dépanneur"
+      }
+    ]
+  },
+  {
+    "id": 133,
+    "lat": 46.117182,
+    "lng": -74.289793,
+    "title": "MFB INC",
+    "addressLineOne": "5005 rte 329 Nord",
+    "addressLineTwo": "Sainte Agathe des Monts, J8C OM5",
+    "tel": "819-774-0743",
+    "features": [
+      {
+        "id": 2,
+        "value": "Libre-service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 11,
+        "value": "Dépanneur"
+      }
+    ]
+  },
+  {
+    "id": 196,
+    "lat": 45.6225541,
+    "lng": -74.5942865,
+    "title": "GARAGE PIERRE-PAUL DESFORGES INC.",
+    "addressLineOne": "13 0 rue Maple",
+    "addressLineTwo": "Grenville, J0V 1J0",
+    "tel": "819-242-1234",
+    "features": [
+      {
+        "id": 2,
+        "value": "Libre-service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 11,
+        "value": "Dépanneur"
+      }
+    ]
+  },
+  {
+    "id": 210,
+    "lat": 45.6069077,
+    "lng": -74.5862897,
+    "title": "10260479 CANADA INC.",
+    "addressLineOne": "1536 street Main, Hawkesbury",
+    "addressLineTwo": "Hawkesbury, K6A 2Y1",
+    "tel": "613-632-6767",
+    "features": [
+      {
+        "id": 2,
+        "value": "Libre-service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 11,
+        "value": "Dépanneur"
+      },
+      {
+        "value": "Lave-auto automatique"
+      }
+    ]
+  },
+  {
+    "id": 192,
+    "lat": 45.653108,
+    "lng": -74.351128,
+    "title": "GARAGE PIERRE-PAUL DESFORGES INC.",
+    "addressLineOne": "203 rte Principale",
+    "addressLineTwo": "Lachute, J8H 2Z7",
+    "tel": "450-562-1426",
+    "features": [
+      {
+        "id": 2,
+        "value": "Libre-service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 9,
+        "value": "Remplissage et /ou échange de bouteilles de propane"
+      },
+      {
+        "id": 10,
+        "value": "Mini Dépanneur"
+      },
+      {
+        "id": 11,
+        "value": "Dépanneur"
+      },
+      {
+        "value": "Lave-auto automatique"
+      }
+    ]
+  },
+  {
+    "id": 222,
+    "lat": 45.891769,
+    "lng": -74.158172,
+    "title": "",
+    "addressLineOne": "24 av. Saint-Denis, Saint-Sauveur",
+    "addressLineTwo": "Saint-Sauveur (Saint-Sauveur-des-Monts), J0R 1R0",
+    "tel": "450-227-1615",
+    "features": [
+      {
+        "id": 1,
+        "value": "Avec service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 11,
+        "value": "Dépanneur"
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "lat": 46.0284787,
+    "lng": -74.0626958,
+    "title": "GARAGE DU LAC MASSON INC.",
+    "addressLineOne": "124 ch. Sainte-Marguerite",
+    "addressLineTwo": "Sainte-Marguerite-du-Lac-Masson, J0T 1L0",
+    "tel": "450-228-2656",
+    "features": [
+      {
+        "id": 1,
+        "value": "Avec service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 12,
+        "value": "Atelier mécanique"
+      }
+    ]
+  },
+  {
+    "id": 113,
+    "lat": 45.6398103,
+    "lng": -74.3278667,
+    "title": "GARAGE PIERRE-PAUL DESFORGES",
+    "addressLineOne": "495 av. Béthany",
+    "addressLineTwo": "Lachute, J8H 4H3",
+    "tel": "450-562-1426",
+    "features": [
+      {
+        "id": 2,
+        "value": "Libre-service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 9,
+        "value": "Remplissage et /ou échange de bouteilles de propane"
+      },
+      {
+        "id": 10,
+        "value": "Mini Dépanneur"
+      },
+      {
+        "value": "Lave-auto automatique"
+      }
+    ]
+  },
+  {
+    "id": 180,
+    "lat": null,
+    "lng": -72.238198,
+    "title": "GAZ BAR GI. R.",
+    "addressLineOne": "349 av. 8e",
+    "addressLineTwo": "Dolbeau-Mistassini, G8L 3E4",
+    "tel": "418-239-0017",
+    "features": [
+      {
+        "id": 1,
+        "value": "Avec service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 9,
+        "value": "Remplissage et /ou échange de bouteilles de propane"
+      },
+      {
+        "id": 11,
+        "value": "Dépanneur"
+      }
+    ]
+  },
+  {
+    "id": 130,
+    "lat": 45.5620056,
+    "lng": -74.3383234,
+    "title": "9320-.6043 QUÉBEC INC.",
+    "addressLineOne": "194 route Du Long-Sault",
+    "addressLineTwo": "St-André d'Argenteuil, J0V 1X0",
+    "tel": "450-537-1200",
+    "features": [
+      {
+        "id": 2,
+        "value": "Libre-service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 11,
+        "value": "Dépanneur"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "lat": 45.479327,
+    "lng": -74.298038,
+    "title": "LE BRICOTILLEUR INC.",
+    "addressLineOne": "61 rue Saint-Jean Baptiste est",
+    "addressLineTwo": "Rigaud, J0P 1P0",
+    "tel": "450-451-0126",
+    "features": [
+      {
+        "id": 2,
+        "value": "Libre-service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 11,
+        "value": "Dépanneur"
+      },
+      {
+        "id": 12,
+        "value": "Atelier mécanique"
+      }
+    ]
+  },
+  {
+    "id": 228,
+    "lat": 45.476111,
+    "lng": -74.291299,
+    "title": "CREVIER",
+    "addressLineOne": "450 Chemin Grande-Ligne suite 100",
+    "addressLineTwo": "Rigaud, J0P 1P0",
+    "tel": "450-322-0135",
+    "features": [
+      {
+        "id": 2,
+        "value": "Libre-service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 9,
+        "value": "Remplissage et /ou échange de bouteilles de propane"
+      },
+      {
+        "id": 11,
+        "value": "Dépanneur"
+      },
+      {
+        "id": 16,
+        "value": "Restaurant familial"
+      },
+      {
+        "id": 24,
+        "value": "Bornes de recharge rapide pour véhicules électriques"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "lat": 48.8573347,
+    "lng": -72.0988729,
+    "title": "CHIASSON SERVICE ENR.",
+    "addressLineOne": "418 rte 169",
+    "addressLineTwo": "Sainte-Jeanne-d'Arc, G0W 1E0",
+    "tel": "418-276-2891",
+    "features": [
+      {
+        "id": 1,
+        "value": "Avec service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 9,
+        "value": "Remplissage et /ou échange de bouteilles de propane"
+      },
+      {
+        "id": 11,
+        "value": "Dépanneur"
+      },
+      {
+        "id": 12,
+        "value": "Atelier mécanique"
+      },
+      {
+        "id": 24,
+        "value": "Bornes de recharge rapide pour véhicules électriques"
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "lat": 45.5288003,
+    "lng": -74.1941784,
+    "title": "MARCHÉ L. ÉTHIER ET FILS INC.",
+    "addressLineOne": "2135 rte 344",
+    "addressLineTwo": "Saint-Placide, J0V 2B0",
+    "tel": "450-258-4418",
+    "features": [
+      {
+        "id": 2,
+        "value": "Libre-service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 11,
+        "value": "Dépanneur"
+      }
+    ]
+  },
+  {
+    "id": 94,
+    "lat": 48.55279,
+    "lng": -72.225891,
+    "title": "ILNU GAZ",
+    "addressLineOne": "1020 0 Ouiatchouan",
+    "addressLineTwo": "Mashteuiatsh, G0W 2H0",
+    "tel": "418-765-1625",
+    "features": [
+      {
+        "id": 2,
+        "value": "Libre-service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 9,
+        "value": "Remplissage et /ou échange de bouteilles de propane"
+      },
+      {
+        "id": 11,
+        "value": "Dépanneur"
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "lat": 45.298294,
+    "lng": -74.310426,
+    "title": "CLUB ESSENCE B.J. INC.",
+    "addressLineOne": "142 rue Sainte-Catherine",
+    "addressLineTwo": "Saint-Polycarpe, J0P 1X0",
+    "tel": "450-265-3749",
+    "features": [
+      {
+        "id": 2,
+        "value": "Libre-service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 11,
+        "value": "Dépanneur"
+      }
+    ]
+  },
+  {
+    "id": 123,
+    "lat": 45.4665868,
+    "lng": -74.0776114,
+    "title": "9291-9794 QUÉBEC INC - FASRS SERVI EXPRESS",
+    "addressLineOne": "11 rue Notre-Dame",
+    "addressLineTwo": "Oka, J0N 1E0",
+    "tel": "450-479-6811",
+    "features": [
+      {
+        "id": 2,
+        "value": "Libre-service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 11,
+        "value": "Dépanneur"
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "lat": 45.533403,
+    "lng": -74.006326,
+    "title": "DÉPANNEUR BONI-SOIR",
+    "addressLineOne": "185 montée Principale",
+    "addressLineTwo": "Saint-Joseph-du-Lac, J0N 1M0",
+    "tel": "450-623-4455",
+    "features": [
+      {
+        "id": 2,
+        "value": "Libre-service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 11,
+        "value": "Dépanneur"
+      },
+      {
+        "id": 20,
+        "value": "Guichet automatique"
+      }
+    ]
+  },
+  {
+    "id": 178,
+    "lat": 45.9541647,
+    "lng": -73.7038359,
+    "title": "CREVIER",
+    "addressLineOne": "1040 rte 125",
+    "addressLineTwo": "Sainte-Julienne, J0K 2T0",
+    "tel": "450-831-3099",
+    "features": [
+      {
+        "id": 1,
+        "value": "Avec service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "value": "Lave-auto à la main"
+      }
+    ]
+  },
+  {
+    "id": 95,
+    "lat": 45.5297713,
+    "lng": -73.9299054,
+    "title": "DÉPANNEUR BONI-SOIR",
+    "addressLineOne": "2970 ch. Oka",
+    "addressLineTwo": "Sainte-Marthe-sur-le-Lac, J0N 1P0",
+    "tel": "450-974-1774",
+    "features": [
+      {
+        "id": 2,
+        "value": "Libre-service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 11,
+        "value": "Dépanneur"
+      },
+      {
+        "id": 20,
+        "value": "Guichet automatique"
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "lat": 48.7368308,
+    "lng": -71.8508128,
+    "title": "GARAGE PAUL-ÉMILE GAUTHIER ENR.",
+    "addressLineOne": "273 rue Honfleur",
+    "addressLineTwo": "Sainte-Monique, G0W 2T0",
+    "tel": "418-347-3892",
+    "features": [
+      {
+        "id": 1,
+        "value": "Avec service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 9,
+        "value": "Remplissage et /ou échange de bouteilles de propane"
+      },
+      {
+        "id": 11,
+        "value": "Dépanneur"
+      },
+      {
+        "id": 12,
+        "value": "Atelier mécanique"
+      }
+    ]
+  },
+  {
+    "id": 125,
+    "lat": 45.535766,
+    "lng": -73.899484,
+    "title": "9306-5969 QUÉBEC INC.",
+    "addressLineOne": "1750 ch. Oka",
+    "addressLineTwo": "Deux-Montagnes, J7R 1M9",
+    "tel": "450-472-0414",
+    "features": [
+      {
+        "id": 2,
+        "value": "Libre-service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 11,
+        "value": "Dépanneur"
+      },
+      {
+        "id": 20,
+        "value": "Guichet automatique"
+      }
+    ]
+  },
+  {
+    "id": 182,
+    "lat": 45.6236452,
+    "lng": -73.7756605,
+    "title": "ENB INC.",
+    "addressLineOne": "2 boul. Ste-Rose",
+    "addressLineTwo": "Laval (Ste-Rose), H7L 3K4",
+    "tel": "450-937-1008",
+    "features": [
+      {
+        "id": 2,
+        "value": "Libre-service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 11,
+        "value": "Dépanneur"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "lat": 46.329508,
+    "lng": -73.2767843,
+    "title": "GARAGE SAINT-DIDACE ENR.",
+    "addressLineOne": "541 rte 348",
+    "addressLineTwo": "Saint-Didace, J0K 2G0",
+    "tel": "450-835-4664",
+    "features": [
+      {
+        "id": 1,
+        "value": "Avec service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 12,
+        "value": "Atelier mécanique"
+      }
+    ]
+  },
+  {
+    "id": 176,
+    "lat": 45.5269541,
+    "lng": -73.8267201,
+    "title": "GESTION ENB INC.",
+    "addressLineOne": "752 rue Principale",
+    "addressLineTwo": "Laval (Sainte-Dorothée), H7X1 1E6",
+    "tel": "450-689-4833",
+    "features": [
+      {
+        "id": 2,
+        "value": "Libre-service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 7,
+        "value": "Service de ravitaillement-camion"
+      },
+      {
+        "id": 9,
+        "value": "Remplissage et /ou échange de bouteilles de propane"
+      },
+      {
+        "id": 11,
+        "value": "Dépanneur"
+      }
+    ]
+  },
+  {
+    "id": 124,
+    "lat": 48.417575,
+    "lng": -71.947036,
+    "title": "9301-4637 QUÉBEC INC.",
+    "addressLineOne": "1079 rue Hébert",
+    "addressLineTwo": "Desbiens, G0W 1N0",
+    "tel": "418-346-5606",
+    "features": [
+      {
+        "id": 1,
+        "value": "Avec service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 12,
+        "value": "Atelier mécanique"
+      }
+    ]
+  },
+  {
+    "id": 118,
+    "lat": 45.479997,
+    "lng": -73.841843,
+    "title": "DÉPANNEUR PROVI-SOIR",
+    "addressLineOne": "4220 boul. Saint-Jean",
+    "addressLineTwo": "Dollard-des-Ormeaux, H9G 1X5",
+    "tel": "514-696-3036",
+    "features": [
+      {
+        "id": 2,
+        "value": "Libre-service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 11,
+        "value": "Dépanneur"
+      },
+      {
+        "id": 20,
+        "value": "Guichet automatique"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "lat": 45.432851,
+    "lng": -73.8562949,
+    "title": "STATION-SERVICE ALLANCROFT INC.",
+    "addressLineOne": "149 av. Elm",
+    "addressLineTwo": "Beaconsfield, H9W 2E1",
+    "tel": "514-697-4471",
+    "features": [
+      {
+        "id": 1,
+        "value": "Avec service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 12,
+        "value": "Atelier mécanique"
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "lat": 46.4597831,
+    "lng": -73.1445186,
+    "title": "VIDÉO LOISIRS ST-ALEXIS",
+    "addressLineOne": "180 rue Notre-Dame",
+    "addressLineTwo": "Saint-Alexis-des-Monts, J0K 1V0",
+    "tel": "819-265-3367",
+    "features": [
+      {
+        "id": 2,
+        "value": "Libre-service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 9,
+        "value": "Remplissage et /ou échange de bouteilles de propane"
+      },
+      {
+        "id": 11,
+        "value": "Dépanneur"
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "lat": 45.788876,
+    "lng": -73.59765,
+    "title": "DÉPANNEUR NORMAN",
+    "addressLineOne": "2869 ch. Côte Saint-Philippe",
+    "addressLineTwo": "Mascouche, J7K 3C3",
+    "tel": "450-474-1771",
+    "features": [
+      {
+        "id": 1,
+        "value": "Avec service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 11,
+        "value": "Dépanneur"
+      }
+    ]
+  },
+  {
+    "id": 212,
+    "lat": 45.460265,
+    "lng": -73.821155,
+    "title": "CENTRE DE SERVICE HYMUS",
+    "addressLineOne": "215 boul. Hymus",
+    "addressLineTwo": "Pointe-Claire, H9R 1E9",
+    "tel": "514-694-1037",
+    "features": [
+      {
+        "id": 1,
+        "value": "Avec service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 12,
+        "value": "Atelier mécanique"
+      },
+      {
+        "id": 23,
+        "value": "Location d'autos"
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "lat": 45.701469,
+    "lng": -73.632789,
+    "title": "CENTRE DE L'AUTO J.R. INC.",
+    "addressLineOne": "808 montée Masson",
+    "addressLineTwo": "Terrebonne (Lachenaie), J6W 2Z8",
+    "tel": "450-471-3477",
+    "features": [
+      {
+        "id": 1,
+        "value": "Avec service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 12,
+        "value": "Atelier mécanique"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "lat": 45.3095599,
+    "lng": -73.878701,
+    "title": "PATRICIA AUTO INC.",
+    "addressLineOne": "227 ch. Saint-Louis",
+    "addressLineTwo": "Beauharnois, J6N 2H8",
+    "tel": "450-429-4752",
+    "features": [
+      {
+        "id": 1,
+        "value": "Avec service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 12,
+        "value": "Atelier mécanique"
+      }
+    ]
+  },
+  {
+    "id": 209,
+    "lat": 45.6986375,
+    "lng": -73.5797341,
+    "title": "CREVIER",
+    "addressLineOne": "2715 ch. Saint-Charles Terrebonne",
+    "addressLineTwo": "Terrebonne (Lachenaie), J6W 5X1",
+    "tel": "450-471-9445",
+    "features": [
+      {
+        "id": 2,
+        "value": "Libre-service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 11,
+        "value": "Dépanneur"
+      }
+    ]
+  },
+  {
+    "id": 163,
+    "lat": 45.5106649,
+    "lng": -73.6936929,
+    "title": "PÉTROLES CREVIER INC.",
+    "addressLineOne": "2017 rue Lucien-Thimens",
+    "addressLineTwo": "Montréal (Saint-Laurent), H4R 1K8",
+    "tel": "514-332-4762",
+    "features": [
+      {
+        "id": 1,
+        "value": "Avec service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 8,
+        "value": "Propane pour automobiles"
+      },
+      {
+        "id": 9,
+        "value": "Remplissage et /ou échange de bouteilles de propane"
+      },
+      {
+        "id": 11,
+        "value": "Dépanneur"
+      },
+      {
+        "id": 24,
+        "value": "Bornes de recharge rapide pour véhicules électriques"
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "lat": 45.5163702,
+    "lng": -73.6815172,
+    "title": "SERVICE AUTO R.M.",
+    "addressLineOne": "1070 rue O'Brien",
+    "addressLineTwo": "Montréal (Saint-Laurent), H4L 3V7",
+    "tel": "514-744-0706",
+    "features": [
+      {
+        "id": 1,
+        "value": "Avec service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 12,
+        "value": "Atelier mécanique"
+      }
+    ]
+  },
+  {
+    "id": 101,
+    "lat": 45.8241911,
+    "lng": -73.4567466,
+    "title": "341 AUTO PLUS INC.",
+    "addressLineOne": "950 rte 341 nord",
+    "addressLineTwo": "L'Assomption, J5W 2W2",
+    "tel": "450-589-0042",
+    "features": [
+      {
+        "id": 1,
+        "value": "Avec service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 12,
+        "value": "Atelier mécanique"
+      }
+    ]
+  },
+  {
+    "id": 121,
+    "lat": 46.9138208,
+    "lng": -72.7089865,
+    "title": "ÉPICERIE LEMAY-KINAC",
+    "addressLineOne": "590 ch. Saint-Joseph",
+    "addressLineTwo": "Trois-Rives, G0X 2C0",
+    "tel": "819-646-5522",
+    "features": [
+      {
+        "id": 2,
+        "value": "Libre-service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 9,
+        "value": "Remplissage et /ou échange de bouteilles de propane"
+      },
+      {
+        "id": 11,
+        "value": "Dépanneur"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "lat": 45.627228,
+    "lng": -73.5789081,
+    "title": "MELANÇON STATION-SERVICE ENR.",
+    "addressLineOne": "8235 boul. Henri-Bourassa est",
+    "addressLineTwo": "Montréal (Rivière-des-Prairies–Pointe-aux-Trembles), H1E 1P4",
+    "tel": "514-648-1210",
+    "features": [
+      {
+        "id": 1,
+        "value": "Avec service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 12,
+        "value": "Atelier mécanique"
+      }
+    ]
+  },
+  {
+    "id": 105,
+    "lat": 48.5667725,
+    "lng": -71.6691068,
+    "title": "DÉPANNEUR 7-11 ENR.",
+    "addressLineOne": "1805 rue Melançon ouest",
+    "addressLineTwo": "Alma, G8B 4H2",
+    "tel": "418-662-6887",
+    "features": [
+      {
+        "id": 2,
+        "value": "Libre-service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 9,
+        "value": "Remplissage et /ou échange de bouteilles de propane"
+      },
+      {
+        "id": 11,
+        "value": "Dépanneur"
+      }
+    ]
+  },
+  {
+    "id": 103,
+    "lat": 45.4995395,
+    "lng": -73.6587525,
+    "title": "LUCIANO STATION SERVICE",
+    "addressLineOne": "5185 rue de la Savane",
+    "addressLineTwo": "Montréal (Côte-des-Neiges–Notre-Dame-de-Grâce), H4P 1V2",
+    "tel": "514-739-3623",
+    "features": [
+      {
+        "id": 1,
+        "value": "Avec service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 10,
+        "value": "Mini Dépanneur"
+      }
+    ]
+  },
+  {
+    "id": 120,
+    "lat": 45.5317928,
+    "lng": -73.6355248,
+    "title": "JOHN & TONY SERVICE STATION",
+    "addressLineOne": "535 rue Jarry O",
+    "addressLineTwo": "Montréal, H3N 1G1",
+    "tel": "514-272-3465",
+    "features": [
+      {
+        "id": 1,
+        "value": "Avec service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 12,
+        "value": "Atelier mécanique"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "lat": 46.3669299,
+    "lng": -73.0542587,
+    "title": "ÉPICERIE J LESSARD INC.",
+    "addressLineOne": "2300 rue Camirand",
+    "addressLineTwo": "Sainte-Angèle-de-Prémont, J0K 1R0",
+    "tel": "819-268-5216",
+    "features": [
+      {
+        "id": 2,
+        "value": "Libre-service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "lat": 45.5575393,
+    "lng": -73.611403,
+    "title": "R C F COBUZZI INC.",
+    "addressLineOne": "2480 rue Tillemont",
+    "addressLineTwo": "Montréal (Villeray–Saint-Michel–Parc-Extension), H2E 1G2",
+    "tel": "514-721-2181",
+    "features": [
+      {
+        "id": 1,
+        "value": "Avec service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 10,
+        "value": "Mini Dépanneur"
+      },
+      {
+        "id": 12,
+        "value": "Atelier mécanique"
+      },
+      {
+        "id": 21,
+        "value": "Remorquage"
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "lat": 45.509775,
+    "lng": -73.630559,
+    "title": "BARCLAY SERVICE-STATION GARAGE REQ'D",
+    "addressLineOne": "2930 rue Goyer",
+    "addressLineTwo": "Montréal (Côte-des-Neiges–Notre-Dame-de-Grâce), H3S 1H5",
+    "tel": "514-342-9140",
+    "features": [
+      {
+        "id": 1,
+        "value": "Avec service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 12,
+        "value": "Atelier mécanique"
+      }
+    ]
+  },
+  {
+    "id": 112,
+    "lat": 48.52195,
+    "lng": -71.653954,
+    "title": "DÉPANNEUR CHEZ ANICK",
+    "addressLineOne": "1990 av. du Pont sud",
+    "addressLineTwo": "Alma, G8B 6N5",
+    "tel": "418-662-2854",
+    "features": [
+      {
+        "id": 1,
+        "value": "Avec service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 11,
+        "value": "Dépanneur"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "lat": 45.734072,
+    "lng": -73.4511901,
+    "title": "CREVIER",
+    "addressLineOne": "376 rue Notre-Dame",
+    "addressLineTwo": "Repentigny, J6A 2S5",
+    "tel": "450-581-3740",
+    "features": [
+      {
+        "id": 1,
+        "value": "Avec service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 11,
+        "value": "Dépanneur"
+      },
+      {
+        "value": "Lave-auto à la main"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "lat": 45.519524,
+    "lng": -73.580843,
+    "title": "STATION-SERVICE ALBERT INC.",
+    "addressLineOne": "4209 rue de Bullion",
+    "addressLineTwo": "Montréal (Le Plateau-Mont-Royal), H2W 2E8",
+    "tel": "514-843-5300",
+    "features": [
+      {
+        "id": 1,
+        "value": "Avec service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 12,
+        "value": "Atelier mécanique"
+      }
+    ]
+  },
+  {
+    "id": 225,
+    "lat": 45.4328876,
+    "lng": -73.6374576,
+    "title": "CREVIER",
+    "addressLineOne": "2430 rue Dollard, Montréal",
+    "addressLineTwo": "Montréal (LaSalle), H8N 1S7",
+    "tel": "514-691-8455",
+    "features": [
+      {
+        "id": 2,
+        "value": "Libre-service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 8,
+        "value": "Propane pour automobiles"
+      },
+      {
+        "id": 11,
+        "value": "Dépanneur"
+      },
+      {
+        "id": 20,
+        "value": "Guichet automatique"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "lat": 45.029458,
+    "lng": -73.9228947,
+    "title": "POSTE D'ESSENCE FRANKLIN",
+    "addressLineOne": "1710 rte 202",
+    "addressLineTwo": "Franklin, J0S 1E0",
+    "tel": "450-827-2449",
+    "features": [
+      {
+        "id": 2,
+        "value": "Libre-service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 11,
+        "value": "Dépanneur"
+      },
+      {
+        "id": 20,
+        "value": "Guichet automatique"
+      }
+    ]
+  },
+  {
+    "id": 137,
+    "lat": 45.5127488,
+    "lng": -73.5717932,
+    "title": "CONSEIL DES INNUS DE PESSAMIT",
+    "addressLineOne": "1 route 138",
+    "addressLineTwo": "Pessamit, G0H 1B0",
+    "tel": "418-567-1301",
+    "features": [
+      {
+        "id": 2,
+        "value": "Libre-service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 7,
+        "value": "Service de ravitaillement-camion"
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "lat": 48.5257476,
+    "lng": -71.6106703,
+    "title": "9148-6027 QUÉBEC INC - FASRS DÉPANNEUR AUGER (2005)",
+    "addressLineOne": "1590 boul. Auger sud",
+    "addressLineTwo": "Alma, G8B 5V2",
+    "tel": "418-669-0093",
+    "features": [
+      {
+        "id": 2,
+        "value": "Libre-service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 9,
+        "value": "Remplissage et /ou échange de bouteilles de propane"
+      },
+      {
+        "id": 11,
+        "value": "Dépanneur"
+      }
+    ]
+  },
+  {
+    "id": 139,
+    "lat": 45.4309765,
+    "lng": -73.6054303,
+    "title": "GARAGE ROGER VAILLANCOURT INC.",
+    "addressLineOne": "7696 boul. Champlain",
+    "addressLineTwo": "Montréal (LaSalle), H8P 1A8",
+    "tel": "514-365-0931",
+    "features": [
+      {
+        "id": 1,
+        "value": "Avec service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 12,
+        "value": "Atelier mécanique"
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "lat": 45.4323582,
+    "lng": -73.5971294,
+    "title": "STATION SERVICE LÉO MESSINA INC.",
+    "addressLineOne": "7602 rue Centrale",
+    "addressLineTwo": "Montréal (LaSalle), H8P 1K7",
+    "tel": "514-365-5004",
+    "features": [
+      {
+        "id": 1,
+        "value": "Avec service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 12,
+        "value": "Atelier mécanique"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "lat": 45.2226392,
+    "lng": -73.7416782,
+    "title": "YVES STATION SERVICE ENR.",
+    "addressLineOne": "173 rue Principale",
+    "addressLineTwo": "Saint-Urbain-Premier, J0S 1Y0",
+    "tel": "450-427-3377",
+    "features": [
+      {
+        "id": 1,
+        "value": "Avec service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 12,
+        "value": "Atelier mécanique"
+      }
+    ]
+  },
+  {
+    "id": 190,
+    "lat": 45.6111647,
+    "lng": -73.440819,
+    "title": "DÉPANNEUR MAXI",
+    "addressLineOne": "700 route du Montbrun",
+    "addressLineTwo": "Boucherville (Boucherville), J4B 8H2",
+    "tel": "450-857-0808",
+    "features": [
+      {
+        "id": 2,
+        "value": "Libre-service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 9,
+        "value": "Remplissage et /ou échange de bouteilles de propane"
+      },
+      {
+        "id": 11,
+        "value": "Dépanneur"
+      },
+      {
+        "id": 17,
+        "value": "Tim Hortons"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "lat": 46.2562408,
+    "lng": -72.9326387,
+    "title": "GARAGE LAGACÉ ET FILS LTÉE",
+    "addressLineOne": "330 boul. Saint-Laurent est",
+    "addressLineTwo": "Louiseville, J5V 1H7",
+    "tel": "819-228-5421",
+    "features": [
+      {
+        "id": 1,
+        "value": "Avec service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 12,
+        "value": "Atelier mécanique"
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "lat": 48.4434459,
+    "lng": -71.5259491,
+    "title": "ALIMENTATION LAROUCHE (1997)",
+    "addressLineOne": "891 rue Simard",
+    "addressLineTwo": "Larouche, G0W 1Z0",
+    "tel": "418-695-2522",
+    "features": [
+      {
+        "id": 2,
+        "value": "Libre-service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 9,
+        "value": "Remplissage et /ou échange de bouteilles de propane"
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "lat": 45.5038372,
+    "lng": -73.4210571,
+    "title": "GARAGE PETRO BONI",
+    "addressLineOne": "5335 ch. de Chambly",
+    "addressLineTwo": "Longueuil (Saint-Hubert), J3Y 3N8",
+    "tel": "450-462-0725",
+    "features": [
+      {
+        "id": 1,
+        "value": "Avec service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 10,
+        "value": "Mini Dépanneur"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "lat": 46.4342181,
+    "lng": -72.7658509,
+    "title": "DÉPANNEUR BOISVERT 1995",
+    "addressLineOne": "951 rue Principale",
+    "addressLineTwo": "Saint-Étienne-des-Grès, G0X 2P0",
+    "tel": "819-535-9137",
+    "features": [
+      {
+        "id": 2,
+        "value": "Libre-service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 9,
+        "value": "Remplissage et /ou échange de bouteilles de propane"
+      },
+      {
+        "id": 11,
+        "value": "Dépanneur"
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "lat": 45.045995,
+    "lng": -73.638031,
+    "title": "DÉPANNEUR HAVELOCK INC.",
+    "addressLineOne": "502 rte 202",
+    "addressLineTwo": "Havelock, J0S 2C0",
+    "tel": "450-826-3333",
+    "features": [
+      {
+        "id": 1,
+        "value": "Avec service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 11,
+        "value": "Dépanneur"
+      },
+      {
+        "id": 20,
+        "value": "Guichet automatique"
+      }
+    ]
+  },
+  {
+    "id": 188,
+    "lat": 45.5966374,
+    "lng": -73.1986908,
+    "title": "RAPHAEL ÉTHIER",
+    "addressLineOne": "265 boul de l'industrie",
+    "addressLineTwo": "Beloeil, J3G 0S5",
+    "tel": "450-464-6767",
+    "features": [
+      {
+        "id": 2,
+        "value": "Libre-service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 11,
+        "value": "Dépanneur"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "lat": 45.5476084,
+    "lng": -73.2062045,
+    "title": "9301-0478 QUEBEC INC.",
+    "addressLineOne": "539 ch. des Patriotes",
+    "addressLineTwo": "Otterburn Park, J3H 1Z4",
+    "tel": "450-446-9783",
+    "features": [
+      {
+        "id": 2,
+        "value": "Libre-service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 11,
+        "value": "Dépanneur"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "lat": 46.4048904,
+    "lng": -72.5752257,
+    "title": "PÉTROLES CREVIER INC.",
+    "addressLineOne": "2085 boul. Thibeau",
+    "addressLineTwo": "Trois-Rivières (Saint-Louis-de-France), G8T 9P3",
+    "tel": "819-370-3653",
+    "features": [
+      {
+        "id": 2,
+        "value": "Libre-service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 11,
+        "value": "Dépanneur"
+      },
+      {
+        "value": "Lave-auto automatique"
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "lat": 48.3542033,
+    "lng": -71.3250105,
+    "title": "DÉPANNEUR COOP LAC KÉNO",
+    "addressLineOne": "5251 ch. du Quai",
+    "addressLineTwo": "Saguenay (Lac-Kénogami), G7X 7V6",
+    "tel": "418-542-0183",
+    "features": [
+      {
+        "id": 2,
+        "value": "Libre-service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 9,
+        "value": "Remplissage et /ou échange de bouteilles de propane"
+      },
+      {
+        "id": 11,
+        "value": "Dépanneur"
+      }
+    ]
+  },
+  {
+    "id": 191,
+    "lat": 45.440011,
+    "lng": -73.196915,
+    "title": "9321-9244 QUÉBEC INC.",
+    "addressLineOne": "319 ch. Chambly",
+    "addressLineTwo": "Marieville, J3M 1N2",
+    "tel": "450-460-5223",
+    "features": [
+      {
+        "id": 2,
+        "value": "Libre-service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 11,
+        "value": "Dépanneur"
+      },
+      {
+        "value": "Lave-auto automatique"
+      },
+      {
+        "id": 20,
+        "value": "Guichet automatique"
+      },
+      {
+        "id": 24,
+        "value": "Bornes de recharge rapide pour véhicules électriques"
+      }
+    ]
+  },
+  {
+    "id": 208,
+    "lat": 45.440011,
+    "lng": -73.196915,
+    "title": "DEPANNEUR DU BOISÉ MARIEVILLE INC.",
+    "addressLineOne": "319 ch.Chambly, Marieville",
+    "addressLineTwo": "Marieville, J3M 1N2",
+    "tel": "450-460-5223",
+    "features": [
+      {
+        "id": 2,
+        "value": "Libre-service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 11,
+        "value": "Dépanneur"
+      },
+      {
+        "value": "Lave-auto automatique"
+      }
+    ]
+  },
+  {
+    "id": 226,
+    "lat": 45.440011,
+    "lng": -73.196915,
+    "title": "DEPANNEUR DU BOISÉ MARIEVILLE INC.",
+    "addressLineOne": "319 ch. Chambly, Marieville",
+    "addressLineTwo": "Marieville, J3M 1N2",
+    "tel": "450-460-5223",
+    "features": [
+      {
+        "id": 2,
+        "value": "Libre-service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 11,
+        "value": "Dépanneur"
+      },
+      {
+        "value": "Lave-auto automatique"
+      }
+    ]
+  },
+  {
+    "id": 138,
+    "lat": 45.2654583,
+    "lng": -73.2322357,
+    "title": "9369-2317 QUEBEC INC.",
+    "addressLineOne": "2363 route 133 sud",
+    "addressLineTwo": "Saint-Jean-sur-Richelieu, J2X 5V2",
+    "tel": "450-542-9532",
+    "features": [
+      {
+        "id": 1,
+        "value": "Avec service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "lat": 45.525241,
+    "lng": -73.0118,
+    "title": "GARAGE JEAN-DENIS BRODEUR INC.",
+    "addressLineOne": "208 rue Principale",
+    "addressLineTwo": "Saint-Damase, J0H 1J0",
+    "tel": "450-797-3388",
+    "features": [
+      {
+        "id": 1,
+        "value": "Avec service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 12,
+        "value": "Atelier mécanique"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "lat": 45.4400421,
+    "lng": -73.0600764,
+    "title": "LE RELAIS D'ESSENCE MONT-ROUGE ENR.",
+    "addressLineOne": "640 rue Principale",
+    "addressLineTwo": "Rougemont, J0L 1M0",
+    "tel": "450-469-2255",
+    "features": [
+      {
+        "id": 2,
+        "value": "Libre-service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 11,
+        "value": "Dépanneur"
+      }
+    ]
+  },
+  {
+    "id": 219,
+    "lat": 45.1246754,
+    "lng": -73.1479806,
+    "title": "GARAGE YVES ST-LAURENT",
+    "addressLineOne": "536 rue Principale, Saint-Sébastien",
+    "addressLineTwo": "Saint-Sébastien, J0J 2C0",
+    "tel": "450-244-5022",
+    "features": [
+      {
+        "id": 1,
+        "value": "Avec service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 12,
+        "value": "Atelier mécanique"
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "lat": 45.2911898,
+    "lng": -72.9660836,
+    "title": "DÉPANNEUR WANG JUN",
+    "addressLineOne": "1265 rue Saint-Paul",
+    "addressLineTwo": "Farnham, J2N 2L2",
+    "tel": "450-293-8863",
+    "features": [
+      {
+        "id": 2,
+        "value": "Libre-service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 11,
+        "value": "Dépanneur"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "lat": 45.564814,
+    "lng": -72.715982,
+    "title": "GARAGE A Y DAIGLE INC.",
+    "addressLineOne": "1262 rue Principale",
+    "addressLineTwo": "Saint-Valérien-de-Milton, J0H 2B0",
+    "tel": "450-549-2241",
+    "features": [
+      {
+        "id": 1,
+        "value": "Avec service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 12,
+        "value": "Atelier mécanique"
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "lat": 48.3318638,
+    "lng": -70.880667,
+    "title": "Garage Fred et Yvon",
+    "addressLineOne": "431 boul. de la Grande-Baie sud",
+    "addressLineTwo": "\n                                  Saguenay (La Baie),\n                                  G7B 2C8                                ",
+    "tel": "418-544-9000",
+    "features": [
+      {
+        "id": 1,
+        "value": "Avec service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 12,
+        "value": "Atelier mécanique"
+      }
+    ]
+  },
+  {
+    "id": 131,
+    "lat": 45.685056,
+    "lng": -72.5846646,
+    "title": "9142-8821 QUÉBEC INC.",
+    "addressLineOne": "1736 rue Principale",
+    "addressLineTwo": "St-Théodore d'Acton (Acton Vale), J0H 1Z0",
+    "tel": "450-502-4323",
+    "features": [
+      {
+        "id": 2,
+        "value": "Libre-service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 11,
+        "value": "Dépanneur"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "lat": 45.858861,
+    "lng": -72.461165,
+    "title": "DÉPANNEUR MERCURE INC.",
+    "addressLineOne": "1970 boul. Mercure",
+    "addressLineTwo": "Drummondville, J2B 3P4",
+    "tel": "819-472-8015",
+    "features": [
+      {
+        "id": 2,
+        "value": "Libre-service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 11,
+        "value": "Dépanneur"
+      }
+    ]
+  },
+  {
+    "id": 181,
+    "lat": 45.6387172,
+    "lng": -72.5682185,
+    "title": "ENTREPRISE B.W. GAUMOND INC.",
+    "addressLineOne": "320 rue Roxton",
+    "addressLineTwo": "Acton Vale, J0H 1A0",
+    "tel": "450-366-0185",
+    "features": [
+      {
+        "id": 2,
+        "value": "Libre-service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 11,
+        "value": "Dépanneur"
+      },
+      {
+        "id": 20,
+        "value": "Guichet automatique"
+      },
+      {
+        "id": 24,
+        "value": "Bornes de recharge rapide pour véhicules électriques"
+      }
+    ]
+  },
+  {
+    "id": 175,
+    "lat": 45.4280281,
+    "lng": -72.7166692,
+    "title": "PÉTROLES CREVIER INC.",
+    "addressLineOne": "690 rue Dufferin",
+    "addressLineTwo": "Granby, J2G 0Z2",
+    "tel": "450-372-4327",
+    "features": [
+      {
+        "id": 1,
+        "value": "Avec service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 7,
+        "value": "Service de ravitaillement-camion"
+      },
+      {
+        "id": 9,
+        "value": "Remplissage et /ou échange de bouteilles de propane"
+      },
+      {
+        "id": 11,
+        "value": "Dépanneur"
+      }
+    ]
+  },
+  {
+    "id": 187,
+    "lat": 45.3933677,
+    "lng": -72.6841738,
+    "title": "CREVIER",
+    "addressLineOne": "555 rue Denisson est",
+    "addressLineTwo": "Granby, J2H 0N3",
+    "tel": "450-330-3905",
+    "features": [
+      {
+        "id": 2,
+        "value": "Libre-service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      }
+    ]
+  },
+  {
+    "id": 135,
+    "lat": 45.2095791,
+    "lng": -72.7349781,
+    "title": "DÉPANNEUR BONI-SOIR",
+    "addressLineOne": "350 rue Principale",
+    "addressLineTwo": "Cowansville, J2K 1J5",
+    "tel": "450-263-6005",
+    "features": [
+      {
+        "id": 2,
+        "value": "Libre-service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 11,
+        "value": "Dépanneur"
+      }
+    ]
+  },
+  {
+    "id": 184,
+    "lat": 46.6625777,
+    "lng": -71.5744565,
+    "title": "9370-4633 QUÉBEC INC.",
+    "addressLineOne": "959 rue de l'Église",
+    "addressLineTwo": "St-Antoine-de-Tilly, G0S 2C0",
+    "tel": "418-682-6751",
+    "features": [
+      {
+        "id": 2,
+        "value": "Libre-service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 11,
+        "value": "Dépanneur"
+      }
+    ]
+  },
+  {
+    "id": 179,
+    "lat": 45.3000525,
+    "lng": -72.3166163,
+    "title": "DÉPANNEUR DE LA POINTE",
+    "addressLineOne": "25 rue Lapointe",
+    "addressLineTwo": "Eastman, J0E 1P0",
+    "tel": "450-297-4100",
+    "features": [
+      {
+        "id": 2,
+        "value": "Libre-service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 9,
+        "value": "Remplissage et /ou échange de bouteilles de propane"
+      },
+      {
+        "id": 11,
+        "value": "Dépanneur"
+      },
+      {
+        "id": 24,
+        "value": "Bornes de recharge rapide pour véhicules électriques"
+      }
+    ]
+  },
+  {
+    "id": 223,
+    "lat": 46.6742817,
+    "lng": -71.3462897,
+    "title": "CREVIER",
+    "addressLineOne": "2055 Route Lagueux, Lévis",
+    "addressLineTwo": "Lévis (Saint-Etienne de Lauzon), G7A 1A7",
+    "tel": "581-477-0250 ",
+    "features": [
+      {
+        "id": 2,
+        "value": "Libre-service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 7,
+        "value": "Service de ravitaillement-camion"
+      },
+      {
+        "id": 11,
+        "value": "Dépanneur"
+      },
+      {
+        "id": 16,
+        "value": "Restaurant familial"
+      },
+      {
+        "id": 24,
+        "value": "Bornes de recharge rapide pour véhicules électriques"
+      }
+    ]
+  },
+  {
+    "id": 174,
+    "lat": 46.89094,
+    "lng": -71.1499838,
+    "title": "Crevier",
+    "addressLineOne": "2577 av. Royale",
+    "addressLineTwo": "\n                                  Québec (Beauport),\n                                  G1C 1S3                                ",
+    "tel": "418-663-6871",
+    "features": [
+      {
+        "id": 1,
+        "value": "Avec service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 9,
+        "value": "Remplissage et /ou échange de bouteilles de propane"
+      },
+      {
+        "id": 11,
+        "value": "Dépanneur"
+      },
+      {
+        "id": 18,
+        "value": "McDonalds"
+      }
+    ]
+  },
+  {
+    "id": 117,
+    "lat": 45.5746995,
+    "lng": -72.0093754,
+    "title": "SUPER DÉPANNEUR WINDSOR",
+    "addressLineOne": "126 rue Principale nord",
+    "addressLineTwo": "Windsor, J1S 2C9",
+    "tel": "819-845-1060",
+    "features": [
+      {
+        "id": 2,
+        "value": "Libre-service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 11,
+        "value": "Dépanneur"
+      },
+      {
+        "id": 20,
+        "value": "Guichet automatique"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "lat": 45.116441,
+    "lng": -72.178925,
+    "title": "MARCHÉ GAUDREAU",
+    "addressLineOne": "836 ch. Sheldon",
+    "addressLineTwo": "Stanstead, J1X 3W4",
+    "tel": "819-876-5568",
+    "features": [
+      {
+        "id": 2,
+        "value": "Libre-service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 9,
+        "value": "Remplissage et /ou échange de bouteilles de propane"
+      },
+      {
+        "id": 11,
+        "value": "Dépanneur"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "lat": 45.3547787,
+    "lng": -71.9874485,
+    "title": "DÉPANNEUR GAMA ENR.",
+    "addressLineOne": "699 ch. Du Curé",
+    "addressLineTwo": "Sherbrooke (Rock Forest), J1N 2N8",
+    "tel": "819-864-9944",
+    "features": [
+      {
+        "id": 2,
+        "value": "Libre-service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 11,
+        "value": "Dépanneur"
+      }
+    ]
+  },
+  {
+    "id": 177,
+    "lat": 45.353081,
+    "lng": -71.948301,
+    "title": "DÉPANNEUR STE-CAT",
+    "addressLineOne": "3200 ch. de Sainte-Catherine",
+    "addressLineTwo": "Sherbrooke (Rock Forest), J1N 3X9",
+    "tel": "819-823-1168",
+    "features": [
+      {
+        "id": 2,
+        "value": "Libre-service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 9,
+        "value": "Remplissage et /ou échange de bouteilles de propane"
+      },
+      {
+        "id": 11,
+        "value": "Dépanneur"
+      },
+      {
+        "value": "Lave-auto automatique"
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "lat": 45.4754042,
+    "lng": -71.8398675,
+    "title": "DÉPANNEUR DU COIN DU QUATRE",
+    "addressLineOne": "160 rte 216",
+    "addressLineTwo": "Stoke, J0B 3G0",
+    "tel": "819-820-9845",
+    "features": [
+      {
+        "id": 2,
+        "value": "Libre-service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 11,
+        "value": "Dépanneur"
+      }
+    ]
+  },
+  {
+    "id": 221,
+    "lat": 46.109855,
+    "lng": -71.302648,
+    "title": "CREVIER",
+    "addressLineOne": "696 Frontenac Est, Thetford Mines",
+    "addressLineTwo": "Thetford Mines, G6G 7M8",
+    "tel": "418-335-7136",
+    "features": [
+      {
+        "id": 2,
+        "value": "Libre-service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 11,
+        "value": "Dépanneur"
+      },
+      {
+        "value": "Lave-auto à la main"
+      }
+    ]
+  },
+  {
+    "id": 194,
+    "lat": 46.4059384,
+    "lng": -71.064797,
+    "title": "Isabelle Lachance",
+    "addressLineOne": "699 rue des Érables",
+    "addressLineTwo": "\n                                  Saint-Elzéar-de-Beauce,\n                                  G0S 2J0                                ",
+    "tel": "418-387-7145",
+    "features": [
+      {
+        "id": 2,
+        "value": "Libre-service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 9,
+        "value": "Remplissage et /ou échange de bouteilles de propane"
+      },
+      {
+        "id": 11,
+        "value": "Dépanneur"
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "lat": 48.2545395,
+    "lng": -69.8573099,
+    "title": "Dépanneur Coronet enr.",
+    "addressLineOne": "401 rte 172 nord",
+    "addressLineTwo": "\n                                  Sacré-Coeur,\n                                  G0T 1Y0                                ",
+    "tel": "418-236-9444",
+    "features": [
+      {
+        "id": 1,
+        "value": "Avec service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 11,
+        "value": "Dépanneur"
+      },
+      {
+        "id": 16,
+        "value": "Restaurant familial"
+      },
+      {
+        "id": 17,
+        "value": "Tim Hortons"
+      }
+    ]
+  },
+  {
+    "id": 189,
+    "lat": 46.9614419,
+    "lng": -70.6236517,
+    "title": "Pétroles Crevier Inc.",
+    "addressLineOne": "90 route Jean-Baptiste-Casault",
+    "addressLineTwo": "\n                                  Montmagny,\n                                  G5V 3R8                                ",
+    "tel": "418-624-7526",
+    "features": [
+      {
+        "id": 2,
+        "value": "Libre-service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 7,
+        "value": "Service de ravitaillement-camion"
+      },
+      {
+        "id": 9,
+        "value": "Remplissage et /ou échange de bouteilles de propane"
+      },
+      {
+        "id": 11,
+        "value": "Dépanneur"
+      },
+      {
+        "id": 13,
+        "value": "24 heures"
+      },
+      {
+        "id": 17,
+        "value": "Tim Hortons"
+      },
+      {
+        "id": 24,
+        "value": "Bornes de recharge rapide pour véhicules électriques"
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "lat": 45.8263943,
+    "lng": -71.3939351,
+    "title": "GAZ-BAR GATBE",
+    "addressLineOne": "5825 rte 112",
+    "addressLineTwo": "Beaulac-Garthby, G0Y 1B0",
+    "tel": "418-458-2121",
+    "features": [
+      {
+        "id": 1,
+        "value": "Avec service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 11,
+        "value": "Dépanneur"
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "lat": 48.1439722,
+    "lng": -69.7179156,
+    "title": "TALAM INC.",
+    "addressLineOne": "203 rue des Pionniers",
+    "addressLineTwo": "\n                                  Tadoussac,\n                                  G0T 2A0                                ",
+    "tel": "418-235-4338",
+    "features": [
+      {
+        "id": 1,
+        "value": "Avec service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 12,
+        "value": "Atelier mécanique"
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "lat": 47.528246,
+    "lng": -69.797474,
+    "title": "Station-service F Pelletier inc.",
+    "addressLineOne": "612 boul. Hébert",
+    "addressLineTwo": "\n                                  Saint-Pascal,\n                                  G0L 3Y0                                ",
+    "tel": "418-492-2722",
+    "features": [
+      {
+        "id": 1,
+        "value": "Avec service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 12,
+        "value": "Atelier mécanique"
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "lat": 48.8687887,
+    "lng": -68.8503083,
+    "title": "Alimentation Francis Dion inc.",
+    "addressLineOne": "540 rue Principale",
+    "addressLineTwo": "\n                                  Colombier,\n                                  G0H 1P0                                ",
+    "tel": "418-565-3374",
+    "features": [
+      {
+        "id": 2,
+        "value": "Libre-service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 9,
+        "value": "Remplissage et /ou échange de bouteilles de propane"
+      },
+      {
+        "id": 11,
+        "value": "Dépanneur"
+      }
+    ]
+  },
+  {
+    "id": 167,
+    "lat": 48.1054045,
+    "lng": -69.2116796,
+    "title": "Pétroles Crevier Inc.",
+    "addressLineOne": "60 route 132 ouest",
+    "addressLineTwo": "\n                                  Trois-Pistoles,\n                                  G0L 4K0                                ",
+    "tel": "418-851-1524",
+    "features": [
+      {
+        "id": 2,
+        "value": "Libre-service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 7,
+        "value": "Service de ravitaillement-camion"
+      },
+      {
+        "id": 8,
+        "value": "Propane pour automobiles"
+      },
+      {
+        "id": 11,
+        "value": "Dépanneur"
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "lat": 46.9355523,
+    "lng": -69.813567,
+    "title": "Service J.O. inc.",
+    "addressLineOne": "1559 rang Rang Double",
+    "addressLineTwo": "\n                                  Saint-Pamphile,\n                                  G0R 3X0                                ",
+    "tel": "418-356-5834",
+    "features": [
+      {
+        "id": 1,
+        "value": "Avec service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 9,
+        "value": "Remplissage et /ou échange de bouteilles de propane"
+      },
+      {
+        "id": 11,
+        "value": "Dépanneur"
+      }
+    ]
+  },
+  {
+    "id": 150,
+    "lat": 48.2973449,
+    "lng": -68.8650285,
+    "title": "Garage JMM Pieces d'autos",
+    "addressLineOne": "130 rue 1ere",
+    "addressLineTwo": "\n                                  St-Fabien,\n                                  G0L 2Z0                                ",
+    "tel": "418-869-3028",
+    "features": [
+      {
+        "id": 2,
+        "value": "Libre-service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 8,
+        "value": "Propane pour automobiles"
+      },
+      {
+        "id": 12,
+        "value": "Atelier mécanique"
+      },
+      {
+        "id": 21,
+        "value": "Remorquage"
+      },
+      {
+        "id": 23,
+        "value": "Location d'autos"
+      }
+    ]
+  },
+  {
+    "id": 148,
+    "lat": 47.9012831,
+    "lng": -69.0269355,
+    "title": "Gaz bar multi-services Inc.",
+    "addressLineOne": "124 rue  Grande ligne Nord",
+    "addressLineTwo": "\n                                  Saint-Cyprien,\n                                  G0L 2P0                                ",
+    "tel": "418-963-3253",
+    "features": [
+      {
+        "id": 1,
+        "value": "Avec service"
+      },
+      {
+        "id": 11,
+        "value": "Dépanneur"
+      },
+      {
+        "value": "Lave-auto à la main"
+      }
+    ]
+  },
+  {
+    "id": 149,
+    "lat": 48.2531876,
+    "lng": -68.7974114,
+    "title": "Dépanneur Général",
+    "addressLineOne": "8 rue Principale",
+    "addressLineTwo": "\n                                  Saint-Eugène-de-Ladrière,\n                                  G0L 1P0                                ",
+    "tel": "418-869-2259",
+    "features": [
+      {
+        "id": 2,
+        "value": "Libre-service"
+      },
+      {
+        "id": 11,
+        "value": "Dépanneur"
+      },
+      {
+        "id": 12,
+        "value": "Atelier mécanique"
+      }
+    ]
+  },
+  {
+    "id": 168,
+    "lat": 48.4480205,
+    "lng": -68.5365906,
+    "title": "Pétroles Crevier Inc.",
+    "addressLineOne": "157 rue St-Germain ouest",
+    "addressLineTwo": "\n                                  Rimouski,\n                                  G5L 4B8                                ",
+    "tel": "418-724-2158",
+    "features": [
+      {
+        "id": 2,
+        "value": "Libre-service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 11,
+        "value": "Dépanneur"
+      },
+      {
+        "value": "Lave-auto à la main"
+      }
+    ]
+  },
+  {
+    "id": 216,
+    "lat": 48.4480205,
+    "lng": -68.5365906,
+    "title": "Crevier",
+    "addressLineOne": "157\t rue St-Germain ouest, Rimouski",
+    "addressLineTwo": "\n                                  Rimouski,\n                                  G5L 4B8                                ",
+    "tel": "418-724-2158",
+    "features": [
+      {
+        "id": 2,
+        "value": "Libre-service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 11,
+        "value": "Dépanneur"
+      },
+      {
+        "value": "Lave-auto à la main"
+      }
+    ]
+  },
+  {
+    "id": 169,
+    "lat": 48.4854508,
+    "lng": -68.4966197,
+    "title": "Pétroles Crevier Inc.",
+    "addressLineOne": "3 boul. Ste-Anne",
+    "addressLineTwo": "\n                                  Rimouski (Pointe-aux-pères),\n                                  G5M 1B9                                ",
+    "tel": "418-722-0656",
+    "features": [
+      {
+        "id": 1,
+        "value": "Avec service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 11,
+        "value": "Dépanneur"
+      }
+    ]
+  },
+  {
+    "id": 217,
+    "lat": 48.4854508,
+    "lng": -68.4966197,
+    "title": "Crevier",
+    "addressLineOne": "3 boul. Ste-Anne, Rimouski",
+    "addressLineTwo": "\n                                  Rimouski (Pointe-aux-pères),\n                                  G5M 1B9                                ",
+    "tel": "418-722-0656",
+    "features": [
+      {
+        "id": 1,
+        "value": "Avec service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 11,
+        "value": "Dépanneur"
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "lat": 48.393418,
+    "lng": -68.4791248,
+    "title": "Gaz bar Neigette inc.",
+    "addressLineOne": "101 rte Des Pionniers",
+    "addressLineTwo": "\n                                  Rimouski (Sainte-Blandine),\n                                  G5N 5M6                                ",
+    "tel": "418-735-5002",
+    "features": [
+      {
+        "id": 1,
+        "value": "Avec service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 11,
+        "value": "Dépanneur"
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "lat": 48.3669194,
+    "lng": -68.4644701,
+    "title": "Dépanneur Martin Lepage inc.",
+    "addressLineOne": "561 rte Des Pionniers",
+    "addressLineTwo": "\n                                  Rimouski (Sainte-Blandine),\n                                  G5N 5N6                                ",
+    "tel": "418-735-5412",
+    "features": [
+      {
+        "id": 1,
+        "value": "Avec service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 9,
+        "value": "Remplissage et /ou échange de bouteilles de propane"
+      },
+      {
+        "id": 11,
+        "value": "Dépanneur"
+      }
+    ]
+  },
+  {
+    "id": 159,
+    "lat": 47.8813315,
+    "lng": -68.729333,
+    "title": "Garage Jacques Cyr Enr. ",
+    "addressLineOne": "69 rue Saint-Joseph",
+    "addressLineTwo": "\n                                  Saint-Michel-du-Squatec,\n                                  G0L 4H0                                ",
+    "tel": "418-855-2954",
+    "features": [
+      {
+        "id": 1,
+        "value": "Avec service"
+      },
+      {
+        "id": 12,
+        "value": "Atelier mécanique"
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "lat": 47.882083,
+    "lng": -68.717802,
+    "title": "Belzile auto Squatec inc.",
+    "addressLineOne": "168 rue Saint-Joseph",
+    "addressLineTwo": "\n                                  Saint-Michel-du-Squatec,\n                                  G0L 4H0                                ",
+    "tel": "418-855-2112",
+    "features": [
+      {
+        "id": 1,
+        "value": "Avec service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 12,
+        "value": "Atelier mécanique"
+      }
+    ]
+  },
+  {
+    "id": 142,
+    "lat": 47.9342525,
+    "lng": -68.6098049,
+    "title": "Mécanique JL (2017) Inc",
+    "addressLineOne": "39 rue Principale ouest",
+    "addressLineTwo": "\n                                  Quebec (Biencourt),\n                                  G0K 1T0                                ",
+    "tel": "418-499-2017",
+    "features": [
+      {
+        "id": 2,
+        "value": "Libre-service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 8,
+        "value": "Propane pour automobiles"
+      },
+      {
+        "id": 10,
+        "value": "Mini Dépanneur"
+      },
+      {
+        "id": 12,
+        "value": "Atelier mécanique"
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "lat": 48.426435,
+    "lng": -68.168723,
+    "title": "Service Clément Ouellet inc.",
+    "addressLineOne": "300 rue Principale",
+    "addressLineTwo": "\n                                  Saint-Gabriel-de-Rimouski,\n                                  G0K 1M0                                ",
+    "tel": "418-798-4956",
+    "features": [
+      {
+        "id": 1,
+        "value": "Avec service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 12,
+        "value": "Atelier mécanique"
+      }
+    ]
+  },
+  {
+    "id": 144,
+    "lat": 47.7673827,
+    "lng": -68.5848091,
+    "title": "Dépanneur Gas-O-Bar CB inc. ",
+    "addressLineOne": "153 rue de l'Église",
+    "addressLineTwo": "\n                                  Lejeune,\n                                  G0L 1S0                                ",
+    "tel": "418-855-2750",
+    "features": [
+      {
+        "id": 2,
+        "value": "Libre-service"
+      },
+      {
+        "id": 11,
+        "value": "Dépanneur"
+      }
+    ]
+  },
+  {
+    "id": 166,
+    "lat": 47.5430398,
+    "lng": -68.6444261,
+    "title": "Pétroles Crevier Inc.",
+    "addressLineOne": "790 av. Du Longeron",
+    "addressLineTwo": "\n                                  Dégelis,\n                                  G5T 1E2                                ",
+    "tel": "418-853-2135",
+    "features": [
+      {
+        "id": 2,
+        "value": "Libre-service"
+      },
+      {
+        "id": 7,
+        "value": "Service de ravitaillement-camion"
+      },
+      {
+        "id": 11,
+        "value": "Dépanneur"
+      },
+      {
+        "id": 13,
+        "value": "24 heures"
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "lat": 48.583361,
+    "lng": -67.835927,
+    "title": "Garage Yannick Ouellet inc.",
+    "addressLineOne": "146 rte 297",
+    "addressLineTwo": "\n                                  Saint-Noël,\n                                  G0J 3A0                                ",
+    "tel": "418-776-2035",
+    "features": [
+      {
+        "id": 1,
+        "value": "Avec service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 12,
+        "value": "Atelier mécanique"
+      }
+    ]
+  },
+  {
+    "id": 173,
+    "lat": 48.534221,
+    "lng": -67.556071,
+    "title": "Crevier",
+    "addressLineOne": "61 rte 132 ouest",
+    "addressLineTwo": "\n                                  Val-Brillant,\n                                  G0J 3L0                                ",
+    "tel": "418-742-3735",
+    "features": [
+      {
+        "id": 1,
+        "value": "Avec service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 9,
+        "value": "Remplissage et /ou échange de bouteilles de propane"
+      },
+      {
+        "id": 11,
+        "value": "Dépanneur"
+      }
+    ]
+  },
+  {
+    "id": 156,
+    "lat": 48.615852,
+    "lng": -67.4132854,
+    "title": "Coopérative de solidarité de St-Vianney",
+    "addressLineOne": "1040-C route 195",
+    "addressLineTwo": "\n                                  Saint-Vianney,\n                                  G0J 3J0                                ",
+    "tel": "418-629-5002",
+    "features": [
+      {
+        "id": 1,
+        "value": "Avec service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 16,
+        "value": "Restaurant familial"
+      }
+    ]
+  },
+  {
+    "id": 153,
+    "lat": 48.6724017,
+    "lng": -67.3606342,
+    "title": "Dépanneur Chez Edith",
+    "addressLineOne": "523 route 195",
+    "addressLineTwo": "\n                                  Saint-René-de-Matane,\n                                  G0J 3E0                                ",
+    "tel": "418-224-3664",
+    "features": [
+      {
+        "id": 2,
+        "value": "Libre-service"
+      },
+      {
+        "id": 11,
+        "value": "Dépanneur"
+      }
+    ]
+  },
+  {
+    "id": 157,
+    "lat": 48.3060588,
+    "lng": -67.5807014,
+    "title": "Dépanneur Lac-Humqui Inc. ",
+    "addressLineOne": "164 route 195",
+    "addressLineTwo": "\n                                  Saint-Zénon-du-Lac-Humqui (Saint-Zénon),\n                                  G0J 1N0                                ",
+    "tel": "418-743-5452",
+    "features": [
+      {
+        "id": 2,
+        "value": "Libre-service"
+      },
+      {
+        "id": 11,
+        "value": "Dépanneur"
+      }
+    ]
+  },
+  {
+    "id": 151,
+    "lat": 48.3847584,
+    "lng": -67.5032235,
+    "title": "Mécanique MSL Inc. ",
+    "addressLineOne": "198 boul. Gendron est",
+    "addressLineTwo": "\n                                  Saint-Léon-le-Grand,\n                                  G0L 2W0                                ",
+    "tel": "418-743-5210",
+    "features": [
+      {
+        "id": 2,
+        "value": "Libre-service"
+      },
+      {
+        "id": 12,
+        "value": "Atelier mécanique"
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "lat": 48.385781,
+    "lng": -67.499764,
+    "title": "Gaz bar Linda Bérubé",
+    "addressLineOne": "193 rte 195",
+    "addressLineTwo": "\n                                  Saint-Léon-le-Grand,\n                                  G0J 2W0                                ",
+    "tel": "418-743-2050",
+    "features": [
+      {
+        "id": 1,
+        "value": "Avec service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 11,
+        "value": "Dépanneur"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "lat": 48.4648,
+    "lng": -67.425713,
+    "title": "Station-service Donald 2001 enr.",
+    "addressLineOne": "66 av. Gaétan Archambault",
+    "addressLineTwo": "\n                                  Amqui,\n                                  G5J 2J1                                ",
+    "tel": "418-629-2929",
+    "features": [
+      {
+        "id": 1,
+        "value": "Avec service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 12,
+        "value": "Atelier mécanique"
+      }
+    ]
+  },
+  {
+    "id": 155,
+    "lat": 48.5451571,
+    "lng": -67.3420817,
+    "title": "Dépanneur Saint-Tharicisius",
+    "addressLineOne": "65 rue Principale ouest",
+    "addressLineTwo": "\n                                  Saint-Tharcisius,\n                                  G0J 3G0                                ",
+    "tel": "418-629-4099",
+    "features": [
+      {
+        "id": 2,
+        "value": "Libre-service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 11,
+        "value": "Dépanneur"
+      }
+    ]
+  },
+  {
+    "id": 171,
+    "lat": 48.3432618,
+    "lng": -67.2286599,
+    "title": "Pétroles Crevier Inc.",
+    "addressLineOne": "321 route St-Jacques sud",
+    "addressLineTwo": "\n                                  Causapscal,\n                                  G0J 1J0                                ",
+    "tel": "418-756-5522",
+    "features": [
+      {
+        "id": 1,
+        "value": "Avec service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 10,
+        "value": "Mini Dépanneur"
+      },
+      {
+        "value": "Lave-auto à la main"
+      }
+    ]
+  },
+  {
+    "id": 213,
+    "lat": 49.1226861,
+    "lng": -66.5181665,
+    "title": "Station Service M. & J. Pelletier inc.",
+    "addressLineOne": "384 boul. Sainte-Anne ouest, Sainte-Anne-des-Monts",
+    "addressLineTwo": "\n                                  Sainte-Anne-des-Monts,\n                                  G4V 1S8                                ",
+    "tel": "418-763-2508",
+    "features": [
+      {
+        "id": 1,
+        "value": "Avec service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 12,
+        "value": "Atelier mécanique"
+      }
+    ]
+  },
+  {
+    "id": 172,
+    "lat": 49.1268532,
+    "lng": -66.5010744,
+    "title": "Pétroles Crevier Inc.",
+    "addressLineOne": "101 av. 1ere ouest",
+    "addressLineTwo": "\n                                  Sainte-Anne-des-Monts,\n                                  G0E 2G0                                ",
+    "tel": "418-431-9910",
+    "features": [
+      {
+        "id": 1,
+        "value": "Avec service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 11,
+        "value": "Dépanneur"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "lat": 48.017878,
+    "lng": -66.6893411,
+    "title": "Lord gaz bar dépanneur enr.",
+    "addressLineOne": "22 boul. Interprovincial",
+    "addressLineTwo": "\n                                  Pointe-à-la-Croix,\n                                  G0C 1L0                                ",
+    "tel": "418-788-2179",
+    "features": [
+      {
+        "id": 1,
+        "value": "Avec service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 9,
+        "value": "Remplissage et /ou échange de bouteilles de propane"
+      },
+      {
+        "id": 11,
+        "value": "Dépanneur"
+      }
+    ]
+  },
+  {
+    "id": 152,
+    "lat": 49.2317169,
+    "lng": -65.7366958,
+    "title": "Dépanneur Mont-Louis 1991",
+    "addressLineOne": "45 ave 1ere est",
+    "addressLineTwo": "\n                                  Saint-Maxime-du-Mont-Louis (Mont-Louis),\n                                  G0E 1T0                                ",
+    "tel": "418-797-5100",
+    "features": [
+      {
+        "id": 2,
+        "value": "Libre-service"
+      },
+      {
+        "id": 11,
+        "value": "Dépanneur"
+      }
+    ]
+  },
+  {
+    "id": 122,
+    "lat": 49.22923,
+    "lng": -65.727411,
+    "title": "Station service D.C.E.",
+    "addressLineOne": "85 av. 1ère est",
+    "addressLineTwo": "\n                                  Saint-Maxime-du-Mont-Louis,\n                                  G0E 1T0                                ",
+    "tel": "418-797-5350",
+    "features": [
+      {
+        "id": 1,
+        "value": "Avec service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 9,
+        "value": "Remplissage et /ou échange de bouteilles de propane"
+      },
+      {
+        "id": 12,
+        "value": "Atelier mécanique"
+      }
+    ]
+  },
+  {
+    "id": 214,
+    "lat": 48.110877,
+    "lng": -66.223626,
+    "title": "9058-0697 QUÉBEC INC - STATION-SERVICE CAISSY",
+    "addressLineOne": "117\trte 132 ouest, Carleton-sur-Mer",
+    "addressLineTwo": "\n                                  Carleton-sur-Mer,\n                                  G0C 2Z0                                ",
+    "tel": "418-364-3746",
+    "features": [
+      {
+        "id": 1,
+        "value": "Avec service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 12,
+        "value": "Atelier mécanique"
+      }
+    ]
+  },
+  {
+    "id": 147,
+    "lat": 49.2383008,
+    "lng": -65.3036963,
+    "title": "Garage Georges Patterson",
+    "addressLineOne": "201 rue Principale",
+    "addressLineTwo": "\n                                  Rivière-Madeleine (Sainte-Rivière-de-la-Madeleine),\n                                  G0E 2B0                                ",
+    "tel": "418-393-2414",
+    "features": [
+      {
+        "id": 1,
+        "value": "Avec service"
+      }
+    ]
+  },
+  {
+    "id": 218,
+    "lat": 48.173763,
+    "lng": -65.8222827,
+    "title": "DÉPANNEUR DE LA PETITE RIVIÈRE ENR",
+    "addressLineOne": "338\t chemin Saint-Edgar, New Richmond",
+    "addressLineTwo": "\n                                  New Richmond,\n                                  G0C 2B0                                ",
+    "tel": "418-392-6607",
+    "features": [
+      {
+        "id": 2,
+        "value": "Libre-service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 8,
+        "value": "Propane pour automobiles"
+      },
+      {
+        "id": 11,
+        "value": "Dépanneur"
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "lat": 48.096799,
+    "lng": -65.661099,
+    "title": "Dépanneur Pharillon 2000",
+    "addressLineOne": "131 boul. Perron (route 132) est",
+    "addressLineTwo": "\n                                  Nouvelle,\n                                  G0C 2E0                                ",
+    "tel": "418-794-2833",
+    "features": [
+      {
+        "id": 1,
+        "value": "Avec service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 9,
+        "value": "Remplissage et /ou échange de bouteilles de propane"
+      },
+      {
+        "id": 11,
+        "value": "Dépanneur"
+      }
+    ]
+  },
+  {
+    "id": 143,
+    "lat": 49.1933452,
+    "lng": -64.8911641,
+    "title": "Centre d'alignement L.M. Enr. ",
+    "addressLineOne": "300 route 132",
+    "addressLineTwo": "\n                                  Cloridorme (Petite-Anse),\n                                  G0E 1G0                                ",
+    "tel": "418-395-2950",
+    "features": [
+      {
+        "id": 1,
+        "value": "Avec service"
+      },
+      {
+        "id": 12,
+        "value": "Atelier mécanique"
+      }
+    ]
+  },
+  {
+    "id": 154,
+    "lat": 48.0721765,
+    "lng": -65.5762856,
+    "title": "Garage A. Poirier & Fils Inc. ",
+    "addressLineOne": "181 boul.  Perron (route 132) ouest",
+    "addressLineTwo": "\n                                  Saint-Siméon-de-Bonaventure (Saint-Siméon),\n                                  G0C 3A0                                 ",
+    "tel": "418-534-3438",
+    "features": [
+      {
+        "id": 2,
+        "value": "Libre-service"
+      },
+      {
+        "id": 11,
+        "value": "Dépanneur"
+      },
+      {
+        "value": "Lave-auto à la main"
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "lat": 48.0738321,
+    "lng": -65.1220043,
+    "title": "Garage Éric Grenier",
+    "addressLineOne": "36 rte 132",
+    "addressLineTwo": "\n                                  Saint-Godefroi,\n                                  G0C 3C0                                ",
+    "tel": "418-752-2350",
+    "features": [
+      {
+        "id": 1,
+        "value": "Avec service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 9,
+        "value": "Remplissage et /ou échange de bouteilles de propane"
+      },
+      {
+        "id": 12,
+        "value": "Atelier mécanique"
+      }
+    ]
+  },
+  {
+    "id": 146,
+    "lat": 48.8756093,
+    "lng": -64.556013,
+    "title": "Russell Station Service Inc. ",
+    "addressLineOne": "853 montée Pointe-Navare",
+    "addressLineTwo": "\n                                  Gaspé (Pointe-Navare),\n                                  G4X 1A7                                ",
+    "tel": "418-368-3562",
+    "features": [
+      {
+        "id": 2,
+        "value": "Libre-service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 8,
+        "value": "Propane pour automobiles"
+      },
+      {
+        "id": 10,
+        "value": "Mini Dépanneur"
+      },
+      {
+        "id": 12,
+        "value": "Atelier mécanique"
+      },
+      {
+        "id": 24,
+        "value": "Bornes de recharge rapide pour véhicules électriques"
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "lat": 48.8251412,
+    "lng": -64.5267668,
+    "title": "Dépanneur du Versant 2004",
+    "addressLineOne": "462 montée Wakeham",
+    "addressLineTwo": "\n                                  Gaspé,\n                                  G4X 1H9                                ",
+    "tel": "418-368-2544",
+    "features": [
+      {
+        "id": 2,
+        "value": "Libre-service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 11,
+        "value": "Dépanneur"
+      }
+    ]
+  },
+  {
+    "id": 215,
+    "lat": 49.006564,
+    "lng": -64.400598,
+    "title": "Dépanneur chez Marc",
+    "addressLineOne": "127\tboul. Renard ouest, Gaspé",
+    "addressLineTwo": "\n                                  Gaspé,\n                                  G4X 5B2                                ",
+    "tel": "418-269-3138",
+    "features": [
+      {
+        "id": 1,
+        "value": "Avec service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 9,
+        "value": "Remplissage et /ou échange de bouteilles de propane"
+      },
+      {
+        "id": 11,
+        "value": "Dépanneur"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "lat": 48.195251,
+    "lng": -64.856406,
+    "title": "Garage Brotherton S N C",
+    "addressLineOne": "10 rte 132 Est",
+    "addressLineTwo": "\n                                  Port-Daniel–Gascons,\n                                  G0C 2N0                                ",
+    "tel": "418-396-2860",
+    "features": [
+      {
+        "id": 1,
+        "value": "Avec service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 12,
+        "value": "Atelier mécanique"
+      }
+    ]
+  },
+  {
+    "id": 140,
+    "lat": 48.9400367,
+    "lng": -64.3336173,
+    "title": "Station service Forillon",
+    "addressLineOne": "547 boul. Anse-au-Griffon",
+    "addressLineTwo": "\n                                  Gaspé (Anse-au-Griffon),\n                                  G4X 6A5                                ",
+    "tel": "418-892-5543",
+    "features": [
+      {
+        "id": 1,
+        "value": "Avec service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 12,
+        "value": "Atelier mécanique"
+      },
+      {
+        "id": 21,
+        "value": "Remorquage"
+      }
+    ]
+  },
+  {
+    "id": 161,
+    "lat": 48.9403423,
+    "lng": -64.3066957,
+    "title": "Station service Forillon",
+    "addressLineOne": "547 boul.  de l'anse-au-Griffon",
+    "addressLineTwo": "\n                                  Gaspé,\n                                  G4X 6A5                                ",
+    "tel": "418-892-5543",
+    "features": [
+      {
+        "id": 1,
+        "value": "Avec service"
+      },
+      {
+        "id": 8,
+        "value": "Propane pour automobiles"
+      },
+      {
+        "id": 12,
+        "value": "Atelier mécanique"
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "lat": 48.395955,
+    "lng": -64.491938,
+    "title": "Dépanneur station 132 inc.",
+    "addressLineOne": "148 rte Grande Allée est",
+    "addressLineTwo": "\n                                  Grande-Rivière,\n                                  G0C 1V0                                ",
+    "tel": "418-385-3350",
+    "features": [
+      {
+        "id": 2,
+        "value": "Libre-service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 9,
+        "value": "Remplissage et /ou échange de bouteilles de propane"
+      },
+      {
+        "id": 11,
+        "value": "Dépanneur"
+      }
+    ]
+  },
+  {
+    "id": 158,
+    "lat": 48.4040801,
+    "lng": -64.4761178,
+    "title": "9108-1000 QUÉBEC INC - DÉPANNEUR CHEZ MARIO",
+    "addressLineOne": "323 route 132",
+    "addressLineTwo": "\n                                  Sainte-Thérèse-de-Gaspé,\n                                  G0C 3B0                                ",
+    "tel": "418-385-2130",
+    "features": [
+      {
+        "id": 1,
+        "value": "Avec service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 8,
+        "value": "Propane pour automobiles"
+      },
+      {
+        "id": 12,
+        "value": "Atelier mécanique"
+      },
+      {
+        "id": 21,
+        "value": "Remorquage"
+      }
+    ]
+  },
+  {
+    "id": 141,
+    "lat": 48.6177294,
+    "lng": -64.2783373,
+    "title": "Dépanneur FLK Collin & filles Inc ",
+    "addressLineOne": "1077 route 132 est",
+    "addressLineTwo": "\n                                  Gaspé (Barachois),\n                                  G0C 1A0                                ",
+    "tel": "418-645-3900",
+    "features": [
+      {
+        "id": 2,
+        "value": "Libre-service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 8,
+        "value": "Propane pour automobiles"
+      },
+      {
+        "id": 10,
+        "value": "Mini Dépanneur"
+      }
+    ]
+  },
+  {
+    "id": 111,
+    "lat": 47.4070304,
+    "lng": -61.8935038,
+    "title": "Fatima station service Inc.",
+    "addressLineOne": "634 0 Chemin des Caps",
+    "addressLineTwo": "\n                                  Fatima (Les Îles-de-la-Madeleine),\n                                  G4T 2T2                                ",
+    "tel": "418-986-5510",
+    "features": [
+      {
+        "id": 1,
+        "value": "Avec service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 12,
+        "value": "Atelier mécanique"
+      }
+    ]
+  },
+  {
+    "id": 186,
+    "lat": 47.3819025,
+    "lng": -61.8616492,
+    "title": "GESTIONS DAAR INC.",
+    "addressLineOne": "181 chemin Principal",
+    "addressLineTwo": "\n                                  Cap-aux-Meules,\n                                  G4T 1C4                                ",
+    "tel": "418-986-4433",
+    "features": [
+      {
+        "id": 2,
+        "value": "Libre-service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 5,
+        "value": "Super 94"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 11,
+        "value": "Dépanneur"
+      }
+    ]
+  },
+  {
+    "id": 108,
+    "lat": 47.399868,
+    "lng": -61.844237,
+    "title": "2972-1024 Québec inc./Garage R. Bourgeois enr.",
+    "addressLineOne": "183 rte 199",
+    "addressLineTwo": "\n                                  L'Île-du-Havre-Aubert (Les Îles-de-la-Madeleine),\n                                  G4T9 9B5                                ",
+    "tel": "418-937-2381",
+    "features": [
+      {
+        "id": 1,
+        "value": "Avec service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 12,
+        "value": "Atelier mécanique"
+      }
+    ]
+  },
+  {
+    "id": 115,
+    "lat": 47.2182523,
+    "lng": -61.9527476,
+    "title": "D.S.L. Auto Inc.",
+    "addressLineOne": "866 0 Chemin du Bassin",
+    "addressLineTwo": "\n                                  Bassin (Les Îles-de-la-Madeleine),\n                                  G4T 0C8                                ",
+    "tel": "418-937-5606",
+    "features": [
+      {
+        "id": 1,
+        "value": "Avec service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 12,
+        "value": "Atelier mécanique"
+      }
+    ]
+  },
+  {
+    "id": 109,
+    "lat": 47.6006027,
+    "lng": -61.5900108,
+    "title": "Fasrs J.R.",
+    "addressLineOne": "166 0 Route 199",
+    "addressLineTwo": "\n                                  Grosse-Ile (Les Îles-de-la-Madeleine),\n                                  G4T 6A8                                ",
+    "tel": "418-985-2454",
+    "features": [
+      {
+        "id": 1,
+        "value": "Avec service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 11,
+        "value": "Dépanneur"
+      }
+    ]
+  },
+  {
+    "id": 110,
+    "lat": 47.2344908,
+    "lng": -61.8453584,
+    "title": "Dépanneur chez Maguy",
+    "addressLineOne": "426 rte 199",
+    "addressLineTwo": "\n                                  Grande-Entrée (Les Îles-de-la-Madeleine),\n                                  G4T7 7A7                                ",
+    "tel": "418-985-2998",
+    "features": [
+      {
+        "id": 2,
+        "value": "Libre-service"
+      },
+      {
+        "id": 4,
+        "value": "Essence"
+      },
+      {
+        "id": 6,
+        "value": "Diésel"
+      },
+      {
+        "id": 11,
+        "value": "Dépanneur"
+      }
+    ]
+  }
+]

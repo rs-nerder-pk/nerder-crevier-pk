@@ -1,0 +1,94 @@
+[
+  {
+    "id": null,
+    "value": "Tout voir"
+  },
+  {
+    "id": 1,
+    "value": "Avec service"
+  },
+  {
+    "id": 2,
+    "value": "Libre-service"
+  },
+  {
+    "id": 6,
+    "value": "Diésel"
+  },
+  {
+    "id": 7,
+    "value": "Service de ravitaillement-camion"
+  },
+  {
+    "id": 10,
+    "value": "Mini Dépanneur"
+  },
+  {
+    "id": 11,
+    "value": "Dépanneur"
+  },
+  {
+    "id": 12,
+    "value": "Atelier mécanique"
+  },
+  {
+    "id": 13,
+    "value": "24 heures"
+  },
+  {
+    "id": 16,
+    "value": "Restaurant familial"
+  },
+  {
+    "id": 20,
+    "value": "Guichet automatique"
+  },
+  {
+    "id": 21,
+    "value": "Remorquage"
+  },
+  {
+    "id": 22,
+    "value": "Marina"
+  },
+  {
+    "id": 23,
+    "value": "Location d'autos"
+  },
+  {
+    "id": 24,
+    "value": "Bornes de recharge rapide pour véhicules électriques"
+  },
+  {
+    "id": 4,
+    "value": "Essence"
+  },
+  {
+    "id": 5,
+    "value": "Super 94"
+  },
+  {
+    "id": 8,
+    "value": "Propane pour automobiles"
+  },
+  {
+    "id": 9,
+    "value": "Remplissage et /ou échange de bouteilles de propane"
+  },
+  {
+    "id": 14,
+    "value": "à la main"
+  },
+  {
+    "id": 15,
+    "value": "automatique"
+  },
+  {
+    "id": 17,
+    "value": "Tim Hortons"
+  },
+  {
+    "id": 18,
+    "value": "McDonalds"
+  }
+]
