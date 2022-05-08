@@ -1,16 +1,39 @@
 import { GoogleMap, Marker, MarkerClusterer } from "@react-google-maps/api";
-import { useCallback, useEffect, useRef, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 
-const containerStyle = {
-  width: "100vw",
-  height: "600px",
+const optionsCluster = {
+  styles: [
+    {
+      textColor: "white",
+      url: "/images/map-icons/cluster.png",
+      width: 28,
+      height: 40,
+    },
+  ],
+};
+
+const options = {
+  mapId: "69aae12c6987a410",
+  streetViewControl: false,
+  mapTypeControl: false,
+  clickableIcons: false,
 };
 
 export default function StationMap({ center, stations }) {
   const map = useRef();
   const [locations, setLocations] = useState();
 
-  const onLoad = useCallback((map) => (map.current = map), []);
+  const onLoad = useCallback(
+    (map) => {
+      map.current = map;
+      const bounds = new google.maps.LatLngBounds();
+      stations.forEach((station) => {
+        bounds.extend({ lat: +station.lat, lng: +station.lng });
+      });
+      map.current.fitBounds(bounds);
+    },
+    [stations]
+  );
 
   useEffect(() => {
     setLocations(stations);
@@ -24,27 +47,29 @@ export default function StationMap({ center, stations }) {
       mapContainerClassName="min-h-[600px] w-full"
       center={center}
       zoom={4}
+      options={options}
       onLoad={onLoad}
     >
       {locations && (
-        <MarkerClusterer>
+        <MarkerClusterer options={optionsCluster}>
           {(clusterer) =>
             locations.map((location) => {
+              console.log(location.id);
               return (
                 <Marker
+                  icon={"/images/map-icons/pin.svg"}
                   key={location.id}
-                  onLoad={(marker) => {
-                    console.log(marker);
-                  }}
                   position={{ lat: +location.lat, lng: +location.lng }}
                   clusterer={clusterer}
+                  onClick={() => {
+                    console.log(location.id);
+                  }}
                 />
               );
             })
           }
         </MarkerClusterer>
       )}
-      <Marker position={{ lat: 58.0447, lng: -100 }} />
     </GoogleMap>
   );
 }
