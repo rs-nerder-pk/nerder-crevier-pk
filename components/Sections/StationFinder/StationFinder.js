@@ -1,5 +1,6 @@
 import React, { useMemo, useState } from "react";
 import stations from "@/data/stations-en.json";
+import filters from "@/data/filters-en.json";
 import StationMap from "./StationMap/StationMap";
 import StationFilters from "./StationFilters/StationFilters";
 import StationList from "./StationList/StationList";
@@ -22,24 +23,23 @@ export default function StationFinder() {
     <section>
       <StationMap stations={stations} center={center} />
       <div className="px-5 bg-blue pb-20 -mb-20">
-        <div className="container py-20 ">
+        <div className="container py-20 grid md:grid-cols- gap-8">
           <div>
             <h2 className="text-2xl font-black mb-8 leading-none">
               Find a<br /> Service Station
             </h2>
             <div className="flex items-end">
-              <span className="text-white uppercase  tracking-wide  md:text-xl leading-none mr-4">
+              <span className="text-white uppercase  tracking-wide   leading-none mr-4">
                 Crevier
               </span>
               <hr className="border-red border-t-4 w-full relative -top-1" />
             </div>
-            <div>
-              <StationFilters />
-            </div>
+          </div>
+          <div>
+            <StationFilters filters={filters} />
           </div>
         </div>
       </div>
-
       <StationList />
     </section>
   );

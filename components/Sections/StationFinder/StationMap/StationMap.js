@@ -44,7 +44,7 @@ export default function StationMap({ center, stations }) {
   return (
     <GoogleMap
       ref={map}
-      mapContainerClassName="min-h-[600px] w-full"
+      mapContainerClassName="min-h-[500px] w-full"
       center={center}
       zoom={4}
       options={options}
@@ -54,7 +54,6 @@ export default function StationMap({ center, stations }) {
         <MarkerClusterer options={optionsCluster}>
           {(clusterer) =>
             locations.map((location) => {
-              console.log(location.id);
               return (
                 <Marker
                   icon={"/images/map-icons/pin.svg"}
