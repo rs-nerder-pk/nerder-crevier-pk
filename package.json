@@ -9,10 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@reach/combobox": "^0.17.0",
     "@react-google-maps/api": "^2.10.2",
     "next": "12.1.5",
     "react": "18.0.0",
-    "react-dom": "18.0.0"
+    "react-dom": "18.0.0",
+    "use-places-autocomplete": "^3.0.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.4",

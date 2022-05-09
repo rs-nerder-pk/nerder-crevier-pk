@@ -19,20 +19,19 @@ const options = {
   clickableIcons: false,
 };
 
-export default function StationMap({ center, stations }) {
-  const map = useRef();
+export default function StationMap({ center, stations, mapRef }) {
   const [locations, setLocations] = useState();
 
   const onLoad = useCallback(
     (map) => {
-      map.current = map;
+      mapRef.current = map;
       const bounds = new google.maps.LatLngBounds();
       stations.forEach((station) => {
         bounds.extend({ lat: +station.lat, lng: +station.lng });
       });
-      map.current.fitBounds(bounds);
+      mapRef.current.fitBounds(bounds);
     },
-    [stations]
+    [stations, mapRef]
   );
 
   useEffect(() => {
@@ -43,7 +42,7 @@ export default function StationMap({ center, stations }) {
 
   return (
     <GoogleMap
-      ref={map}
+      ref={mapRef}
       mapContainerClassName="min-h-[500px] w-full"
       center={center}
       zoom={4}
