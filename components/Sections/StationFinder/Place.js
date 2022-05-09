@@ -37,7 +37,7 @@ export default function Place({ setUserPosition }) {
           setValue(e.target.value);
         }}
         className="w-full p-2"
-        placeholder="Search office address"
+        placeholder="Enter your address/city/postal-code"
       />
       <ComboboxPopover>
         <ComboboxList>
@@ -46,9 +46,7 @@ export default function Place({ setUserPosition }) {
               <ComboboxOption
                 key={place_id}
                 value={description}
-                className={`cursor-pointer p-2 ${
-                  i % 2 ? "bg-gray-100" : "bg-gray-200"
-                } `}
+                className={`cursor-pointer p-2 ${i % 2 ? "bg-gray-100" : "bg-gray-200"} `}
               />
             ))}
         </ComboboxList>
