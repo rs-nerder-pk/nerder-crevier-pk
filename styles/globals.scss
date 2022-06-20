@@ -15,10 +15,10 @@
     @apply font-black uppercase text-red tracking-wide;
   }
   h1 {
-    @apply text-4xl md:text-4xl lg:text-7xl;
+    @apply text-4xl md:text-4xl lg:text-6xl;
   }
   h2 {
-    @apply text-xl md:text-3xl lg:text-6xl;
+    @apply text-xl md:text-3xl lg:text-5xl;
   }
   h3 {
     @apply text-lg md:text-2xl lg:text-5xl;
@@ -44,7 +44,7 @@
   }
 }
 
-.something {
+.split-columns {
   --container-width: 640px;
   @media (min-width: 640px) {
     --container-width: 640px;
@@ -53,16 +53,73 @@
     --container-width: 768px;
   }
   @media (min-width: 1024px) {
-    --container-width: 1024px;
-  }
-  @media (min-width: 1280px) {
-    --container-width: 1280px;
-  }
-  @media (min-width: 1536px) {
-    --container-width: 1536px;
+    --container-width: 940px;
   }
 
   grid-template-columns:
-    auto calc(var(--container-width) * 0.3) calc(var(--container-width) * 0.7)
+    auto
+    calc(var(--container-width) * (3 / 10))
+    calc(var(--container-width) * (7 / 10))
     auto;
+}
+.split-columns-alt {
+  --container-width: 640px;
+  @media (min-width: 640px) {
+    --container-width: 640px;
+  }
+  @media (min-width: 768px) {
+    --container-width: 768px;
+  }
+  @media (min-width: 940px) {
+    --container-width: 940px;
+  }
+  grid-template-columns: 30% 70%;
+}
+
+@layer components {
+  .content {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      margin-bottom: 0.25em;
+    }
+
+    &--small {
+      h2 {
+        @apply text-2xl md:text-3xl;
+      }
+      h3 {
+        @apply text-xl md:text-2xl;
+      }
+      p {
+        @apply text-sm;
+      }
+    }
+    &--white {
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        @apply text-white;
+      }
+    }
+    &--blue {
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        @apply text-blue-500;
+      }
+      p {
+        @apply text-blue-500;
+      }
+    }
+  }
 }

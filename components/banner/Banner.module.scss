@@ -1,0 +1,10 @@
+.line {
+  @apply relative pr-2 inline-block;
+  &:after {
+    @apply bg-red-500 absolute  left-full  hidden md:block;
+    content: "";
+    width: 200px;
+    top: 0.05em;
+    height: 0.25em;
+  }
+}

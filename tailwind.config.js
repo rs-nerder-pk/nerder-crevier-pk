@@ -4,6 +4,16 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    screens: {
+      'sm': '640px',
+      // => @media (min-width: 640px) { ... }
+
+      'md': '768px',
+      // => @media (min-width: 768px) { ... }
+
+      'lg': '940px',
+      // => @media (min-width: 940px) { ... }
+    },
     listStyleType: {
       none: "none",
       square: "square",
@@ -11,13 +21,13 @@ module.exports = {
     extend: {
       colors: {
         blue: {
-          DEFAULT: "#213871",
+          DEFAULT: "#19285E",
           50: "#97ACE1",
           100: "#839CDB",
           200: "#5C7DCF",
           300: "#385FC0",
           400: "#2D4C98",
-          500: "#213871",
+          500: "#19285E",
           600: "#1B2E5D",
           700: "#15244A",
           800: "#101B36",
