@@ -3,6 +3,7 @@ import Banner from "../banner/Banner";
 import CallOuts from "../callouts/Callouts";
 import Cta from "../cta/Cta";
 import ImageWithText from "../imageWithText/ImageWithText";
+import StationFinder from "../stationFinder/StationFinder";
 import StationsCta from "../stationsCta/StationsCta";
 import Text from "../text/Text";
 
@@ -19,6 +20,8 @@ export default function Sections({ sections }) {
         return <Cta {...section} />;
       case "stationsCta":
         return <StationsCta {...section} />;
+      case "stationFinder":
+        return <StationFinder {...section} />;
       case "text":
         return <Text {...section} />;
       default:
