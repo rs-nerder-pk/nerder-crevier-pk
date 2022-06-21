@@ -1,4 +1,4 @@
-import Content from "../../../demo/content";
+import Content from "../../../demo/Content";
 
 export default function TextWithTwoCols(props) {
   return (

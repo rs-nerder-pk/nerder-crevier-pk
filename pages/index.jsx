@@ -16,56 +16,63 @@ export async function getStaticProps() {
   const sections = [
     {
       sys: {
-        id: "adfadfeu9u0",
+        id: Math.random(),
       },
       contentType: "banner",
       type: "",
     },
     {
       sys: {
-        id: "adasdfdfadfeu9u0",
+        id: Math.random(),
       },
       contentType: "imageWithText",
       type: "offsetImageLeftOnBlue",
     },
     {
       sys: {
-        id: "adfadfeu9u0",
+        id: Math.random(),
       },
       contentType: "stationsCta",
       type: "default",
     },
     {
       sys: {
-        id: "adfadfeu9u0",
+        id: Math.random(),
+      },
+      contentType: "imageWithText",
+      type: "boxedContentImageRight",
+    },
+    {
+      sys: {
+        id: Math.random(),
       },
       contentType: "text",
       type: "default",
     },
     {
       sys: {
-        id: "adfadfeu9u0",
+        id: Math.random(),
       },
       contentType: "text",
       type: "boxed-two-col",
     },
     {
       sys: {
-        id: "adfadfeu9u0",
+        id: Math.random(),
       },
       contentType: "callOuts",
       type: "bg-primary-padding-bottom",
     },
     {
       sys: {
-        id: "adfadfeu9u0",
+        id: Math.random(),
       },
       contentType: "callOuts",
       type: "inset-bg-white",
     },
     {
       sys: {
-        id: "adfadfeu9u0",
+        id: Math.random(),
       },
       contentType: "cta",
       type: "bg-offset-top",
@@ -73,28 +80,28 @@ export async function getStaticProps() {
 
     {
       sys: {
-        id: "adfadfeu9u0",
+        id: Math.random(),
       },
       contentType: "text",
       type: "boxed-two-col-with-list",
     },
     {
       sys: {
-        id: "adfadfeu9u0",
+        id: Math.random(),
       },
       contentType: "text",
       type: "boxed-two-col",
     },
     {
       sys: {
-        id: "adfadfeu9u0",
+        id: Math.random(),
       },
       contentType: "text",
       type: "default",
     },
     {
       sys: {
-        id: "adfadfeu9u0",
+        id: Math.random(),
       },
       contentType: "text",
       type: "with-two-cols",

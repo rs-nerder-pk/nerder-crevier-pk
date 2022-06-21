@@ -1,0 +1,7 @@
+.Switch {
+  @apply bg-blue relative px-2 py-1 text-white;
+  &:after {
+    @apply absolute h-full left-full w-[9999px] bg-blue top-0;
+    content: '';
+  }
+}

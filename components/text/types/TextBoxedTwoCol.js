@@ -1,4 +1,4 @@
-import Content from "../../../demo/content";
+import Content from "../../../demo/Content";
 import BoxedContent from "../../UI/containers/BoxedContent";
 
 export default function TextBoxedTwoCol(props) {

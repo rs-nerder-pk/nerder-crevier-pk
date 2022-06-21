@@ -1,6 +1,6 @@
 import BoxedContent from "@/components/UI/containers/BoxedContent";
 import { list } from "postcss";
-import Content from "../../../demo/content";
+import Content from "../../../demo/Content";
 
 import styles from "./Text.module.scss";
 

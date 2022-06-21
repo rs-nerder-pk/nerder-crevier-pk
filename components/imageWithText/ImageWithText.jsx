@@ -1,4 +1,7 @@
 import OffSetImageLeft from "@/components/UI/containers/OffSetImageLeft";
+import Content from "demo/Content";
+import Link from "next/link";
+import BoxedContent from "../UI/containers/BoxedContent";
 
 export default function ImageWithText({ type }) {
   switch (type) {
@@ -19,6 +22,26 @@ export default function ImageWithText({ type }) {
             </p>
           </div>
         </OffSetImageLeft>
+      );
+    case "boxedContentImageRight":
+      return (
+        <div className="relative my-12">
+          <BoxedContent>
+            <div className="grid grid-cols-10 gap-4 items-center">
+              <div className="col-span-6">
+                <Content />
+                <div>
+                  <Link href="/test">
+                    <a className="btn"></a>
+                  </Link>
+                </div>
+              </div>
+              <div className="col-span-4">
+                <div className="aspect-[16/9] bg-slate-300"></div>
+              </div>
+            </div>
+          </BoxedContent>
+        </div>
       );
     default:
       return <div>Text With Image</div>;

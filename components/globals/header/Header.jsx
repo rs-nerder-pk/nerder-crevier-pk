@@ -2,7 +2,7 @@ import Link from "next/link";
 import React from "react";
 import Logo from "../../logo/Logo";
 import MenuToggle from "../menus/Toggle";
-import LanguageSwitch from "../menus/languageSwitch/LanguageSwitch";
+import LanguageSwitch from "../menus/LanguageSwitch/LanguageSwitch";
 import MainMenu from "../menus/mainMenu/MainMenu";
 import TopMenu from "../menus/TopMenu";
 import SplitColumns from "../../UI/containers/SplitColumns";

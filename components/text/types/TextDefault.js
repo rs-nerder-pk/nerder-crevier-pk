@@ -1,5 +1,5 @@
 import React from "react";
-import Content from "../../../demo/content";
+import Content from "../../../demo/Content";
 
 export default function TextDefault() {
   return (
