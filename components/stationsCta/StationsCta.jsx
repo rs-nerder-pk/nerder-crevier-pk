@@ -1,5 +1,7 @@
 import React from "react";
 import OutlinedWhite from "../UI/containers/OutlinedWhite";
+import { ArrowRightIcon } from "@heroicons/react/solid";
+
 import Guage from "../UI/icons/Guage";
 
 export default function StationsCta() {
@@ -54,22 +56,12 @@ const FindASationForm = ({ label, placeholder }) => {
           id="location"
           placeholder={placeholder ?? "Enter your location"}
         />
-        <button type="submit" className="bg-red-500 text-white w-1/5">
+        <button
+          type="submit"
+          className="bg-red-500 text-white w-1/5 inline-flex justify-center items-center"
+        >
           <span className="sr-only">Submit</span>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            className="h-6 w-6"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-            strokeWidth={2}
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              d="M13 7l5 5m0 0l-5 5m5-5H6"
-            />
-          </svg>
+          <ArrowRightIcon className="w-6 h-6" />
         </button>
       </div>
     </form>

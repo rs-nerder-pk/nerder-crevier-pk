@@ -52,7 +52,7 @@
   @media (min-width: 768px) {
     --container-width: 768px;
   }
-  @media (min-width: 1024px) {
+  @media (min-width: 940px) {
     --container-width: 940px;
   }
 
@@ -119,6 +119,91 @@
       }
       p {
         @apply text-blue-500;
+      }
+    }
+  }
+
+  .btn {
+    @apply inline-flex items-center  font-bold uppercase;
+    .btn-text {
+      position: relative;
+      top: 0.1em;
+    }
+    .end-icon {
+      @apply ml-5;
+    }
+    .start-icon {
+    }
+    &--primary {
+      @apply bg-blue-500 hover:bg-blue-700 text-white;
+    }
+    &--secondary {
+      @apply bg-red-500 hover:bg-red-600 text-white;
+    }
+    &--tertiary {
+      @apply bg-gray-200 hover:bg-gray-300 text-gray-700;
+    }
+    &--text {
+      @apply bg-transparent hover:bg-transparent text-red-500;
+    }
+    &--xs {
+      @apply py-0 px-2 text-xs;
+      svg {
+        @apply w-5 h-5;
+      }
+      .start-icon {
+        @apply mr-1;
+      }
+      .end-icon {
+        @apply ml-1;
+      }
+    }
+    &--sm {
+      @apply py-1 px-4 text-sm;
+      svg {
+        @apply w-6 h-6;
+      }
+      .start-icon {
+        @apply mr-1;
+      }
+      .end-icon {
+        @apply ml-1;
+      }
+    }
+    &--md {
+      @apply py-2 px-4 text-base;
+      svg {
+        @apply w-6 h-7;
+      }
+      .start-icon {
+        @apply mr-2;
+      }
+      .end-icon {
+        @apply ml-2;
+      }
+    }
+    &--lg {
+      @apply py-4 px-5 text-lg;
+      svg {
+        @apply w-8 h-8;
+      }
+      .start-icon {
+        @apply mr-5;
+      }
+      .end-icon {
+        @apply ml-5;
+      }
+    }
+    &--xl {
+      @apply py-4 px-6 text-xl;
+      svg {
+        @apply w-10 h-10;
+      }
+      .start-icon {
+        @apply mr-5;
+      }
+      .end-icon {
+        @apply ml-5;
       }
     }
   }

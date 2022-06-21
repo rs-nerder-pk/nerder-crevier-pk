@@ -1,6 +1,7 @@
 import OffSetImageLeft from "@/components/UI/containers/OffSetImageLeft";
 import Content from "demo/Content";
-import Link from "next/link";
+import { ArrowRightIcon } from "@heroicons/react/solid";
+import Button from "../UI/Button";
 import BoxedContent from "../UI/containers/BoxedContent";
 
 export default function ImageWithText({ type }) {
@@ -30,10 +31,23 @@ export default function ImageWithText({ type }) {
             <div className="grid grid-cols-10 gap-4 items-center">
               <div className="col-span-6">
                 <Content />
-                <div>
-                  <Link href="/test">
-                    <a className="btn"></a>
-                  </Link>
+                <div className="buttons flex gap-4 flex-wrap mt-8">
+                  <Button
+                    href="/"
+                    variant="secondary"
+                    size="md"
+                    endIcon={<ArrowRightIcon />}
+                  >
+                    Learn More
+                  </Button>
+                  <Button
+                    href="/"
+                    variant="text"
+                    size="md"
+                    endIcon={<ArrowRightIcon />}
+                  >
+                    Learn More
+                  </Button>
                 </div>
               </div>
               <div className="col-span-4">
