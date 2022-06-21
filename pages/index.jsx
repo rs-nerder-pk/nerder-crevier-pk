@@ -2,14 +2,7 @@ import Sections from "../components/sections/Sections";
 
 export default function Home(props) {
   const { sections } = props;
-  return (
-    <main
-      className="bg-[length:0%] md:bg-[length:50%] bg-no-repeat bg-left-bottom"
-      style={{ backgroundImage: `url(/images/bg-page.jpeg)` }}
-    >
-      {sections && <Sections sections={sections} />}
-    </main>
-  );
+  return <main>{sections && <Sections sections={sections} />}</main>;
 }
 
 export async function getStaticProps() {
