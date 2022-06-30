@@ -22,11 +22,12 @@ export default function StationList({ stations, userPosition }) {
 
   return (
     <div className="px-4">
-      <div className="container bg-white p-8">
+      <div className="container mx-auto bg-white p-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
         {locations &&
           locations.map((location) => {
+            console.log({ location })
             return (
-              <div key={location.id}>
+              <div key={location.id} className="border-y-20 border-blue-500 py-4">
                 <h2>{location.id}</h2>
                 <div>{location.addressLineOne}</div>
               </div>

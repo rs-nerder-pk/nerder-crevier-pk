@@ -22,6 +22,9 @@ export default function Button({
     case "tertiary":
       variantClass = "btn--tertiary";
       break;
+    case "outline":
+      variantClass = "btn--outline";
+      break;
     case "text":
       variantClass = "btn--text";
       break;

@@ -26,8 +26,8 @@ export default function StationFinder() {
     <section>
       <StationMap stations={stations} center={center} mapRef={mapRef} />
       <div className="px-5 bg-blue pb-20 -mb-20">
-        <div className="container py-20 grid md:grid-cols- gap-8">
-          <div>
+        <div className="container py-20 grid md:grid-cols-10 gap-4 mx-auto">
+          <div className="col-span-4">
             <h2 className="text-2xl font-black mb-8 leading-none">
               Find a<br /> Service Station
             </h2>
@@ -46,12 +46,14 @@ export default function StationFinder() {
               />
             </div>
           </div>
-          <div>
+          <div className="col-span-5 col-start-6">
             <StationFilters filters={filters} />
           </div>
         </div>
       </div>
-      <StationList stations={stations} userPosition={userPosition} />
+      <div className="container mx-auto">
+        <StationList stations={stations} userPosition={userPosition} />
+      </div>
     </section>
   );
 }

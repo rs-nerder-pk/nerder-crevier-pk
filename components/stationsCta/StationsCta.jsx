@@ -2,7 +2,7 @@ import React from "react";
 import OutlinedWhite from "../UI/containers/OutlinedWhite";
 import { ArrowRightIcon } from "@heroicons/react/solid";
 
-import Guage from "../UI/icons/Guage";
+import Gauge from "../UI/icons/Gauge";
 
 export default function StationsCta() {
   return (
@@ -11,8 +11,8 @@ export default function StationsCta() {
         <div className="border-y-20 border-blue-500 py-12">
           <div className="grid gap-4 md:grid-cols-10">
             <div className=" md:col-span-3">
-              <div className="w-2/4 md:w-10/12 lg:mx-auto">
-                <Guage classnames="w-full" />
+              <div className="w-2/4 md:w-10/12 lg:mx-auto text-red-500">
+                <Gauge classnames="w-full" />
               </div>
             </div>
             <div className="md:col-span-7">
