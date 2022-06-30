@@ -26,7 +26,7 @@ export default function StationsCta() {
                     finder for all the amenities available near you.
                   </p>
                 </div>
-                <div className="lg:col-span-3 self-end">
+                <div className="col-span-7 mt-5 lg:mt-0 lg:col-span-3 self-end">
                   <div className="lg:w-10/12 mx-auto">
                     <FindASationForm label="Find a gas station" />
                   </div>

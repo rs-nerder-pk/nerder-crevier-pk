@@ -75,16 +75,6 @@ export const RichTextHeading = [
         marks: [],
         data: {},
       },
-      {
-        nodeType: "text",
-        value: "Lorem",
-        marks: [
-          {
-            type: "bold",
-          },
-        ],
-        data: {},
-      },
     ],
   },
 ];
