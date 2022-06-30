@@ -1,15 +1,13 @@
 .Heading {
   b {
-    @apply relative pr-2 inline-block;
-    &:before {
-      @apply bg-red-500 absolute  left-full  hidden md:block;
+    @apply relative pr-2 md:inline-flex w-full;
+    &:after {
+      @apply bg-red-500 hidden md:flex w-full h-4 flex-1 ml-1 mt-1;
       content: "";
-      width: 200px;
-      top: 0.05em;
-      height: 0.25em;
+      top: 0.1em;
     }
-    &::after {
-      content: "<br/>";
-    }
+    // &::after {
+    //   content: "<br/>";
+    // }
   }
 }

@@ -6,9 +6,9 @@ import Gauge from "../UI/icons/Gauge";
 
 export default function StationsCta() {
   return (
-    <section className="relative container mx-auto bg-white">
+    <section className="relative container mx-auto bg-white px-5">
       <OutlinedWhite>
-        <div className="border-y-20 border-blue-500 py-12">
+        <div className="border-y-20 border-blue-500 py-12 px-9">
           <div className="grid gap-4 md:grid-cols-10">
             <div className=" md:col-span-3">
               <div className="w-2/4 md:w-10/12 lg:mx-auto text-red-500">

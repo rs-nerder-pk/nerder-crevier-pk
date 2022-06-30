@@ -29,7 +29,7 @@ export default function ImageWithText({ type }) {
         <div className="relative my-12">
           <BoxedContent>
             <div className="grid grid-cols-10 gap-4 items-center">
-              <div className="col-span-6">
+              <div className="col-span-10 sm:col-span-6 order-2 md:order-1">
                 <Content />
                 <div className="buttons flex gap-4 flex-wrap mt-8">
                   <Button
@@ -50,7 +50,7 @@ export default function ImageWithText({ type }) {
                   </Button>
                 </div>
               </div>
-              <div className="col-span-4">
+              <div className="col-span-10 mb-7 md:mb-0 md:col-span-4 order-1 md:order-2">
                 <div className="aspect-[16/9] bg-slate-300"></div>
               </div>
             </div>

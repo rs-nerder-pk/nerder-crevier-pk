@@ -27,14 +27,12 @@ const mockData = {
       content: `
       <h2>About Us</h2>
       <p>
-      Crevier Group is a family business handed down from generation to generation.
-Founded by Émile Crevier in 1945, the company started in retail, selling heating oil and later supplying wholesale fuel and petroleum products to independent resellers in Montreal's West Island.
-In the mid-1980s, the second generation took up the reins, expanding its operations to supply independent gas station owners under the Crevier banner. The subsidiary Crevier Lubricants was established at this time, making Crevier one of Eastern Canada's largest independent oil companies.
-The lubricant division expanded in the 2000s, when Crevier became the main distributor of Chevron products for Eastern Canada. Crevier Lubricants later became a 1st Source Elite Chevron Marketer, which represents the highest level of performance and customer satisfaction.
-In 2012, to meet all its customers' energy needs, Crevier Group added aviation fuel to its “One Stop Shop” offer. The Group then continued its geographic expansion by starting its lubricant distribution activities in British Columbia under the name Catalys Lubricants, which allowed the company to establish itself from coast to coast.
-The third generation took the helm in 2014. With new energy and fresh perspectives, they have continued the Crevier tradition of pursuing excellence.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci aperiam vel sunt doloribus quasi incidunt veniam minus dolores voluptas culpa 
+      enim nihil harum asperiores vero, a excepturi quo voluptatibus. Natus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci aperiam 
+      vel sunt doloribus quasi incidunt veniam minus dolores voluptas culpa enim nihil harum asperiores vero, a excepturi quo voluptatibus. Natus?
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci aperiam vel sunt doloribus quasi incidunt veniam minus dolores voluptas culpa 
+      enim nihil harum asperiores vero, a excepturi quo voluptatibus. Natus?
       </p>
-
       `,
     },
   ],
