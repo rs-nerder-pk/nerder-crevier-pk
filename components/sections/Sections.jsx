@@ -11,7 +11,6 @@ export default function Sections({ sections }) {
   const getSectionComponent = (section) => {
     switch (section.contentType) {
       case "banner":
-        console.log("banner", section);
         return <Banner {...section} />;
       case "callOuts":
         return <CallOuts {...section} />;

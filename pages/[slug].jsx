@@ -127,7 +127,7 @@ const mockData = {
 };
 
 export default function SlugPage({ title, sections }) {
-  console.log(sections);
+  // console.log(sections);
   return <main>{sections && <Sections sections={sections} />}</main>;
 }
 

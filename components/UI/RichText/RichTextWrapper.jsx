@@ -1,7 +1,7 @@
 import React from "react";
 import RichText from "./RichText";
 export default function RichTextWrapper({ richTexts, className = "" }) {
-  console.log({ richTexts });
+  // console.log({ richTexts });
   return (
     <div className={"richText " + className}>
       {richTexts.map((richText, i) => {
