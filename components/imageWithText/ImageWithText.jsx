@@ -34,15 +34,17 @@ export default function ImageWithText({
         <div className="relative my-12" id={id}>
           <BoxedContent>
             <div className="grid grid-cols-10 gap-4 items-center">
-              <div className="col-span-10 sm:col-span-6 order-2 md:order-1">
-                <ReactMarkdown className="markdown">{content}</ReactMarkdown>
-                <div className="buttons flex gap-4 flex-wrap mt-8">
+              <div className="col-span-10 md:col-span-7 lg:col-span-6 order-2 md:order-1">
+                <ReactMarkdown className="markdown markdown--blueText">
+                  {content}
+                </ReactMarkdown>
+                <div className="buttons flex gap-4 mt-8">
                   {buttons.map((button, i) => {
                     return (
                       <Button
                         href={button.fields.path}
                         variant={button.fields.type}
-                        size="md"
+                        size="sm"
                         endIcon={<ArrowRightIcon />}
                         key={"button" + i}
                       >
@@ -52,7 +54,7 @@ export default function ImageWithText({
                   })}
                 </div>
               </div>
-              <div className="col-span-10 mb-7 md:mb-0 md:col-span-4 order-1 md:order-2">
+              <div className="col-span-10 mb-7 md:mb-0 md:col-span-3 lg:col-span-4 order-1 md:order-2 pl-6">
                 <Image
                   src={
                     image.file.url.indexOf("//") === 0

@@ -146,7 +146,7 @@
       @apply bg-transparent hover:bg-transparent text-red-500;
     }
     &--xs {
-      @apply py-0 px-2 text-xs;
+      @apply py-0 px-2 text-xs gap-2;
       svg {
         @apply w-5 h-5;
       }
@@ -158,7 +158,7 @@
       }
     }
     &--sm {
-      @apply py-1 px-4 text-sm;
+      @apply py-1 px-2 text-[13px] lg:text-sm gap-1;
 
       svg {
         @apply w-6 h-6;
@@ -214,5 +214,10 @@
   }
   a {
     @apply text-blue-400;
+  }
+  &--blueText {
+    p {
+      @apply text-blue;
+    }
   }
 }
