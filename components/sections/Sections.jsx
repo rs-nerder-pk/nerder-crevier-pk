@@ -1,4 +1,4 @@
-import { Fragment } from "react";
+import { Fragment, useEffect } from "react";
 import Banner from "../banner/Banner";
 import CallOuts from "../callouts/Callouts";
 import Cta from "../cta/Cta";
@@ -28,12 +28,16 @@ export default function Sections({ sections }) {
       // case "callOuts":
       //   return <CallOuts {...section} />;
       case "textWithImage":
+        const id = section.fields?.textWithPath?.fields?.text
+          ? section.fields.textWithPath.fields.text
+          : "";
         return (
           <ImageWithText
             type={section.fields.type}
             content={section.fields.text}
             image={section.fields.image?.fields}
             buttons={section.fields.links}
+            id={id}
           />
         );
       // case "cta":

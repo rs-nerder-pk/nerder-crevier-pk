@@ -6,6 +6,7 @@ import ReactMarkdown from "react-markdown";
 import Image from "next/image";
 
 export default function ImageWithText({
+  id = "",
   type,
   content = [],
   buttons = [],
@@ -15,7 +16,6 @@ export default function ImageWithText({
     details: { image: { width: 315, height: 175 } },
   },
 }) {
-  console.log(image);
   switch (type) {
     case "offsetImageLeftOnBlue":
       return (
@@ -31,7 +31,7 @@ export default function ImageWithText({
       );
     case "boxedContentImageRight":
       return (
-        <div className="relative my-12">
+        <div className="relative my-12" id={id}>
           <BoxedContent>
             <div className="grid grid-cols-10 gap-4 items-center">
               <div className="col-span-10 sm:col-span-6 order-2 md:order-1">
