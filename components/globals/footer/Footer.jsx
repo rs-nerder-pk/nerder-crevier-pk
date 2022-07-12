@@ -16,17 +16,19 @@ export default function Footer() {
             </div>
             <nav className="flex justify-start">
               <ul className="grid grid-flow-col divide-x">
-                <Link
+                <a
                   href={
                     router.locale === "en-US"
-                      ? "/terms-and-conditions"
-                      : "/conditions-dutilisation"
+                      ? "https://www.parkland.ca/en/terms-use "
+                      : "https://www.parkland.ca/fr/conditions-dutilisation"
                   }
+                  target="_blank"
+                  rel="noreferrer"
                 >
                   {router.locale === "en-US"
                     ? "Terms of Use"
                     : "Conditions d’utilisation"}
-                </Link>
+                </a>
               </ul>
             </nav>
           </div>
