@@ -9,8 +9,10 @@ import {
   ComboboxList,
   ComboboxOption,
 } from "@reach/combobox";
+import { useRouter } from "next/router";
 
 export default function Place({ setUserPosition }) {
+  const router = useRouter();
   const {
     ready,
     value,
@@ -36,7 +38,11 @@ export default function Place({ setUserPosition }) {
           setValue(e.target.value);
         }}
         className="w-full p-2"
-        placeholder="Enter your address/city/postal-code"
+        placeholder={
+          router.locale === "en-US"
+            ? "By city or postal code"
+            : "Par ville ou code postal"
+        }
       />
       <ComboboxPopover>
         <ComboboxList>
@@ -45,7 +51,9 @@ export default function Place({ setUserPosition }) {
               <ComboboxOption
                 key={place_id}
                 value={description}
-                className={`cursor-pointer p-2 ${i % 2 ? "bg-gray-100" : "bg-gray-200"} `}
+                className={`cursor-pointer p-2 ${
+                  i % 2 ? "bg-gray-100" : "bg-gray-200"
+                } `}
               />
             ))}
         </ComboboxList>

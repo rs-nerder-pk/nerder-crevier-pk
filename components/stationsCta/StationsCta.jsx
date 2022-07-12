@@ -1,10 +1,13 @@
-import React from "react";
+import React, { useContext, useRef } from "react";
 import OutlinedWhite from "../UI/containers/OutlinedWhite";
 import { ArrowRightIcon } from "@heroicons/react/solid";
-
+import RichTextWrapper from "@/components/UI/RichText/RichTextWrapper";
 import Gauge from "../UI/icons/Gauge";
+import { useRouter } from "next/router";
+import { LocationContext } from "context/locationContext";
 
-export default function StationsCta() {
+export default function StationsCta({ content }) {
+  const router = useRouter();
   return (
     <section className="relative container mx-auto bg-white px-5">
       <OutlinedWhite>
@@ -18,17 +21,22 @@ export default function StationsCta() {
             <div className="md:col-span-7">
               <div className="grid lg:grid-cols-7">
                 <div className="col-span-4 content content--small content--blue">
-                  <h2>SERVICE STATIONS</h2>
-                  <p>
-                    With our extensive network of 170 gas stations, Crevier
-                    offers great amenities, including car wash facilities,
-                    convenience stores and restaurants. Check our gas station
-                    finder for all the amenities available near you.
-                  </p>
+                  <RichTextWrapper richTexts={content} />
                 </div>
                 <div className="col-span-7 mt-5 lg:mt-0 lg:col-span-3 self-end">
                   <div className="lg:w-10/12 mx-auto">
-                    <FindASationForm label="Find a gas station" />
+                    <FindASationForm
+                      label={
+                        router.locale === "en-US"
+                          ? "Find a gas station"
+                          : "Trouver une station-service"
+                      }
+                      placeholder={
+                        router.locale === "en-US"
+                          ? "Your postal code"
+                          : "Votre code postal"
+                      }
+                    />
                   </div>
                 </div>
               </div>
@@ -41,8 +49,15 @@ export default function StationsCta() {
 }
 
 const FindASationForm = ({ label, placeholder }) => {
+  const locationInput = useRef(null);
+  const [_, setLocation] = useContext(LocationContext);
+  const router = useRouter();
   const handleSubmit = (event) => {
     event.preventDefault();
+    setLocation(locationInput.current.value);
+    const href =
+      router.locale === "en-US" ? "/service-stations" : "/stations-service";
+    router.push(href);
   };
   return (
     <form onSubmit={handleSubmit}>
@@ -54,7 +69,8 @@ const FindASationForm = ({ label, placeholder }) => {
           className="w-4/5 border-red-500 border-2 p-2 text-sm text-red-500"
           type="text"
           id="location"
-          placeholder={placeholder ?? "Enter your location"}
+          placeholder={placeholder}
+          ref={locationInput}
         />
         <button
           type="submit"

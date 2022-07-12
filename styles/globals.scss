@@ -21,7 +21,7 @@
     @apply text-xl md:text-3xl lg:text-5xl;
   }
   h3 {
-    @apply text-lg md:text-2xl lg:text-5xl;
+    @apply text-lg md:text-2xl lg:text-[2.5rem];
   }
   h4 {
     @apply text-base md:text-xl lg:text-4xl;
@@ -200,5 +200,19 @@
         @apply ml-5;
       }
     }
+  }
+}
+.richText,
+.markdown {
+  p {
+    @apply mt-4;
+  }
+  p + h1,
+  p + h2,
+  p + h3 {
+    @apply mt-6;
+  }
+  a {
+    @apply text-blue-400;
   }
 }

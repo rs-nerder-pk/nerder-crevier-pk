@@ -1,0 +1,11 @@
+{
+  "html.format.wrapLineLength": 0,
+  "files.associations": {
+    "*.js": "javascriptreact"
+  },
+  "prettier.printWidth": 120,
+  "prettier.semi": true,
+  "prettier.bracketSameLine": true,
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true
+}

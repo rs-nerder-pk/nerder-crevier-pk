@@ -6,7 +6,7 @@ export default function SamplePage() {
       sys: {
         id: Math.random(),
       },
-      contentType: "banner",
+      contentType: "banner-d",
       type: "",
     },
     {

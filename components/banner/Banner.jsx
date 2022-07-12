@@ -1,7 +1,6 @@
 import Overlapped from "@/components/UI/containers/OverLappedImageRight";
 import Image from "next/image";
 import styles from "./Banner.module.scss";
-import { RichTextHeading } from "demo/RichText";
 import RichTextWrapper from "../UI/RichText/RichTextWrapper";
 
 export default function Banner({ content, image }) {
@@ -11,11 +10,15 @@ export default function Banner({ content, image }) {
         content={<Content content={content} />}
         image={
           <Image
-            src={image?.url ? image?.url : "/images/banner-home.jpeg"}
+            src={
+              image.file.url.indexOf("//") === 0
+                ? "https:" + image.file.url
+                : image.file.url
+            }
             layout="fill"
             objectFit="cover"
             objectPosition="center"
-            alt="bg"
+            alt={image.description}
           />
         }
       />
@@ -29,10 +32,7 @@ const Content = ({ content }) => {
       <div className="col-span-5">
         <div className="border-y-50 border-blue-500 py-8 overflow-hidden">
           <div className={styles.Heading}>
-            {/*TODO: replace with Markdown or RichText compontent when adding Contentful Data */}
-            {/* <h1>TODO</h1> */}
-            <RichTextWrapper richTexts={RichTextHeading} />
-            {/* <div dangerouslySetInnerHTML={{ __html: content }} /> */}
+            <RichTextWrapper richTexts={content} />
           </div>
         </div>
       </div>
