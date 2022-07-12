@@ -55,8 +55,7 @@ const FindASationForm = ({ label, placeholder }) => {
   const handleSubmit = (event) => {
     event.preventDefault();
     setLocation(locationInput.current.value);
-    const href =
-      router.locale === "en-US" ? "/service-stations" : "/stations-service";
+    const href = "/stations";
     router.push(href);
   };
   return (
