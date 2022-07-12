@@ -11,15 +11,17 @@ export default function Header({ header }) {
   const topLinks = [];
   const mainLinks = [];
   const findStation = [];
-  header.forEach((headerLink) => {
-    if (headerLink.fields.type === "topItem") {
-      topLinks.push(headerLink.fields);
-    } else if (headerLink.fields.type === "mainItem") {
-      mainLinks.push(headerLink.fields);
-    } else if (headerLink.fields.type === "findStation") {
-      findStation.push(headerLink.fields);
-    }
-  });
+  if (header) {
+    header.forEach((headerLink) => {
+      if (headerLink.fields.type === "topItem") {
+        topLinks.push(headerLink.fields);
+      } else if (headerLink.fields.type === "mainItem") {
+        mainLinks.push(headerLink.fields);
+      } else if (headerLink.fields.type === "findStation") {
+        findStation.push(headerLink.fields);
+      }
+    });
+  }
   return (
     <header className="pt-[1.85em] md:pt-8 px-4 ">
       <SplitColumns

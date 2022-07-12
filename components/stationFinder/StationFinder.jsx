@@ -21,9 +21,11 @@ export default function StationFinder() {
   });
 
   if (loadError) {
+    //TODO: fr
     return <div>Sorry, section is having issues</div>;
   }
 
+  //TODO: fr
   if (!isLoaded) return <div className="">Loading...</div>;
   return (
     <section>

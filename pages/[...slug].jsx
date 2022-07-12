@@ -182,11 +182,13 @@ export async function getStaticProps({ locale, params }) {
     contentfulLocale
   );
   const sections = entry?.fields?.sections ? entry.fields.sections : [];
+
   const headerID = "33TDxOkFtBYk2hxtOMzhis";
   const headerEntry = await getEntryById(headerID, contentfulLocale);
   const header = headerEntry?.fields?.textWithPaths
     ? headerEntry.fields.textWithPaths
     : [];
+
   const footerID = "33TDxOkFtBYk2hxtOMzhis";
   const footerEntry = await getEntryById(footerID, contentfulLocale);
   const footer = footerEntry?.fields?.textWithPaths
