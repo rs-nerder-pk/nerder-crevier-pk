@@ -12,8 +12,10 @@ export default function ImageWithText({
   image = {
     file: { url: "/images/home-jobs.jpeg" },
     description: "jobs image",
+    details: { image: { width: 315, height: 175 } },
   },
 }) {
+  console.log(image);
   switch (type) {
     case "offsetImageLeftOnBlue":
       return (
@@ -58,8 +60,8 @@ export default function ImageWithText({
                       : image.file.url
                   }
                   layout="responsive"
-                  width={312}
-                  height={175}
+                  width={image.file.details.image.width}
+                  height={image.file.details.image.height}
                   alt={image.description}
                 />
               </div>
