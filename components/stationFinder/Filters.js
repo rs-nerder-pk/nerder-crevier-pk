@@ -30,7 +30,7 @@ export default function StationFilters({ filters }) {
       case "Towing":
         return "Remorquage";
       case "Marina":
-        return "marina";
+        return "Marina";
       case "Car Rental":
         return "Location de voiture";
       case "Fast-charge stations for electric vehicles":
