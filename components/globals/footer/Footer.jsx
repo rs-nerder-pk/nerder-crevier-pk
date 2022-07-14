@@ -33,10 +33,10 @@ export default function Footer() {
             </nav>
           </div>
           <div className="flex flex-col items-center md:items-end gap-2">
-            <div>
+            {/* <div>
               {router.locale === "en-US" ? "Follow us on" : "Suivez-nous sur"}
-            </div>
-            <nav className="flex justify-start">
+            </div> */}
+            {/* <nav className="flex justify-start">
               <ul className="grid grid-flow-col gap-4">
                 <a href="https://www.facebook.com/GroupeCrevier/">
                   <li className="">
@@ -65,7 +65,7 @@ export default function Footer() {
                   </a>
                 </li>
               </ul>
-            </nav>
+            </nav> */}
           </div>
         </div>
       </div>
