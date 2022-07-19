@@ -1,10 +1,12 @@
-import React, { useContext, useRef } from "react";
+import React, { useContext, useRef, useMemo } from "react";
 import OutlinedWhite from "../UI/containers/OutlinedWhite";
 import { ArrowRightIcon } from "@heroicons/react/solid";
 import RichTextWrapper from "@/components/UI/RichText/RichTextWrapper";
 import Gauge from "../UI/icons/Gauge";
 import { useRouter } from "next/router";
 import { LocationContext } from "context/locationContext";
+import { useLoadScript } from "@react-google-maps/api";
+import Place from "../stationFinder/Place";
 
 export default function StationsCta({ content }) {
   const router = useRouter();
@@ -50,11 +52,16 @@ export default function StationsCta({ content }) {
 
 const FindASationForm = ({ label, placeholder }) => {
   const locationInput = useRef(null);
-  const [_, setLocation] = useContext(LocationContext);
+  const [location, setLocation] = useContext(LocationContext);
   const router = useRouter();
+  const libraries = useMemo(() => ["places"], []);
+  const { isLoaded, loadError } = useLoadScript({
+    googleMapsApiKey: process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY ?? "",
+    libraries: libraries,
+  });
   const handleSubmit = (event) => {
+    console.log(event);
     event.preventDefault();
-    setLocation(locationInput.current.value);
     const href = "/stations";
     router.push(href);
   };
@@ -63,7 +70,7 @@ const FindASationForm = ({ label, placeholder }) => {
       <label htmlFor="location" className="text-red-500 font-bold text-lg ">
         {label && label}
       </label>
-      <div className="flex mt-4">
+      {/* <div className="flex mt-4">
         <input
           className="w-4/5 border-red-500 border-2 p-2 text-sm text-red-500"
           type="text"
@@ -78,6 +85,27 @@ const FindASationForm = ({ label, placeholder }) => {
           <span className="sr-only">Submit</span>
           <ArrowRightIcon className="w-6 h-6" />
         </button>
+      </div> */}
+      <div className="flex flex-row">
+        {isLoaded && (
+          <Place
+            comboClassName="min-w-[206px]"
+            className="border-red-500 border-2 p-2 text-sm text-red-500"
+            setUserPosition={(position) => {
+              setLocation(position);
+            }}
+            placeholder={location && location.address ? location.address : ""}
+            submitButton={
+              <button
+                type="submit"
+                className="bg-red-500 text-white w-1/5 inline-flex justify-center items-center mb-4"
+              >
+                <span className="sr-only">Submit</span>
+                <ArrowRightIcon className="w-6 h-6" />
+              </button>
+            }
+          />
+        )}
       </div>
     </form>
   );

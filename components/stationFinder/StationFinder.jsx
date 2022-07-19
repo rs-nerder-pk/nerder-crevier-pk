@@ -1,4 +1,4 @@
-import React, { useMemo, useState, useRef } from "react";
+import React, { useMemo, useRef, useContext, useEffect } from "react";
 import stations from "@/data/stations-en.json";
 import filters from "@/data/filters-en.json";
 import StationMap from "./Map";
@@ -6,12 +6,20 @@ import StationFilters from "./Filters";
 import StationList from "./List";
 import { useLoadScript } from "@react-google-maps/api";
 import Place from "./Place";
+import { LocationContext } from "context/locationContext";
 import { useRouter } from "next/router";
 
 export default function StationFinder() {
   const router = useRouter();
-  const center = useMemo(() => ({ lat: 58.0447, lng: -100 }), []);
-  const [userPosition, setUserPosition] = useState();
+  const [location, setLocation] = useContext(LocationContext);
+  const center = useMemo(
+    () =>
+      location && location.lat && location.lng
+        ? { lat: location.lat, lng: location.lng }
+        : { lat: 58.0447, lng: -100 },
+    [location]
+  );
+  // const [userPosition, setUserPosition] = useState();
 
   const mapRef = useRef();
   const libraries = useMemo(() => ["places"], []);
@@ -19,6 +27,15 @@ export default function StationFinder() {
     googleMapsApiKey: process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY ?? "",
     libraries: libraries,
   });
+
+  useEffect(() => {
+    if (mapRef.current) {
+      mapRef.current.panTo({
+        lat: location.lat,
+        lng: location.lng,
+      });
+    }
+  }, [location, mapRef]);
 
   if (loadError) {
     //TODO: fr
@@ -29,7 +46,12 @@ export default function StationFinder() {
   if (!isLoaded) return <div className="">Loading...</div>;
   return (
     <section>
-      <StationMap stations={stations} center={center} mapRef={mapRef} />
+      <StationMap
+        stations={stations}
+        center={location ? location : center}
+        mapRef={mapRef}
+        home={location ? { lat: +location.lat, lng: +location.lng } : false}
+      />
       <div className="px-5 bg-blue pb-20 -mb-20">
         <div className="container py-20 grid grid-cols-10 gap-4 mx-auto">
           <div className="col-span-10 md:col-span-4">
@@ -58,9 +80,15 @@ export default function StationFinder() {
             <div>
               <Place
                 setUserPosition={(position) => {
-                  setUserPosition(position);
-                  mapRef.current?.panTo(position);
+                  setLocation(position);
+                  mapRef.current?.panTo({
+                    lat: position.lat,
+                    lng: position.lng,
+                  });
                 }}
+                placeholder={
+                  location && location.address ? location.address : ""
+                }
               />
             </div>
           </div>
@@ -70,7 +98,7 @@ export default function StationFinder() {
         </div>
       </div>
       <div className="container mx-auto">
-        <StationList stations={stations} userPosition={userPosition} />
+        <StationList stations={stations} userPosition={location} />
       </div>
     </section>
   );
