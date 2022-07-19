@@ -1,4 +1,4 @@
-import React, { useMemo, useRef, useContext, useEffect } from "react";
+import React, { useMemo, useRef, useContext, useEffect, useState } from "react";
 import stations from "@/data/stations-en.json";
 import filters from "@/data/filters-en.json";
 import StationMap from "./Map";
