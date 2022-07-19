@@ -1,4 +1,4 @@
-import { Fragment } from "react";
+import { Fragment, useEffect } from "react";
 import Banner from "../banner/Banner";
 import CallOuts from "../callouts/Callouts";
 import Cta from "../cta/Cta";
@@ -9,24 +9,65 @@ import Text from "../text/Text";
 
 export default function Sections({ sections }) {
   const getSectionComponent = (section) => {
-    switch (section.contentType) {
-      case "banner":
-        console.log("banner", section);
-        return <Banner {...section} />;
-      case "callOuts":
-        return <CallOuts {...section} />;
-      case "imageWithText":
-        return <ImageWithText {...section} />;
-      case "cta":
-        return <Cta {...section} />;
-      case "stationsCta":
-        return <StationsCta {...section} />;
-      case "stationFinder":
-        return <StationFinder {...section} />;
-      case "text":
-        return <Text {...section} />;
+    const contentType = section?.sys?.contentType?.sys?.id;
+    switch (contentType) {
+      case "blockPageBanner":
+        const image = section.fields.background
+          ? section.fields.background.fields
+          : {
+              file: { url: "/images/banner-home.jpeg" },
+              description: "Banner Background",
+            };
+        return (
+          <Banner
+            {...section}
+            content={section.fields.bannerTitle.content}
+            image={image}
+          />
+        );
+      // case "callOuts":
+      //   return <CallOuts {...section} />;
+      case "textWithImage":
+        const id = section.fields?.textWithPath?.fields?.text
+          ? section.fields.textWithPath.fields.text
+          : "";
+        return (
+          <ImageWithText
+            type={section.fields.type}
+            content={section.fields.text}
+            image={section.fields.image?.fields}
+            buttons={section.fields.links}
+            id={id}
+          />
+        );
+      // case "cta":
+      //   return <Cta {...section} />;
+      case "blockTextWithButton":
+        if (section.fields.type === "stationsCta") {
+          return <StationsCta content={section.fields.text?.content} />;
+        }
+        break;
+      case "blockFullImage":
+        if (section.fields.type === "stationFinder") {
+          return <StationFinder {...section} />;
+        }
+        break;
+      case "testWithLink":
+        return (
+          <Text
+            type={section.fields.type}
+            content={section.fields.text.content}
+          />
+        );
       default:
-        return JSON.stringify(section, null, 2);
+        return (
+          // <pre>
+          //   {section.contentType}
+          //   <br></br>
+          //   {JSON.stringify(section, null, 2)}
+          // </pre>
+          <></>
+        );
     }
   };
   return sections.map((section, i) => {

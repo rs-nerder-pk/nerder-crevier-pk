@@ -1,15 +1,15 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
-  // async redirects() {
-  //   return [
-  //     {
-  //       source: '/redirect',
-  //       destination: '/gift-cards#something',
-  //       permanent: true,
-  //     },
-  //   ]
-  // },
-}
+  reactStrictMode: false,
+  // basePath: '/ca',
+  i18n: {
+    locales: ["en-US", "fr-CA"],
+    localeDetection: false,
+    defaultLocale: "en-US",
+  },
+  images: {
+    domains: ["images.ctfassets.net"],
+  },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;

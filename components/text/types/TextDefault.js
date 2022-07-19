@@ -8,7 +8,7 @@ export default function TextDefault({ content }) {
     <section className="px-4 py-8 md:py-14 lg:py-20 relative ">
       <div className="grid md:grid-cols-10 container mx-auto ">
         <div className="md:col-start-4 md:col-span-7 ">
-          <RichTextWrapper richTexts={RichTextObject} />
+          <RichTextWrapper richTexts={content} />
         </div>
       </div>
     </section>

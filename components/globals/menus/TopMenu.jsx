@@ -1,18 +1,16 @@
 import Link from "next/link";
 import styles from "./TopMenu.module.scss";
-export default function TopMenu() {
+export default function TopMenu({ links }) {
   return (
     <nav>
       <ul className="flex text-blue gap-4">
-        <li className={styles.Link}>
-          <Link href="/about-us">About Us</Link>
-        </li>
-        <li className={styles.Link}>
-          <Link href="/careers">Careers</Link>
-        </li>
-        <li className={styles.Link}>
-          <Link href="/contact-us">Contact Us</Link>
-        </li>
+        {links.map((link, i) => {
+          return (
+            <li className={styles.Link} key={"topLink" + i}>
+              <Link href={link.path}>{link.text}</Link>
+            </li>
+          );
+        })}
       </ul>
     </nav>
   );

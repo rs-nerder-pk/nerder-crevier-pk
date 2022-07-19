@@ -1,6 +1,13 @@
 import Sections from "@/components/sections/Sections";
 import { useRouter } from "next/router";
-import React from "react";
+import React, { useContext, useEffect } from "react";
+import {
+  fetchEntries,
+  fetchEntryBySlug,
+  fetchOppositeEntrySlug,
+  getEntryById,
+} from "utils/contentful";
+import { OppositeSlugContext } from "context/oppositeSlugContext";
 
 const mockData = {
   "about-us": [
@@ -126,33 +133,75 @@ const mockData = {
   ],
 };
 
-export default function SlugPage({ title, sections }) {
-  console.log(sections);
+export default function SlugPage({ sections, contentBlocks, oppositeSlug }) {
+  const [_, setOppositeSlug] = useContext(OppositeSlugContext);
+  useEffect(() => {
+    setOppositeSlug(oppositeSlug);
+  }, [oppositeSlug, setOppositeSlug]);
   return <main>{sections && <Sections sections={sections} />}</main>;
 }
 
 export async function getStaticPaths() {
-  const paths = [
-    { params: { slug: "about-us" } },
-    { params: { slug: "careers" } },
-    { params: { slug: "contact-us" } },
-    { params: { slug: "fleet-cards" } },
-    { params: { slug: "gift-cards" } },
-    { params: { slug: "stations" } },
-    { params: { slug: "redirect" } },
-  ];
+  // const paths = [
+  //   { params: { slug: "about-us" } },
+  //   { params: { slug: "careers" } },
+  //   { params: { slug: "contact-us" } },
+  //   { params: { slug: "fleet-cards" } },
+  //   { params: { slug: "gift-cards" } },
+  //   { params: { slug: "stations" } },
+  //   { params: { slug: "redirect" } },
+  // ];
+  const paths = [];
+  const locales = ["en-US", "fr-CA"];
+  for (const i in locales) {
+    const localeEntries = await fetchEntries(locales[i]);
+    localeEntries
+      .filter((page) => {
+        return page.fields.slug && page.fields.slug !== "/";
+      })
+      .forEach((entry) => {
+        const localeSlugs = entry.fields.slug.slice(1).split("/");
+        paths.push({ params: { slug: localeSlugs }, locale: locales[i] });
+      });
+  }
   return {
     paths,
     fallback: false, // false or 'blocking'
   };
 }
 
-export async function getStaticProps({ params }) {
-  const slug = params.slug;
+export async function getStaticProps({ locale, params }) {
+  const {
+    slug: [pageSlug],
+  } = params;
+  // const slug = params.slug;
+  const contentfulLocale = locale === "en-US" ? "en-US" : "fr-CA";
+  const entry = await fetchEntryBySlug("/" + pageSlug, contentfulLocale);
+  const oppositeSlug = await fetchOppositeEntrySlug(
+    entry.sys.id,
+    contentfulLocale
+  );
+  const sections = entry?.fields?.sections ? entry.fields.sections : [];
+
+  const headerID = "33TDxOkFtBYk2hxtOMzhis";
+  const headerEntry = await getEntryById(headerID, contentfulLocale);
+  const header = headerEntry?.fields?.textWithPaths
+    ? headerEntry.fields.textWithPaths
+    : [];
+
+  const footerID = "33TDxOkFtBYk2hxtOMzhis";
+  const footerEntry = await getEntryById(footerID, contentfulLocale);
+  const footer = footerEntry?.fields?.textWithPaths
+    ? footerEntry.fields.textWithPaths
+    : [];
+  const seo = {};
   return {
     props: {
-      title: slug,
-      sections: mockData[slug],
+      seo,
+      sections,
+      oppositeSlug,
+      header,
+      footer,
     },
   };
 }

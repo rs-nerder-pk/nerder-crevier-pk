@@ -1,6 +1,6 @@
 .Heading {
   b {
-    @apply relative pr-2 md:inline-flex w-full;
+    @apply relative pr-0 md:pr-2 md:inline-flex w-full;
     &:after {
       @apply bg-red-500 hidden md:flex w-full h-4 flex-1 ml-1 mt-1;
       content: "";

@@ -3,7 +3,7 @@ import Link from "next/link";
 import React from "react";
 
 export default function Button({
-  href,
+  href = "/",
   variant,
   size,
   startIcon,

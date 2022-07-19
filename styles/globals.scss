@@ -21,7 +21,7 @@
     @apply text-xl md:text-3xl lg:text-5xl;
   }
   h3 {
-    @apply text-lg md:text-2xl lg:text-5xl;
+    @apply text-lg md:text-2xl lg:text-[2.5rem];
   }
   h4 {
     @apply text-base md:text-xl lg:text-4xl;
@@ -146,7 +146,7 @@
       @apply bg-transparent hover:bg-transparent text-red-500;
     }
     &--xs {
-      @apply py-0 px-2 text-xs;
+      @apply py-0 px-2 text-xs gap-2;
       svg {
         @apply w-5 h-5;
       }
@@ -158,7 +158,7 @@
       }
     }
     &--sm {
-      @apply py-1 px-4 text-sm;
+      @apply py-1 px-2 text-[13px] lg:text-sm gap-1;
 
       svg {
         @apply w-6 h-6;
@@ -199,6 +199,25 @@
       .end-icon {
         @apply ml-5;
       }
+    }
+  }
+}
+.richText,
+.markdown {
+  p {
+    @apply mt-4;
+  }
+  p + h1,
+  p + h2,
+  p + h3 {
+    @apply mt-6;
+  }
+  a {
+    @apply text-blue-400;
+  }
+  &--blueText {
+    p {
+      @apply text-blue;
     }
   }
 }

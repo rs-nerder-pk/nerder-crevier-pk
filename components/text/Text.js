@@ -14,6 +14,6 @@ export default function Text(props) {
       return <TextWithTwoCols {...props} />;
     case "default":
     default:
-      return <TextDefault {...props} />;
+      return <TextDefault content={props.content} />;
   }
 }
