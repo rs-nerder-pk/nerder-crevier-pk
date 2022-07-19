@@ -2,7 +2,13 @@ import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 import Card from "./Card";
 
-export default function StationList({ stations, userPosition, resetFilters }) {
+export default function StationList({
+  stations,
+  userPosition,
+  resetFilters,
+  activeLocation,
+  activeLocationRef,
+}) {
   const [locations, setLocations] = useState([]);
   const { locale } = useRouter();
 
@@ -67,7 +73,16 @@ export default function StationList({ stations, userPosition, resetFilters }) {
       {locations &&
         locations.map((location) => {
           // console.log({ location })
-          return <Card location={location} key={location.id} />;
+          return (
+            <Card
+              location={location}
+              key={location.id}
+              active={
+                activeLocation ? activeLocation.id === location.id : false
+              }
+              activeLocationRef={activeLocationRef}
+            />
+          );
         })}
     </div>
   );

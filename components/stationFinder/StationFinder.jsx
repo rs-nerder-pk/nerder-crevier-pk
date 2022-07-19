@@ -12,6 +12,7 @@ import { useRouter } from "next/router";
 export default function StationFinder() {
   const router = useRouter();
   const [location, setLocation] = useContext(LocationContext);
+  const [activeLocation, setActiveLocation] = useState();
   const center = useMemo(
     () =>
       location && location.lat && location.lng
@@ -19,7 +20,6 @@ export default function StationFinder() {
         : { lat: 58.0447, lng: -100 },
     [location]
   );
-  // const [userPosition, setUserPosition] = useState();
 
   const [activeFilterIds, setActiveFilterIds] = useState([]);
   const activeLocations = useMemo(() => {
@@ -35,11 +35,21 @@ export default function StationFinder() {
   }, [activeFilterIds]);
 
   const mapRef = useRef();
+  const activeLocationRef = useRef();
   const libraries = useMemo(() => ["places"], []);
   const { isLoaded, loadError } = useLoadScript({
     googleMapsApiKey: process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY ?? "",
     libraries: libraries,
   });
+
+  const scrollToActiveLocation = () => {
+    if (activeLocationRef.current) {
+      activeLocationRef.current.scrollIntoView({
+        behavior: "smooth",
+        block: "center",
+      });
+    }
+  };
 
   useEffect(() => {
     if (mapRef.current) {
@@ -64,6 +74,9 @@ export default function StationFinder() {
         center={location ? location : center}
         mapRef={mapRef}
         home={location ? { lat: +location.lat, lng: +location.lng } : false}
+        activeLocation={activeLocation}
+        setActiveLocation={setActiveLocation}
+        scrollToActiveLocation={scrollToActiveLocation}
       />
       <div className="px-5 bg-blue pb-20 -mb-20">
         <div className="container py-20 grid grid-cols-10 gap-4 mx-auto">
@@ -118,6 +131,8 @@ export default function StationFinder() {
         <StationList
           stations={activeLocations}
           userPosition={location}
+          activeLocation={activeLocation}
+          activeLocationRef={activeLocationRef}
           resetFilters={() => setActiveFilterIds([])}
         />
       </div>

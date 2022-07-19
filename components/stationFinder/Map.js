@@ -1,5 +1,11 @@
-import { GoogleMap, Marker, MarkerClusterer } from "@react-google-maps/api";
+import {
+  GoogleMap,
+  InfoWindow,
+  Marker,
+  MarkerClusterer,
+} from "@react-google-maps/api";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import Card from "./Card";
 
 const optionsCluster = {
   styles: [
@@ -19,7 +25,15 @@ const options = {
   clickableIcons: false,
 };
 
-export default function StationMap({ center, stations, mapRef, home = false }) {
+export default function StationMap({
+  center,
+  stations,
+  mapRef,
+  home = false,
+  activeLocation,
+  setActiveLocation,
+  scrollToActiveLocation,
+}) {
   const [locations, setLocations] = useState();
 
   const onLoad = useCallback(
@@ -66,14 +80,33 @@ export default function StationMap({ center, stations, mapRef, home = false }) {
                   position={{ lat: +location.lat, lng: +location.lng }}
                   clusterer={clusterer}
                   onClick={() => {
-                    console.log(location.id);
+                    console.log("setting active location", location);
+                    setActiveLocation(location);
                   }}
-                />
+                ></Marker>
               );
             })
           }
         </MarkerClusterer>
       )}
+      {activeLocation && (
+        <InfoWindow
+          position={{ lat: +activeLocation.lat, lng: +activeLocation.lng }}
+          onCloseClick={() => {
+            console.log("close");
+            setActiveLocation(null);
+          }}
+        >
+          <Card
+            location={activeLocation}
+            minify={true}
+            scrollToLocation={() => {
+              scrollToActiveLocation();
+            }}
+          />
+        </InfoWindow>
+      )}
+
       {home && (
         <Marker
           icon={"/images/map-icons/pin-home.svg"}
