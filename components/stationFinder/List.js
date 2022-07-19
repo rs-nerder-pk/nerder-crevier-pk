@@ -75,7 +75,7 @@ export default function StationList({ stations, userPosition, resetFilters }) {
                   </a>
                 </address>
                 {location.features && (
-                  <ul className="grid grid-cols-2 text-sm mt-6 gap-2 ml-0">
+                  <ul className="grid grid-cols-2 text-sm mt-6 gap-2 ml-0 text-blue-500">
                     {location.features.map((feature) => (
                       <li key={feature.id} className="ml-3.5">
                         {feature.value}
