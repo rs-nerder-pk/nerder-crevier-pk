@@ -3,6 +3,7 @@ import OutlinedWhite from "../UI/containers/OutlinedWhite";
 import { ArrowRightIcon } from "@heroicons/react/solid";
 
 import Gauge from "../UI/icons/Gauge";
+import Router, { useRouter } from "next/router";
 
 export default function StationsCta() {
   return (
@@ -28,7 +29,7 @@ export default function StationsCta() {
                 </div>
                 <div className="col-span-7 mt-5 lg:mt-0 lg:col-span-3 self-end">
                   <div className="lg:w-10/12 mx-auto">
-                    <FindASationForm label="Find a gas station" />
+                    <FindAStationForm label="Find a gas station" />
                   </div>
                 </div>
               </div>
@@ -40,9 +41,14 @@ export default function StationsCta() {
   );
 }
 
-const FindASationForm = ({ label, placeholder }) => {
+const FindAStationForm = ({ label, placeholder }) => {
+  const router = useRouter();
   const handleSubmit = (event) => {
     event.preventDefault();
+    // TODO: add logic for submitting the form
+    // for should get users location and then pass it to /stations endpoint
+    // for now, just redirect to /stations
+    router.push("/stations");
   };
   return (
     <form onSubmit={handleSubmit}>
