@@ -21,6 +21,20 @@ export default function StationFinder() {
   );
   // const [userPosition, setUserPosition] = useState();
 
+  const [activeFilterIds, setActiveFilterIds] = useState([]);
+  const [userPosition, setUserPosition] = useState();
+  const activeLocations = useMemo(() => {
+    return stations.filter((station) => {
+      if (!activeFilterIds.length) {
+        return true;
+      }
+
+      return activeFilterIds.every((filterId) => {
+        return station.features.find((feature) => feature.id === filterId);
+      });
+    });
+  }, [activeFilterIds]);
+
   const mapRef = useRef();
   const libraries = useMemo(() => ["places"], []);
   const { isLoaded, loadError } = useLoadScript({
@@ -47,7 +61,7 @@ export default function StationFinder() {
   return (
     <section>
       <StationMap
-        stations={stations}
+        stations={activeLocations}
         center={location ? location : center}
         mapRef={mapRef}
         home={location ? { lat: +location.lat, lng: +location.lng } : false}
@@ -93,12 +107,20 @@ export default function StationFinder() {
             </div>
           </div>
           <div className="col-span-10 md:col-span-5 md:col-start-6">
-            <StationFilters filters={filters} />
+            <StationFilters
+              filters={filters}
+              activeFilterIds={activeFilterIds}
+              setActiveFilterIds={setActiveFilterIds}
+            />
           </div>
         </div>
       </div>
       <div className="container mx-auto">
-        <StationList stations={stations} userPosition={location} />
+        <StationList
+          stations={activeLocations}
+          userPosition={location}
+          resetFilters={() => setActiveFilterIds([])}
+        />
       </div>
     </section>
   );

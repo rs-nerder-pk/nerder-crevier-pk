@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
+import Card from "./Card";
 
-export default function StationList({ stations, userPosition }) {
-  const [locations, setLocations] = useState();
+export default function StationList({ stations, userPosition, resetFilters }) {
+  const [locations, setLocations] = useState([]);
 
   useEffect(() => {
     if (userPosition) {
@@ -21,22 +22,43 @@ export default function StationList({ stations, userPosition }) {
   }, [stations, userPosition]);
 
   return (
-    <div className="px-4">
-      <div className="container mx-auto bg-white p-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
-        {locations &&
-          locations.map((location) => {
-            // console.log({ location })
-            return (
-              <div
-                key={location.id}
-                className="border-y-20 border-blue-500 py-4"
-              >
-                <h2>{location.id}</h2>
-                <div>{location.addressLineOne}</div>
-              </div>
-            );
-          })}
-      </div>
+    <div className="container mx-auto bg-white p-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+      {locations && (
+        <div className="col-span-full flex justify-between">
+          <h2 className="text-sm text-blue-500 font-normal normal-case">
+            Showing {locations.length} Locations
+          </h2>
+          <div className="flex gap-4">
+            <button
+              className="text-sm text-red-500"
+              onClick={() => resetFilters()}
+            >
+              Reset Filters
+            </button>
+          </div>
+        </div>
+      )}
+
+      {!locations.length && (
+        <div className="col-span-full text-center">
+          <h3 className=" normal-case  leading-snug">No stations found.</h3>
+          <p>
+            Please refine or{" "}
+            <button
+              className="text-sm text-red-500"
+              onClick={() => resetFilters()}
+            >
+              reset filters
+            </button>{" "}
+            filters
+          </p>
+        </div>
+      )}
+      {locations &&
+        locations.map((location) => {
+          // console.log({ location })
+          return <Card location={location} key={location.id} />;
+        })}
     </div>
   );
 }
