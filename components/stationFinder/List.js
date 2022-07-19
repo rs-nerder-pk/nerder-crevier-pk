@@ -1,8 +1,10 @@
+import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 import Card from "./Card";
 
 export default function StationList({ stations, userPosition, resetFilters }) {
   const [locations, setLocations] = useState([]);
+  const { locale } = useRouter();
 
   useEffect(() => {
     if (userPosition) {
@@ -26,14 +28,18 @@ export default function StationList({ stations, userPosition, resetFilters }) {
       {locations && (
         <div className="col-span-full flex justify-between">
           <h2 className="text-sm text-blue-500 font-normal normal-case">
-            Showing {locations.length} Locations
+            {locale === "en-US"
+              ? `Showing ${locations.length} Locations`
+              : `Affichage de ${locations.length} emplacements`}
           </h2>
           <div className="flex gap-4">
             <button
               className="text-sm text-red-500"
               onClick={() => resetFilters()}
             >
-              Reset Filters
+              {locale === "en-US"
+                ? "Reset Filters"
+                : "Réinitialiser les filtres"}
             </button>
           </div>
         </div>
@@ -41,16 +47,20 @@ export default function StationList({ stations, userPosition, resetFilters }) {
 
       {!locations.length && (
         <div className="col-span-full text-center">
-          <h3 className=" normal-case  leading-snug">No stations found.</h3>
+          <h3 className=" normal-case  leading-snug">
+            {locale === "en-US"
+              ? "No Locations Found"
+              : "Aucun emplacement trouvé"}
+          </h3>
           <p>
-            Please refine or{" "}
+            {locale === "en-US" ? "Please refine or" : "Veuillez réaffiner ou"}{" "}
             <button
               className="text-sm text-red-500"
               onClick={() => resetFilters()}
             >
-              reset filters
+              {locale === "en-US" ? "reset" : "réinitialiser"}
             </button>{" "}
-            filters
+            {locale === "en-US" ? "filters" : "les filtres"}
           </p>
         </div>
       )}
