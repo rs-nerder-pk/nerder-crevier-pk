@@ -11,7 +11,7 @@ export default function OffSetImageLeft({
       <div className="md:grid split-columns">
         <div className="col-start-1 row-start-1"></div>
         <div
-          className="col-start-1 col-span-2 row-start-1  bg-gray-300 md:-ml-4 bg-cover bg-center"
+          className="col-start-1 col-span-2 row-start-1  bg-gray-300 md:-ml-4 bg-cover bg-top"
           style={{ backgroundImage: `url(${imageUrl})` }}
         ></div>
         <div

@@ -17,7 +17,7 @@ export default function Banner({ content, image }) {
             }
             layout="fill"
             objectFit="cover"
-            objectPosition="center"
+            objectPosition="top"
             alt={image.description}
           />
         }
@@ -29,7 +29,7 @@ export default function Banner({ content, image }) {
 const Content = ({ content }) => {
   return (
     <div className="md:grid grid-cols-10 gap-4 py-12">
-      <div className="col-span-5">
+      <div className="col-span-5 md:w-[110%]">
         <div className="border-y-50 border-blue-500 py-8 overflow-hidden">
           <div className={styles.Heading}>
             <RichTextWrapper richTexts={content} />
