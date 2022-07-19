@@ -1,9 +1,8 @@
-import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
+import Card from "./Card";
 
 export default function StationList({ stations, userPosition, resetFilters }) {
-  const [locations, setLocations] = useState();
-  const { locale } = useRouter();
+  const [locations, setLocations] = useState([]);
 
   useEffect(() => {
     if (userPosition) {
@@ -58,45 +57,7 @@ export default function StationList({ stations, userPosition, resetFilters }) {
       {locations &&
         locations.map((location) => {
           // console.log({ location })
-          return (
-            <div key={location.id} className="border-t-20 border-blue-500 py-4">
-              <h3 className="text-base font-bold text-blue">
-                {location.title}
-              </h3>
-              <address className="not-italic text-blue leading-normal mt-2 text-sm">
-                {location.addressLineOne}
-                <br />
-                {location.addressLineTwo}
-                <br />
-                <a
-                  href={`https://maps.google.com/?q=${location.lat},${location.lng}`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-red-500"
-                >
-                  {locale === "fr"
-                    ? "Ouvrir dans Google map"
-                    : "Open in Google Map"}
-                </a>
-                <br />
-                <a
-                  className="inline-block mt-4 text-red-500"
-                  href={`tel:+${location.tel}`}
-                >
-                  {location.tel}
-                </a>
-              </address>
-              {location.features && (
-                <ul className="grid grid-cols-2 text-sm mt-6 gap-2 ml-0 text-blue-500">
-                  {location.features.map((feature) => (
-                    <li key={feature.id} className="ml-3.5">
-                      {feature.value}
-                    </li>
-                  ))}
-                </ul>
-              )}
-            </div>
-          );
+          return <Card location={location} key={location.id} />;
         })}
     </div>
   );
