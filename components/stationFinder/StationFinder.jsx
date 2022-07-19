@@ -10,8 +10,21 @@ import { useRouter } from "next/router";
 
 export default function StationFinder() {
   const router = useRouter();
+
+  const [activeFilterIds, setActiveFilterIds] = useState([]);
   const center = useMemo(() => ({ lat: 58.0447, lng: -100 }), []);
   const [userPosition, setUserPosition] = useState();
+  const activeLocations = useMemo(() => {
+    return stations.filter((station) => {
+      if (!activeFilterIds.length) {
+        return true;
+      }
+
+      return activeFilterIds.every((filterId) => {
+        return station.features.find((feature) => feature.id === filterId);
+      });
+    });
+  }, [activeFilterIds]);
 
   const mapRef = useRef();
   const libraries = useMemo(() => ["places"], []);
@@ -29,7 +42,7 @@ export default function StationFinder() {
   if (!isLoaded) return <div className="">Loading...</div>;
   return (
     <section>
-      <StationMap stations={stations} center={center} mapRef={mapRef} />
+      <StationMap stations={activeLocations} center={center} mapRef={mapRef} />
       <div className="px-5 bg-blue pb-20 -mb-20">
         <div className="container py-20 grid grid-cols-10 gap-4 mx-auto">
           <div className="col-span-10 md:col-span-4">
@@ -65,12 +78,20 @@ export default function StationFinder() {
             </div>
           </div>
           <div className="col-span-10 md:col-span-5 md:col-start-6">
-            <StationFilters filters={filters} />
+            <StationFilters
+              filters={filters}
+              activeFilterIds={activeFilterIds}
+              setActiveFilterIds={setActiveFilterIds}
+            />
           </div>
         </div>
       </div>
       <div className="container mx-auto">
-        <StationList stations={stations} userPosition={userPosition} />
+        <StationList
+          stations={activeLocations}
+          userPosition={userPosition}
+          resetFilters={() => setActiveFilterIds([])}
+        />
       </div>
     </section>
   );
