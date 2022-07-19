@@ -19,17 +19,23 @@ const options = {
   clickableIcons: false,
 };
 
-export default function StationMap({ center, stations, mapRef }) {
+export default function StationMap({ center, stations, mapRef, home = false }) {
   const [locations, setLocations] = useState();
 
   const onLoad = useCallback(
     (map) => {
+      // if (false) {
       mapRef.current = map;
       const bounds = new google.maps.LatLngBounds();
+      console.log({ ...home });
+      if (home) {
+        bounds.extend({ ...home });
+      }
       stations.forEach((station) => {
         bounds.extend({ lat: +station.lat, lng: +station.lng });
       });
       mapRef.current.fitBounds(bounds);
+      // }
     },
     [stations, mapRef]
   );
@@ -67,6 +73,12 @@ export default function StationMap({ center, stations, mapRef }) {
             })
           }
         </MarkerClusterer>
+      )}
+      {home && (
+        <Marker
+          icon={"/images/map-icons/pin-home.svg"}
+          position={{ lat: +home.lat, lng: +home.lng }}
+        />
       )}
     </GoogleMap>
   );
