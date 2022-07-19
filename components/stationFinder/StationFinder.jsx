@@ -1,4 +1,4 @@
-import React, { useMemo, useRef, useContext, useEffect } from "react";
+import React, { useMemo, useRef, useContext, useEffect, useState } from "react";
 import stations from "@/data/stations-en.json";
 import filters from "@/data/filters-en.json";
 import StationMap from "./Map";
@@ -22,7 +22,6 @@ export default function StationFinder() {
   // const [userPosition, setUserPosition] = useState();
 
   const [activeFilterIds, setActiveFilterIds] = useState([]);
-  const [userPosition, setUserPosition] = useState();
   const activeLocations = useMemo(() => {
     return stations.filter((station) => {
       if (!activeFilterIds.length) {
