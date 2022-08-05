@@ -639,45 +639,6 @@
     ]
   },
   {
-    "id": 185,
-    "lat": 45.5616757,
-    "lng": -75.4275589,
-    "title": "MARTIN MONAST",
-    "addressLineOne": "187 rue Georges",
-    "addressLineTwo": "Gatineau (Masson-Angers), J8M 1T6",
-    "tel": "819-986-8828",
-    "features": [
-      {
-        "id": 2,
-        "value": "Full Serve"
-      },
-      {
-        "id": 4,
-        "value": "Premium Unleaded Gasoline"
-      },
-      {
-        "id": 6,
-        "value": "Diesel"
-      },
-      {
-        "id": 8,
-        "value": "Propane for cars"
-      },
-      {
-        "id": 9,
-        "value": "Propane- Tank Refills or Exchange"
-      },
-      {
-        "id": 11,
-        "value": "Convenience Store"
-      },
-      {
-        "id": 20,
-        "value": "Automatic Bank Machine"
-      }
-    ]
-  },
-  {
     "id": 78,
     "lat": 46.195028,
     "lng": -74.628612,
@@ -767,33 +728,6 @@
     ]
   },
   {
-    "id": 196,
-    "lat": 45.6225541,
-    "lng": -74.5942865,
-    "title": "GARAGE PIERRE-PAUL DESFORGES INC.",
-    "addressLineOne": "13 0 rue Maple",
-    "addressLineTwo": "Grenville, J0V 1J0",
-    "tel": "819-242-1234",
-    "features": [
-      {
-        "id": 2,
-        "value": "Full Serve"
-      },
-      {
-        "id": 4,
-        "value": "Premium Unleaded Gasoline"
-      },
-      {
-        "id": 6,
-        "value": "Diesel"
-      },
-      {
-        "id": 11,
-        "value": "Convenience Store"
-      }
-    ]
-  },
-  {
     "id": 210,
     "lat": 45.6069077,
     "lng": -74.5862897,
@@ -860,33 +794,6 @@
     ]
   },
   {
-    "id": 222,
-    "lat": 45.891769,
-    "lng": -74.158172,
-    "title": "",
-    "addressLineOne": "24 av. Saint-Denis, Saint-Sauveur",
-    "addressLineTwo": "Saint-Sauveur (Saint-Sauveur-des-Monts), J0R 1R0",
-    "tel": "450-227-1615",
-    "features": [
-      {
-        "id": 1,
-        "value": "With Service"
-      },
-      {
-        "id": 4,
-        "value": "Premium Unleaded Gasoline"
-      },
-      {
-        "id": 6,
-        "value": "Diesel"
-      },
-      {
-        "id": 11,
-        "value": "Convenience Store"
-      }
-    ]
-  },
-  {
     "id": 75,
     "lat": 46.0284787,
     "lng": -74.0626958,
@@ -910,41 +817,6 @@
       {
         "id": 12,
         "value": "Auto Repair"
-      }
-    ]
-  },
-  {
-    "id": 113,
-    "lat": 45.6398103,
-    "lng": -74.3278667,
-    "title": "GARAGE PIERRE-PAUL DESFORGES",
-    "addressLineOne": "495 av. Béthany",
-    "addressLineTwo": "Lachute, J8H 4H3",
-    "tel": "450-562-1426",
-    "features": [
-      {
-        "id": 2,
-        "value": "Full Serve"
-      },
-      {
-        "id": 4,
-        "value": "Premium Unleaded Gasoline"
-      },
-      {
-        "id": 6,
-        "value": "Diesel"
-      },
-      {
-        "id": 9,
-        "value": "Propane- Tank Refills or Exchange"
-      },
-      {
-        "id": 10,
-        "value": "Gas Bar"
-      },
-      {
-        "id": 15,
-        "value": "Automatic Car Wash"
       }
     ]
   },
@@ -1030,45 +902,6 @@
       {
         "id": 12,
         "value": "Auto Repair"
-      }
-    ]
-  },
-  {
-    "id": 228,
-    "lat": 45.476111,
-    "lng": -74.291299,
-    "title": "CREVIER",
-    "addressLineOne": "450 Chemin Grande-Ligne suite 100",
-    "addressLineTwo": "Rigaud, J0P 1P0",
-    "tel": "450-322-0135",
-    "features": [
-      {
-        "id": 2,
-        "value": "Full Serve"
-      },
-      {
-        "id": 4,
-        "value": "Premium Unleaded Gasoline"
-      },
-      {
-        "id": 6,
-        "value": "Diesel"
-      },
-      {
-        "id": 9,
-        "value": "Propane- Tank Refills or Exchange"
-      },
-      {
-        "id": 11,
-        "value": "Convenience Store"
-      },
-      {
-        "id": 16,
-        "value": "Family Restaurant"
-      },
-      {
-        "id": 24,
-        "value": "Fast-charge stations for electric vehicles"
       }
     ]
   },
@@ -1255,33 +1088,6 @@
     ]
   },
   {
-    "id": 178,
-    "lat": 45.9541647,
-    "lng": -73.7038359,
-    "title": "CREVIER",
-    "addressLineOne": "1040 rte 125",
-    "addressLineTwo": "Sainte-Julienne, J0K 2T0",
-    "tel": "450-831-3099",
-    "features": [
-      {
-        "id": 1,
-        "value": "With Service"
-      },
-      {
-        "id": 4,
-        "value": "Premium Unleaded Gasoline"
-      },
-      {
-        "id": 6,
-        "value": "Diesel"
-      },
-      {
-        "id": 14,
-        "value": "Hand Car Wash"
-      }
-    ]
-  },
-  {
     "id": 95,
     "lat": 45.5297713,
     "lng": -73.9299054,
@@ -1379,33 +1185,6 @@
     ]
   },
   {
-    "id": 182,
-    "lat": 45.6236452,
-    "lng": -73.7756605,
-    "title": "ENB INC.",
-    "addressLineOne": "2 boul. Ste-Rose",
-    "addressLineTwo": "Laval (Ste-Rose), H7L 3K4",
-    "tel": "450-937-1008",
-    "features": [
-      {
-        "id": 2,
-        "value": "Full Serve"
-      },
-      {
-        "id": 4,
-        "value": "Premium Unleaded Gasoline"
-      },
-      {
-        "id": 6,
-        "value": "Diesel"
-      },
-      {
-        "id": 11,
-        "value": "Convenience Store"
-      }
-    ]
-  },
-  {
     "id": 4,
     "lat": 46.329508,
     "lng": -73.2767843,
@@ -1429,41 +1208,6 @@
       {
         "id": 12,
         "value": "Auto Repair"
-      }
-    ]
-  },
-  {
-    "id": 176,
-    "lat": 45.5269541,
-    "lng": -73.8267201,
-    "title": "GESTION ENB INC.",
-    "addressLineOne": "752 rue Principale",
-    "addressLineTwo": "Laval (Sainte-Dorothée), H7X1 1E6",
-    "tel": "450-689-4833",
-    "features": [
-      {
-        "id": 2,
-        "value": "Full Serve"
-      },
-      {
-        "id": 4,
-        "value": "Premium Unleaded Gasoline"
-      },
-      {
-        "id": 6,
-        "value": "Diesel"
-      },
-      {
-        "id": 7,
-        "value": "Cardlock-Truck Refueling"
-      },
-      {
-        "id": 9,
-        "value": "Propane- Tank Refills or Exchange"
-      },
-      {
-        "id": 11,
-        "value": "Convenience Store"
       }
     ]
   },
@@ -2097,41 +1841,6 @@
       {
         "id": 12,
         "value": "Auto Repair"
-      }
-    ]
-  },
-  {
-    "id": 225,
-    "lat": 45.4328876,
-    "lng": -73.6374576,
-    "title": "CREVIER",
-    "addressLineOne": "2430 rue Dollard, Montréal",
-    "addressLineTwo": "Montréal (LaSalle), H8N 1S7",
-    "tel": "514-691-8455",
-    "features": [
-      {
-        "id": 2,
-        "value": "Full Serve"
-      },
-      {
-        "id": 4,
-        "value": "Premium Unleaded Gasoline"
-      },
-      {
-        "id": 6,
-        "value": "Diesel"
-      },
-      {
-        "id": 8,
-        "value": "Propane for cars"
-      },
-      {
-        "id": 11,
-        "value": "Convenience Store"
-      },
-      {
-        "id": 20,
-        "value": "Automatic Bank Machine"
       }
     ]
   },
@@ -2951,41 +2660,6 @@
     ]
   },
   {
-    "id": 175,
-    "lat": 45.4280281,
-    "lng": -72.7166692,
-    "title": "PÉTROLES CREVIER INC.",
-    "addressLineOne": "690 rue Dufferin",
-    "addressLineTwo": "Granby, J2G 0Z2",
-    "tel": "450-372-4327",
-    "features": [
-      {
-        "id": 1,
-        "value": "With Service"
-      },
-      {
-        "id": 4,
-        "value": "Premium Unleaded Gasoline"
-      },
-      {
-        "id": 6,
-        "value": "Diesel"
-      },
-      {
-        "id": 7,
-        "value": "Cardlock-Truck Refueling"
-      },
-      {
-        "id": 9,
-        "value": "Propane- Tank Refills or Exchange"
-      },
-      {
-        "id": 11,
-        "value": "Convenience Store"
-      }
-    ]
-  },
-  {
     "id": 187,
     "lat": 45.3933677,
     "lng": -72.6841738,
@@ -3051,111 +2725,6 @@
       {
         "id": 11,
         "value": "Convenience Store"
-      }
-    ]
-  },
-  {
-    "id": 179,
-    "lat": 45.3000525,
-    "lng": -72.3166163,
-    "title": "DÉPANNEUR DE LA POINTE",
-    "addressLineOne": "25 rue Lapointe",
-    "addressLineTwo": "Eastman, J0E 1P0",
-    "tel": "450-297-4100",
-    "features": [
-      {
-        "id": 2,
-        "value": "Full Serve"
-      },
-      {
-        "id": 4,
-        "value": "Premium Unleaded Gasoline"
-      },
-      {
-        "id": 9,
-        "value": "Propane- Tank Refills or Exchange"
-      },
-      {
-        "id": 11,
-        "value": "Convenience Store"
-      },
-      {
-        "id": 24,
-        "value": "Fast-charge stations for electric vehicles"
-      }
-    ]
-  },
-  {
-    "id": 223,
-    "lat": 46.6742817,
-    "lng": -71.3462897,
-    "title": "CREVIER",
-    "addressLineOne": "2055 Route Lagueux, Lévis",
-    "addressLineTwo": "Lévis (Saint-Etienne de Lauzon), G7A 1A7",
-    "tel": "581-477-0250 ",
-    "features": [
-      {
-        "id": 2,
-        "value": "Full Serve"
-      },
-      {
-        "id": 4,
-        "value": "Premium Unleaded Gasoline"
-      },
-      {
-        "id": 6,
-        "value": "Diesel"
-      },
-      {
-        "id": 7,
-        "value": "Cardlock-Truck Refueling"
-      },
-      {
-        "id": 11,
-        "value": "Convenience Store"
-      },
-      {
-        "id": 16,
-        "value": "Family Restaurant"
-      },
-      {
-        "id": 24,
-        "value": "Fast-charge stations for electric vehicles"
-      }
-    ]
-  },
-  {
-    "id": 174,
-    "lat": 46.89094,
-    "lng": -71.1499838,
-    "title": "Crevier",
-    "addressLineOne": "2577 av. Royale",
-    "addressLineTwo": "\n                                  Québec (Beauport),\n                                  G1C 1S3                                ",
-    "tel": "418-663-6871",
-    "features": [
-      {
-        "id": 1,
-        "value": "With Service"
-      },
-      {
-        "id": 4,
-        "value": "Premium Unleaded Gasoline"
-      },
-      {
-        "id": 6,
-        "value": "Diesel"
-      },
-      {
-        "id": 9,
-        "value": "Propane- Tank Refills or Exchange"
-      },
-      {
-        "id": 11,
-        "value": "Convenience Store"
-      },
-      {
-        "id": 18,
-        "value": "McDonalds"
       }
     ]
   },
@@ -3249,41 +2818,6 @@
     ]
   },
   {
-    "id": 177,
-    "lat": 45.353081,
-    "lng": -71.948301,
-    "title": "DÉPANNEUR STE-CAT",
-    "addressLineOne": "3200 ch. de Sainte-Catherine",
-    "addressLineTwo": "Sherbrooke (Rock Forest), J1N 3X9",
-    "tel": "819-823-1168",
-    "features": [
-      {
-        "id": 2,
-        "value": "Full Serve"
-      },
-      {
-        "id": 4,
-        "value": "Premium Unleaded Gasoline"
-      },
-      {
-        "id": 6,
-        "value": "Diesel"
-      },
-      {
-        "id": 9,
-        "value": "Propane- Tank Refills or Exchange"
-      },
-      {
-        "id": 11,
-        "value": "Convenience Store"
-      },
-      {
-        "id": 15,
-        "value": "Automatic Car Wash"
-      }
-    ]
-  },
-  {
     "id": 43,
     "lat": 45.4754042,
     "lng": -71.8398675,
@@ -3303,64 +2837,6 @@
       {
         "id": 6,
         "value": "Diesel"
-      },
-      {
-        "id": 11,
-        "value": "Convenience Store"
-      }
-    ]
-  },
-  {
-    "id": 221,
-    "lat": 46.109855,
-    "lng": -71.302648,
-    "title": "CREVIER",
-    "addressLineOne": "696 Frontenac Est, Thetford Mines",
-    "addressLineTwo": "Thetford Mines, G6G 7M8",
-    "tel": "418-335-7136",
-    "features": [
-      {
-        "id": 2,
-        "value": "Full Serve"
-      },
-      {
-        "id": 4,
-        "value": "Premium Unleaded Gasoline"
-      },
-      {
-        "id": 6,
-        "value": "Diesel"
-      },
-      {
-        "id": 11,
-        "value": "Convenience Store"
-      },
-      {
-        "id": 14,
-        "value": "Hand Car Wash"
-      }
-    ]
-  },
-  {
-    "id": 194,
-    "lat": 46.4059384,
-    "lng": -71.064797,
-    "title": "Isabelle Lachance",
-    "addressLineOne": "699 rue des Érables",
-    "addressLineTwo": "\n                                  Saint-Elzéar-de-Beauce,\n                                  G0S 2J0                                ",
-    "tel": "418-387-7145",
-    "features": [
-      {
-        "id": 2,
-        "value": "Full Serve"
-      },
-      {
-        "id": 4,
-        "value": "Premium Unleaded Gasoline"
-      },
-      {
-        "id": 9,
-        "value": "Propane- Tank Refills or Exchange"
       },
       {
         "id": 11,
@@ -3400,53 +2876,6 @@
       {
         "id": 17,
         "value": "Tim Hortons"
-      }
-    ]
-  },
-  {
-    "id": 189,
-    "lat": 46.9614419,
-    "lng": -70.6236517,
-    "title": "Pétroles Crevier Inc.",
-    "addressLineOne": "90 route Jean-Baptiste-Casault",
-    "addressLineTwo": "\n                                  Montmagny,\n                                  G5V 3R8                                ",
-    "tel": "418-624-7526",
-    "features": [
-      {
-        "id": 2,
-        "value": "Full Serve"
-      },
-      {
-        "id": 4,
-        "value": "Premium Unleaded Gasoline"
-      },
-      {
-        "id": 6,
-        "value": "Diesel"
-      },
-      {
-        "id": 7,
-        "value": "Cardlock-Truck Refueling"
-      },
-      {
-        "id": 9,
-        "value": "Propane- Tank Refills or Exchange"
-      },
-      {
-        "id": 11,
-        "value": "Convenience Store"
-      },
-      {
-        "id": 13,
-        "value": "Open 24 Hours"
-      },
-      {
-        "id": 17,
-        "value": "Tim Hortons"
-      },
-      {
-        "id": 24,
-        "value": "Fast-charge stations for electric vehicles"
       }
     ]
   },
@@ -3555,41 +2984,6 @@
       {
         "id": 9,
         "value": "Propane- Tank Refills or Exchange"
-      },
-      {
-        "id": 11,
-        "value": "Convenience Store"
-      }
-    ]
-  },
-  {
-    "id": 167,
-    "lat": 48.1054045,
-    "lng": -69.2116796,
-    "title": "Pétroles Crevier Inc.",
-    "addressLineOne": "60 route 132 ouest",
-    "addressLineTwo": "\n                                  Trois-Pistoles,\n                                  G0L 4K0                                ",
-    "tel": "418-851-1524",
-    "features": [
-      {
-        "id": 2,
-        "value": "Full Serve"
-      },
-      {
-        "id": 4,
-        "value": "Premium Unleaded Gasoline"
-      },
-      {
-        "id": 6,
-        "value": "Diesel"
-      },
-      {
-        "id": 7,
-        "value": "Cardlock-Truck Refueling"
-      },
-      {
-        "id": 8,
-        "value": "Propane for cars"
       },
       {
         "id": 11,
@@ -3710,33 +3104,6 @@
     ]
   },
   {
-    "id": 168,
-    "lat": 48.4480205,
-    "lng": -68.5365906,
-    "title": "Pétroles Crevier Inc.",
-    "addressLineOne": "157 rue St-Germain ouest",
-    "addressLineTwo": "\n                                  Rimouski,\n                                  G5L 4B8                                ",
-    "tel": "418-724-2158",
-    "features": [
-      {
-        "id": 2,
-        "value": "Full Serve"
-      },
-      {
-        "id": 4,
-        "value": "Premium Unleaded Gasoline"
-      },
-      {
-        "id": 11,
-        "value": "Convenience Store"
-      },
-      {
-        "id": 14,
-        "value": "Hand Car Wash"
-      }
-    ]
-  },
-  {
     "id": 216,
     "lat": 48.4480205,
     "lng": -68.5365906,
@@ -3769,29 +3136,6 @@
     "lng": -68.4966197,
     "title": "Pétroles Crevier Inc.",
     "addressLineOne": "3 boul. Ste-Anne",
-    "addressLineTwo": "\n                                  Rimouski (Pointe-aux-pères),\n                                  G5M 1B9                                ",
-    "tel": "418-722-0656",
-    "features": [
-      {
-        "id": 1,
-        "value": "With Service"
-      },
-      {
-        "id": 4,
-        "value": "Premium Unleaded Gasoline"
-      },
-      {
-        "id": 11,
-        "value": "Convenience Store"
-      }
-    ]
-  },
-  {
-    "id": 217,
-    "lat": 48.4854508,
-    "lng": -68.4966197,
-    "title": "Crevier",
-    "addressLineOne": "3 boul. Ste-Anne, Rimouski",
     "addressLineTwo": "\n                                  Rimouski (Pointe-aux-pères),\n                                  G5M 1B9                                ",
     "tel": "418-722-0656",
     "features": [
@@ -3991,33 +3335,6 @@
     ]
   },
   {
-    "id": 166,
-    "lat": 47.5430398,
-    "lng": -68.6444261,
-    "title": "Pétroles Crevier Inc.",
-    "addressLineOne": "790 av. Du Longeron",
-    "addressLineTwo": "\n                                  Dégelis,\n                                  G5T 1E2                                ",
-    "tel": "418-853-2135",
-    "features": [
-      {
-        "id": 2,
-        "value": "Full Serve"
-      },
-      {
-        "id": 7,
-        "value": "Cardlock-Truck Refueling"
-      },
-      {
-        "id": 11,
-        "value": "Convenience Store"
-      },
-      {
-        "id": 13,
-        "value": "Open 24 Hours"
-      }
-    ]
-  },
-  {
     "id": 46,
     "lat": 48.583361,
     "lng": -67.835927,
@@ -4041,37 +3358,6 @@
       {
         "id": 12,
         "value": "Auto Repair"
-      }
-    ]
-  },
-  {
-    "id": 173,
-    "lat": 48.534221,
-    "lng": -67.556071,
-    "title": "Crevier",
-    "addressLineOne": "61 rte 132 ouest",
-    "addressLineTwo": "\n                                  Val-Brillant,\n                                  G0J 3L0                                ",
-    "tel": "418-742-3735",
-    "features": [
-      {
-        "id": 1,
-        "value": "With Service"
-      },
-      {
-        "id": 4,
-        "value": "Premium Unleaded Gasoline"
-      },
-      {
-        "id": 6,
-        "value": "Diesel"
-      },
-      {
-        "id": 9,
-        "value": "Propane- Tank Refills or Exchange"
-      },
-      {
-        "id": 11,
-        "value": "Convenience Store"
       }
     ]
   },
@@ -4229,33 +3515,6 @@
       {
         "id": 11,
         "value": "Convenience Store"
-      }
-    ]
-  },
-  {
-    "id": 171,
-    "lat": 48.3432618,
-    "lng": -67.2286599,
-    "title": "Pétroles Crevier Inc.",
-    "addressLineOne": "321 route St-Jacques sud",
-    "addressLineTwo": "\n                                  Causapscal,\n                                  G0J 1J0                                ",
-    "tel": "418-756-5522",
-    "features": [
-      {
-        "id": 1,
-        "value": "With Service"
-      },
-      {
-        "id": 4,
-        "value": "Premium Unleaded Gasoline"
-      },
-      {
-        "id": 10,
-        "value": "Gas Bar"
-      },
-      {
-        "id": 14,
-        "value": "Hand Car Wash"
       }
     ]
   },

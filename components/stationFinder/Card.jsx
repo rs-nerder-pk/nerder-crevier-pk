@@ -13,6 +13,7 @@ export default function Card({
 
   return (
     <div
+      id={location.id}
       ref={!minify && active ? activeLocationRef : null}
       className={classNames(
         " border-blue-500 py-4",
