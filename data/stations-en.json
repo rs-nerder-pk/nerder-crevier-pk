@@ -3104,56 +3104,6 @@
     ]
   },
   {
-    "id": 216,
-    "lat": 48.4480205,
-    "lng": -68.5365906,
-    "title": "Crevier",
-    "addressLineOne": "157\t rue St-Germain ouest, Rimouski",
-    "addressLineTwo": "\n                                  Rimouski,\n                                  G5L 4B8                                ",
-    "tel": "418-724-2158",
-    "features": [
-      {
-        "id": 2,
-        "value": "Full Serve"
-      },
-      {
-        "id": 4,
-        "value": "Premium Unleaded Gasoline"
-      },
-      {
-        "id": 11,
-        "value": "Convenience Store"
-      },
-      {
-        "id": 14,
-        "value": "Hand Car Wash"
-      }
-    ]
-  },
-  {
-    "id": 169,
-    "lat": 48.4854508,
-    "lng": -68.4966197,
-    "title": "Pétroles Crevier Inc.",
-    "addressLineOne": "3 boul. Ste-Anne",
-    "addressLineTwo": "\n                                  Rimouski (Pointe-aux-pères),\n                                  G5M 1B9                                ",
-    "tel": "418-722-0656",
-    "features": [
-      {
-        "id": 1,
-        "value": "With Service"
-      },
-      {
-        "id": 4,
-        "value": "Premium Unleaded Gasoline"
-      },
-      {
-        "id": 11,
-        "value": "Convenience Store"
-      }
-    ]
-  },
-  {
     "id": 47,
     "lat": 48.393418,
     "lng": -68.4791248,
